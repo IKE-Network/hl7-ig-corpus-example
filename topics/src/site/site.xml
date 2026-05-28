@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2026 IKE Network
+  ~ Licensed under the Apache License, Version 2.0
+  -->
+<site xmlns="http://maven.apache.org/SITE/2.0.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0
+      https://maven.apache.org/xsd/site-2.0.0.xsd"
+      name="HL7 IG Corpus Topics">
+
+    <skin>
+        <groupId>org.sentrysoftware.maven</groupId>
+        <artifactId>sentry-maven-skin</artifactId>
+        <version>7.0.00</version>
+    </skin>
+
+    <custom>
+        <bodyClass>sentry-green</bodyClass>
+        <checkImageLinks>false</checkImageLinks>
+        <convertImagesToWebp>false</convertImagesToWebp>
+        <convertImagesToThumbnails>false</convertImagesToThumbnails>
+        <setExplicitImageSize>false</setExplicitImageSize>
+    </custom>
+
+    <bannerRight name="GitHub &lt;i class='fa-brands fa-github'&gt;&lt;/i&gt;"
+        href="https://github.com/IKE-Network/hl7-ig-corpus-example/tree/main/topics"/>
+
+    <body>
+        <breadcrumbs>
+            <item name="IKE" href="https://ike.network/"/>
+            <item name="hl7-ig-corpus-example" href="../index.html"/>
+            <item name="topics" href="index.html"/>
+        </breadcrumbs>
+        <menu name="Overview">
+            <item name="About" href="index.html"/>
+        </menu>
+        <menu ref="parent"/>
+        <menu name="Reports" ref="reports"/>
+    </body>
+</site>

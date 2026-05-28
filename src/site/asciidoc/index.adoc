@@ -1,0 +1,147 @@
+= hl7-ig-corpus-example
+:icons: font
+:source-highlighter: coderay
+
+The first worked example of the IKE *corpus-example* pattern — a
+multi-module documentation project that ingests a corpus of HL7
+implementation guides into the IKE topic library and produces both
+per-IG reconstruction assemblies and cross-IG analytic outputs.
+
+NOTE: This example is currently a *scaffold*. The ingestion code
+is a skeleton; the topic library carries the framing topics but no
+ingested IG content yet. First ingestion target: US Core, followed
+by cardiac-focused IGs (heart failure, digital quality measures).
+See link:https://github.com/IKE-Network/ike-issues/issues/539[ike-issues#539] for status.
+
+== Where to Start
+
+[cols="1,3", options="header"]
+|===
+| If you want to … | Read …
+
+| Understand the corpus-example *pattern* itself
+| The link:corpus-guide/[corpus-guide assembly] — narrative entry point
+  covering what the pattern is, how ingestion works, and how to extend it.
+
+| See the *design proposal* for the pattern
+| link:https://github.com/IKE-Network/ike-issues/issues/538[ike-issues#538]
+  and the `dev-corpus-example-pattern` topic in
+  link:https://github.com/kec/ike-lab-documents[ike-lab-documents].
+
+| Browse *every topic* in the corpus
+| The link:compendium/[compendium assembly] — kitchen-sink validation target.
+
+| See how a single IG is *reconstructed*
+| The link:us-core/[us-core assembly] (placeholder until US Core ingestion lands).
+
+| See *cross-IG analysis* output
+| The link:cross-ig-overlap/[cross-ig-overlap assembly] (placeholder until a
+  second IG is ingested).
+|===
+
+== Relationship to the other examples
+
+[cols="1,3", options="header"]
+|===
+| Example | What it demonstrates
+
+| link:https://ike.network/doc-example/[doc-example]
+| Single-document pipeline reference; renderer conformance vehicle.
+
+| link:https://ike.network/project-example/[project-example]
+| Single-artifact Java reference.
+
+| link:https://ike.network/workspace-reactor-example/[workspace-reactor-example]
+| Multi-project workspace reference; `ws:*` orchestration goals.
+
+| *hl7-ig-corpus-example* (this site)
+| First corpus-example. Multi-module ingestion of a third-party document
+  corpus with per-source reconstruction and cross-corpus analytic assemblies.
+|===
+
+A future `fda-ifu-corpus-example` will apply the same pattern to FDA
+manufacturer Instructions for Use, emitting structured Device Extension
+records with topic-level evidence bindings.
+
+== Modules
+
+[cols="1,3", options="header"]
+|===
+| Module | Role
+
+| link:ingest/[`ingest`]
+| Java skeleton — converts HL7 IG-publisher output bundles into AsciiDoc
+  topic fragments under `topics/ext/standards/{ig-id}/`. First real run:
+  US Core.
+
+| link:topics/[`topics`]
+| Topic library following the `IKE-INGEST.md` standard layout. Holds the
+  framing topics (`intro/`), analytic methods (`analysis/`), and the
+  ingested IG content under `ext/standards/`.
+
+| link:corpus-guide/[`corpus-guide`]
+| Narrative pattern guide. The reader-facing entry point — what the pattern
+  is, how ingestion works, how cross-IG analysis works, and how to extend
+  the example.
+
+| link:compendium/[`compendium`]
+| Kitchen-sink validation assembly — every published topic must appear here.
+
+| link:us-core/[`us-core`]
+| Per-IG reconstruction assembly. Placeholder until US Core ingestion lands.
+
+| link:cross-ig-overlap/[`cross-ig-overlap`]
+| Cross-IG analytic assembly. Placeholder until at least two IGs are
+  ingested. Analytic method is described in the `analysis-cross-ig-overlap-method`
+  topic.
+|===
+
+== Build Commands
+
+[source,bash]
+----
+# Unpack build standards into .claude/standards/:
+mvn validate
+
+# HTML for all assemblies (default):
+mvn clean verify
+
+# HTML + Prawn PDF:
+mvn clean verify -Dike.pdf.prawn
+
+# Single assembly:
+mvn clean verify -pl corpus-guide -am
+----
+
+== Coordinates
+
+[cols="1,3", options="header"]
+|===
+| Coordinate | Value
+| Group ID | `network.ike.examples`
+| Artifact | `hl7-ig-corpus-example`
+| Packaging | `pom` (multi-module aggregator)
+| Parent | `network.ike.platform:ike-parent`
+|===
+
+== Not published to Maven Central
+
+Like its sibling examples, `hl7-ig-corpus-example` is a reference
+template, not a library. Releases tag GitHub and deploy to the IKE
+Nexus, but the project is deliberately *not* published to Maven
+Central — nothing should ever declare a dependency on it. You consume
+this project by reading it and copying its structure when starting a
+new corpus ingestion project of your own.
+
+== Resources
+
+[cols="1,3", options="header"]
+|===
+| Resource | URL
+| Source repository | https://github.com/IKE-Network/hl7-ig-corpus-example
+| Pattern design issue | https://github.com/IKE-Network/ike-issues/issues/538
+| Scaffold tracking issue | https://github.com/IKE-Network/ike-issues/issues/539
+| Pattern design note | `dev-corpus-example-pattern` in https://github.com/kec/ike-lab-documents[ike-lab-documents]
+| Cross-project issue tracker | https://github.com/IKE-Network/ike-issues
+| IKE Network landing page | https://ike.network/
+|===
