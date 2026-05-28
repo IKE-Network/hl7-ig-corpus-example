@@ -3,12 +3,6 @@
 > Reusable topic fragments for the HL7 IG corpus. Publishes
 > an AsciiDoc source ZIP consumed by assembly modules.
 
-## Other
-
-- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/topics/dependencies.html.md)
-- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/topics/licenses.html.md)
-- [Built With](https://ike.network/hl7-ig-corpus-example/topics/built-with.html.md)
-
 ## Overview
 
 - [About](https://ike.network/hl7-ig-corpus-example/topics/index.html.md)

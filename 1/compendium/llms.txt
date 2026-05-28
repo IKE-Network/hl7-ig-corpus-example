@@ -2,12 +2,6 @@
 
 > Master assembly containing every topic in the corpus.
 
-## Other
-
-- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/compendium/dependencies.html.md)
-- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/compendium/licenses.html.md)
-- [Built With](https://ike.network/hl7-ig-corpus-example/compendium/built-with.html.md)
-
 ## Overview
 
 - [About](https://ike.network/hl7-ig-corpus-example/compendium/index.html.md)

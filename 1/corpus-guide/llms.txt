@@ -5,12 +5,6 @@
 > ingestion works, what cross-corpus analysis enables, and how
 > to extend the example to additional implementation guides.
 
-## Other
-
-- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/corpus-guide/dependencies.html.md)
-- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/corpus-guide/licenses.html.md)
-- [Built With](https://ike.network/hl7-ig-corpus-example/corpus-guide/built-with.html.md)
-
 ## Overview
 
 - [About](https://ike.network/hl7-ig-corpus-example/corpus-guide/index.html.md)

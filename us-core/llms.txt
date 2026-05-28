@@ -3,12 +3,6 @@
 > Per-IG reconstruction of the US Core HL7 implementation guide
 > from ingested topic fragments.
 
-## Other
-
-- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/us-core/dependencies.html.md)
-- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/us-core/licenses.html.md)
-- [Built With](https://ike.network/hl7-ig-corpus-example/us-core/built-with.html.md)
-
 ## Overview
 
 - [About](https://ike.network/hl7-ig-corpus-example/us-core/index.html.md)

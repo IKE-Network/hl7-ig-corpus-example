@@ -8,12 +8,6 @@
 ## Documentation
 
 - [hl7-ig-corpus-example](https://ike.network/hl7-ig-corpus-example/index.html.md)
-- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/dependencies.html.md)
-
-## Other
-
-- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/licenses.html.md)
-- [Built With](https://ike.network/hl7-ig-corpus-example/built-with.html.md)
 
 ## Reports
 
