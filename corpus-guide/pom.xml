@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Corpus Guide — Pattern Narrative Assembly
+  ════════════════════════════════════════════
+
+  The reader-facing narrative document explaining the corpus-example
+  pattern as instantiated in this repository.
+
+  Composes the intro topics, the analysis-method topic, and inline
+  framing into a focused guide. Analogous to arch-guide/dev-guide in
+  ike-lab-documents.
+
+  Distinct from the other assemblies in this repo:
+    - compendium       — kitchen-sink validation target (all topics)
+    - us-core          — per-IG reconstruction (one IG's content)
+    - cross-ig-overlap — analytic output (computed reports)
+    - corpus-guide     — THIS — narrative explanation of the pattern
+
+  Build:
+    mvn clean verify -Dike.pdf.prawn    # Prawn PDF
+    mvn clean verify                    # HTML only
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>corpus-guide</artifactId>
+    <packaging>pom</packaging>
+
+    <name>HL7 IG Corpus Guide</name>
+    <description>
+        Reader-facing narrative explaining the corpus-example pattern
+        as instantiated in this repository — what the pattern is, how
+        ingestion works, what cross-corpus analysis enables, and how
+        to extend the example to additional implementation guides.
+    </description>
+
+    <properties>
+        <pdf.source.document>corpus-guide</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>network.ike.examples</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

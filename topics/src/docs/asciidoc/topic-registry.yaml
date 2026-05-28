@@ -63,6 +63,18 @@ assemblies:
   description: >
     Assembly entries — populated as assemblies stabilize.
   topics:
+    - id: assembly-corpus-guide
+      file: ../../../corpus-guide/src/docs/asciidoc/corpus-guide.adoc
+      title: "HL7 IG Corpus — Pattern Guide"
+      type: assembly
+      keywords: [corpus-guide, narrative, pattern-explanation, reader-entry-point]
+      status: draft
+      summary: >
+        Reader-facing narrative entry point — explains the
+        corpus-example pattern, the ingestion workflow, the
+        cross-IG analysis approach, and how to extend the example.
+        Analogous to arch-guide/dev-guide in ike-lab-documents.
+
     - id: assembly-compendium
       file: ../../../compendium/src/docs/asciidoc/compendium.adoc
       title: "HL7 IG Corpus Compendium"

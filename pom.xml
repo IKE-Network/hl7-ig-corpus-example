@@ -17,6 +17,8 @@
                        AsciiDoc topic fragments under
                        topics/src/main/asciidoc/topics/ext/standards/
     topics/            topic library (IKE-INGEST standard layout)
+    corpus-guide/      narrative explaining the corpus-example pattern
+                       (the reader-facing entry point to this repo)
     compendium/        all-topics validation assembly
     us-core/           per-source assembly (placeholder — populated
                        once US Core ingestion lands)
@@ -86,13 +88,21 @@
     <distributionManagement>
         <site>
             <id>ike-site</id>
-            <url>https://ike.network/hl7-ig-corpus-example/</url>
+            <url>https://ike.network/${project.artifactId}/</url>
         </site>
     </distributionManagement>
+
+    <properties>
+        <!-- Worked example, not a library. Override Tier 0 default so
+             ike:release-publish ships internally only (tag + Nexus +
+             GitHub Release + gh-pages site) without Maven Central. -->
+        <ike.publishToCentral>false</ike.publishToCentral>
+    </properties>
 
     <subprojects>
         <subproject>ingest</subproject>
         <subproject>topics</subproject>
+        <subproject>corpus-guide</subproject>
         <subproject>compendium</subproject>
         <subproject>us-core</subproject>
         <subproject>cross-ig-overlap</subproject>

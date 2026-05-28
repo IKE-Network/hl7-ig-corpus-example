@@ -25,9 +25,13 @@ scaffold tracking issue.
 | ------------------ | ------------------------------------------------------------------- |
 | `ingest`           | Java — converts HL7 IG-publisher bundles to topic fragments         |
 | `topics`           | Topic library — framing + ingested `ext/standards/` content         |
+| `corpus-guide`     | Narrative explaining the corpus-example pattern (reader entry)      |
 | `compendium`       | All-topics validation assembly                                      |
 | `us-core`          | Per-IG reconstruction assembly (placeholder)                        |
 | `cross-ig-overlap` | Cross-IG analysis assembly (placeholder)                            |
+
+**Start with `corpus-guide`** if you want to understand the pattern; the
+other assemblies are validation or content-specific outputs.
 
 ## Relationship to other examples
 

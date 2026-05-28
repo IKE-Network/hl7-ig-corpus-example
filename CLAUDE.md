@@ -33,12 +33,13 @@ After validate completes, read and follow the standards in
 
 ## Module overview
 
-The aggregator POM has `pom` packaging and declares five subprojects.
+The aggregator POM has `pom` packaging and declares six subprojects.
 
 | Module             | Role                                            | Packaging |
 | ------------------ | ----------------------------------------------- | --------- |
 | `ingest`           | HL7 IG-publisher bundle normalizer (Java)       | `jar`     |
 | `topics`           | Topic library — framing + ingested IG content   | `pom`     |
+| `corpus-guide`     | Narrative pattern guide (reader entry point)    | `pom`     |
 | `compendium`       | All-topics validation assembly                  | `pom`     |
 | `us-core`          | Per-IG assembly (placeholder until ingestion)   | `pom`     |
 | `cross-ig-overlap` | Cross-IG analysis assembly (placeholder)        | `pom`     |

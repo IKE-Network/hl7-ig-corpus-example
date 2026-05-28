@@ -1,0 +1,218 @@
+= HL7 IG Corpus — Pattern Guide
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:email: info@ike.network
+:topics: {generated}/topics-asciidoc
+:corpus-guide:
+
+[preface]
+== About This Guide
+
+This guide is the *narrative entry point* to the
+`hl7-ig-corpus-example` repository.
+It explains what the corpus-example pattern is,
+how this specific instance applies the pattern to HL7
+implementation guides,
+and how to extend the example to additional IGs or to other
+external-source corpora altogether.
+
+If you are looking for:
+
+- *the rendered IG content* —
+  read the per-IG assemblies
+  (e.g. `us-core`).
+- *cross-IG analytic reports* —
+  read the `cross-ig-overlap` assembly.
+- *every topic in one place* —
+  read the `compendium`
+  (validation target,
+  not optimized for narrative reading).
+- *the pattern explained* —
+  you are in the right place.
+
+The corpus-example pattern itself is proposed and rationalized in
+`dev-corpus-example-pattern`
+in the
+link:https://github.com/kec/ike-lab-documents[ike-lab-documents]
+project,
+filed as
+link:https://github.com/IKE-Network/ike-issues/issues/538[IKE-Network/ike-issues#538].
+This guide is the *instance-level* counterpart to that design note.
+
+// ============================================================
+// Part 1 — What the corpus is
+// ============================================================
+
+= Part 1 — What the Corpus Is
+
+== The corpus in one sentence
+
+include::{topics}/topics/intro/corpus-overview.adoc[leveloffset=+2]
+
+== Why a corpus rather than per-IG reading
+
+[quote]
+____
+A single IG read in isolation answers the question
+"what does this IG require?"
+but not the question
+"where do two IGs disagree about the same concept?"
+____
+
+The corpus pattern is the IKE answer
+to that second question.
+It puts every IG's content into the same topic registry,
+each topic carrying its IG's provenance,
+and lets analytic assemblies query across the registry
+to surface overlap, conflict, and drift.
+
+== Relationship to the other example projects
+
+[cols="1,3", options="header"]
+|===
+| Example
+| What it demonstrates
+
+| `doc-example`
+| The single-document pipeline reference.
+  One self-contained AsciiDoc document exercising every renderer
+  feature.
+  Used as the renderer conformance vehicle.
+
+| `project-example`
+| The single-artifact Java reference.
+  Demonstrates the Java toolchain inherited from `ike-parent`.
+
+| `workspace-reactor-example`
+| The multi-project workspace reference.
+  Demonstrates `ws:*` workspace orchestration goals across
+  several subprojects.
+
+| `hl7-ig-corpus-example` *(this repo)*
+| The first corpus-example.
+  Demonstrates multi-module ingestion of a third-party document
+  corpus into the IKE topic library,
+  with per-source reconstruction assemblies
+  and cross-corpus analytic assemblies.
+|===
+
+A future `fda-ifu-corpus-example`
+will apply the same pattern
+to FDA manufacturer Instructions for Use,
+emitting structured Device Extension records
+with topic-level evidence bindings.
+
+// ============================================================
+// Part 2 — How ingestion works
+// ============================================================
+
+= Part 2 — How Ingestion Works
+
+include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
+
+// ============================================================
+// Part 3 — Cross-IG analysis
+// ============================================================
+
+= Part 3 — Cross-IG Analysis
+
+include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+
+// ============================================================
+// Part 4 — Extending the example
+// ============================================================
+
+= Part 4 — Extending the Example
+
+== Adding another HL7 IG
+
+. Run the ingester against the new IG's publisher bundle,
+  pointing `--out` at
+  `topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/`.
+. Run the semantic-linebreak normalizer over the emitted fragments.
+. Register the new topics in
+  `topics/src/docs/asciidoc/topic-registry.yaml`
+  under the `ext-standards` domain.
+. Clone the `us-core/` per-IG assembly module to
+  `{ig-package-id}/`,
+  rename the assembly file,
+  and point its `include::` directives at the new topics.
+. Add the new module name to the root POM's `<subprojects>`.
+. Update the compendium to include the new topics.
+. Build and verify.
+
+== Adding another corpus type
+
+A different external-source corpus
+(FDA IFUs, ISO standards, journal articles)
+follows the same shape
+with a different `ingest/` module
+and different `topics/ext/{subdir}/`
+placement:
+
+[cols="1,2,2", options="header"]
+|===
+| Source type
+| `topics/ext/` subdirectory
+| `:topic-license:` per `IKE-INGEST.md`
+
+| HL7 IGs, ISO, IHE, DICOM
+| `topics/ext/standards/{id}/`
+| Fair use summary of copyrighted work — not for redistribution.
+
+| FDA guidance, EU MDR, NSHE policy
+| `topics/ext/regulatory/{id}/`
+| Federal works: public domain.
+  Non-federal: per source's reuse terms.
+
+| Journal articles, conference papers
+| `topics/ext/literature/{id}/`
+| Fair use summary of copyrighted work — not for redistribution.
+
+| Collaborator memoranda, partner correspondence
+| `topics/ext/internal/{id}/`
+| Internal use — project collaborator content.
+|===
+
+The `ingest/` module is corpus-specific
+because the upstream formats differ.
+Shared scaffolding
+(provenance-attribute emission,
+semantic-linebreak invocation,
+registry-shard authoring)
+will likely migrate into `ike-tooling`
+once a second corpus-example exists
+to validate the abstraction.
+
+== Adding an analytic assembly
+
+. Clone `cross-ig-overlap/` as a starting template.
+. Author the analytic content
+  using `xref:` macros over corpus topic-anchors.
+. Add the new module name to the root POM's `<subprojects>`.
+
+// ============================================================
+// Appendix
+// ============================================================
+
+[appendix]
+== References
+
+- *Pattern design note* —
+  `dev-corpus-example-pattern` in ike-lab-documents.
+- *Pattern proposal issue* —
+  link:https://github.com/IKE-Network/ike-issues/issues/538[ike-issues#538].
+- *Scaffold tracking issue* —
+  link:https://github.com/IKE-Network/ike-issues/issues/539[ike-issues#539].
+- *Ingestion standard* —
+  `IKE-INGEST.md` in `ike-build-standards:claude`.
+- *Topic registry standard* —
+  `IKE-TOPIC-REGISTRY.md` in `ike-build-standards:claude`.
+- *Assembly standard* —
+  `IKE-ASSEMBLY.md` in `ike-build-standards:claude`.
