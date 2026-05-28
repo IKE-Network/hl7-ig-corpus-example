@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-category-max-vs
-// Topic: TNM Regional Nodes Maximum Value Set (ValueSet)
+// Topic: TNM Regional Nodes Maximum Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-category-max-vs

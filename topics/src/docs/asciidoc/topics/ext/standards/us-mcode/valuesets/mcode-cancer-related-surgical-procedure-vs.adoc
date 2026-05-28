@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs
-// Topic: Cancer-Related Surgical Procedure Value Set (ValueSet)
+// Topic: Cancer-Related Surgical Procedure Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs

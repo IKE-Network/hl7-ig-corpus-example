@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-staging-type-max-vs
-// Topic: TNM Stage Group Staging Type Maximum Value Set (ValueSet)
+// Topic: TNM Stage Group Staging Type Maximum Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-staging-type-max-vs

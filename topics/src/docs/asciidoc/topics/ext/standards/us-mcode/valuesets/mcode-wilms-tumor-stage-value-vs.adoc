@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-wilms-tumor-stage-value-vs
-// Topic: Wilms Tumor Stage Value Set (ValueSet)
+// Topic: Wilms Tumor Stage Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-wilms-tumor-stage-value-vs

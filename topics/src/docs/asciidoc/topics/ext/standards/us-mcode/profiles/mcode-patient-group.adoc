@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-patient-group
-// Topic: mCODE Patient Group Profile (StructureDefinition)
+// Topic: mCODE Patient Group Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-patient-group

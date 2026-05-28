@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-valuesets-care-gap-remark
-// Topic: Care Gap Remark Value Set (ValueSet)
+// Topic: Care Gap Remark Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-valuesets-care-gap-remark

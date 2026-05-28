@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-lymphoma-stage
-// Topic: Lymphoma Stage Profile (StructureDefinition)
+// Topic: Lymphoma Stage Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-lymphoma-stage

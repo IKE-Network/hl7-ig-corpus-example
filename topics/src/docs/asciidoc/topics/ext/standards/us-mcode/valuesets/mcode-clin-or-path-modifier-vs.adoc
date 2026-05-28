@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-clin-or-path-modifier-vs
-// Topic: Clinical or Pathologic Modifier (ValueSet)
+// Topic: Clinical or Pathologic Modifier
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-clin-or-path-modifier-vs

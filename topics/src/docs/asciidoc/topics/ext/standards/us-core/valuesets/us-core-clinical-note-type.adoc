@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-clinical-note-type
-// Topic: US Core Clinical Note Type (ValueSet)
+// Topic: US Core Clinical Note Type
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-clinical-note-type

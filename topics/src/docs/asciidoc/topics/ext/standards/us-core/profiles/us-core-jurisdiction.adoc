@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-jurisdiction
-// Topic: US Core Jurisdiction Extension (StructureDefinition)
+// Topic: US Core Jurisdiction Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-jurisdiction

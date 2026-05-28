@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-histology-morphology-behavior
-// Topic: Histology-Morphology-Behavior Extension (StructureDefinition)
+// Topic: Histology-Morphology-Behavior Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-histology-morphology-behavior

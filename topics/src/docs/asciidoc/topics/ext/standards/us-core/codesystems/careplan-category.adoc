@@ -1,5 +1,5 @@
 // ext-standards-us-core-codesystems-careplan-category
-// Topic: US Core CarePlan Category Extension Codes (CodeSystem)
+// Topic: US Core CarePlan Category Extension Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-codesystems-careplan-category

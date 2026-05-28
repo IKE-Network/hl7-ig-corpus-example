@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-primary-cancer-disorder-vs
-// Topic: Primary Cancer Disorder Value Set (ValueSet)
+// Topic: Primary Cancer Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-primary-cancer-disorder-vs

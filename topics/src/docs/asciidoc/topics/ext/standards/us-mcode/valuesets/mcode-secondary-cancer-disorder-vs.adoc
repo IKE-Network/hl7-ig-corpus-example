@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-secondary-cancer-disorder-vs
-// Topic: Secondary Cancer Disorder Value Set (ValueSet)
+// Topic: Secondary Cancer Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-secondary-cancer-disorder-vs

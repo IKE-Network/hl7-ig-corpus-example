@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-adi-documentreference
-// Topic: US Core ADI DocumentReference Profile (StructureDefinition)
+// Topic: US Core ADI DocumentReference Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-adi-documentreference

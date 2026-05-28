@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-documentreference-category
-// Topic: US Core DocumentReference Category (ValueSet)
+// Topic: US Core DocumentReference Category
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-documentreference-category

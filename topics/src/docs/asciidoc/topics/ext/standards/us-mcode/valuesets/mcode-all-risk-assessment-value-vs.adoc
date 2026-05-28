@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-all-risk-assessment-value-vs
-// Topic: Acute Lymphoblastic Leukemia (ALL) Risk Assessment Value Set (ValueSet)
+// Topic: Acute Lymphoblastic Leukemia (ALL) Risk Assessment Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-all-risk-assessment-value-vs

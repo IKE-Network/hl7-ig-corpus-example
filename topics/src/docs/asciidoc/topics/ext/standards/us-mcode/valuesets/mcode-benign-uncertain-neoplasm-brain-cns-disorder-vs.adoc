@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
-// Topic: Benign Neoplasm of Brain and CNS Disorder Value Set (ValueSet)
+// Topic: Benign Neoplasm of Brain and CNS Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs

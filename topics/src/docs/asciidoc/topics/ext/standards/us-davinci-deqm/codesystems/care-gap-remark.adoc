@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-codesystems-care-gap-remark
-// Topic: Care Gap Remark Code System (CodeSystem)
+// Topic: Care Gap Remark Code System
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-codesystems-care-gap-remark

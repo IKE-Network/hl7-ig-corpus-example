@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-implantable-device
-// Topic: US Core Implantable Device Profile (StructureDefinition)
+// Topic: US Core Implantable Device Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-implantable-device

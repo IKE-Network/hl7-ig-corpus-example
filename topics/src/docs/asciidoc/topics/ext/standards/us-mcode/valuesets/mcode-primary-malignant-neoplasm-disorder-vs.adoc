@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-primary-malignant-neoplasm-disorder-vs
-// Topic: Primary Malignant Neoplasm Disorder Value Set (ValueSet)
+// Topic: Primary Malignant Neoplasm Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-primary-malignant-neoplasm-disorder-vs

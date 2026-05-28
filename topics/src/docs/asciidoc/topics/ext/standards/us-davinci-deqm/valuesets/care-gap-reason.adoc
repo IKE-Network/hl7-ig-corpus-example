@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-valuesets-care-gap-reason
-// Topic: Care Gap Reasons Value Set (ValueSet)
+// Topic: Care Gap Reasons Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-valuesets-care-gap-reason

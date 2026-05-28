@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-rhabdomyosarcoma-risk-assessment
-// Topic: Rhabdomyocaroma Risk Assessment Profile (StructureDefinition)
+// Topic: Rhabdomyocaroma Risk Assessment Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-rhabdomyosarcoma-risk-assessment

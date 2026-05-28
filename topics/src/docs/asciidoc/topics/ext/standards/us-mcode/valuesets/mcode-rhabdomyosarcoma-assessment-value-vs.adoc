@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-assessment-value-vs
-// Topic: Rhabdomyosarcoma Assessment Value Set (ValueSet)
+// Topic: Rhabdomyosarcoma Assessment Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-assessment-value-vs

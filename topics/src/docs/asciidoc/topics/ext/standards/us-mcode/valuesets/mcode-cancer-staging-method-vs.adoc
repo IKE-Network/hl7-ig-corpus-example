@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cancer-staging-method-vs
-// Topic: Cancer Staging Method Value Set (ValueSet)
+// Topic: Cancer Staging Method Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-staging-method-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-primary-cancer-condition
-// Topic: Primary Cancer Condition Profile (StructureDefinition)
+// Topic: Primary Cancer Condition Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-primary-cancer-condition

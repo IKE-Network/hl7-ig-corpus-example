@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure
-// Topic: Cancer-Related Surgical Procedure Profile (StructureDefinition)
+// Topic: Cancer-Related Surgical Procedure Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure

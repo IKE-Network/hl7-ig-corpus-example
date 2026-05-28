@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch
-// Topic: Parameters Care Gap Remark Patch Profile (StructureDefinition)
+// Topic: Parameters Care Gap Remark Patch Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch

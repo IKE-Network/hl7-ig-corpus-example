@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-careteam
-// Topic: US Core CareTeam Profile (StructureDefinition)
+// Topic: US Core CareTeam Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-careteam

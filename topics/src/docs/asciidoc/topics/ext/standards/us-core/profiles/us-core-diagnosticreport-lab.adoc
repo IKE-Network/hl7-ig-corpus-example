@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-diagnosticreport-lab
-// Topic: US Core DiagnosticReport Profile for Laboratory Results Reporting (StructureDefinition)
+// Topic: US Core DiagnosticReport Profile for Laboratory Results Reporting
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-diagnosticreport-lab

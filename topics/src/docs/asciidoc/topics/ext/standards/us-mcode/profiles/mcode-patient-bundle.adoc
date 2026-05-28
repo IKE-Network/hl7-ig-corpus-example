@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-patient-bundle
-// Topic: mCODE Patient Bundle Profile (StructureDefinition)
+// Topic: mCODE Patient Bundle Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-patient-bundle

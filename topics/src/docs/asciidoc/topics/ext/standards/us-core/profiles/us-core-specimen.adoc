@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-specimen
-// Topic: US Core Specimen Profile (StructureDefinition)
+// Topic: US Core Specimen Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-specimen

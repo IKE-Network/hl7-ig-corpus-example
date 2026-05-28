@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-vs
-// Topic: Lymphoma Stage Value Set (ValueSet)
+// Topic: Lymphoma Stage Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-vs

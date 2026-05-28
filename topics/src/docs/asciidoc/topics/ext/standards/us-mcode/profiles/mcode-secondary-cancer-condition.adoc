@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-secondary-cancer-condition
-// Topic: Secondary Cancer Condition Profile (StructureDefinition)
+// Topic: Secondary Cancer Condition Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-secondary-cancer-condition

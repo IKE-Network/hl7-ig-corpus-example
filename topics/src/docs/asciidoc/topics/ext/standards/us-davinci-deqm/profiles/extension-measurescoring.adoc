@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-measurescoring
-// Topic: DEQM Measure Scoring Extension (StructureDefinition)
+// Topic: DEQM Measure Scoring Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-measurescoring

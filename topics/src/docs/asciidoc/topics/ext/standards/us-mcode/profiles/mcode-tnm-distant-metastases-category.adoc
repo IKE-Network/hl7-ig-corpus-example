@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tnm-distant-metastases-category
-// Topic: TNM Distant Metastases Category Profile (StructureDefinition)
+// Topic: TNM Distant Metastases Category Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tnm-distant-metastases-category

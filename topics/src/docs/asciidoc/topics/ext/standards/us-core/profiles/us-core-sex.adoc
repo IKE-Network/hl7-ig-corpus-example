@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-sex
-// Topic: US Core Sex Extension (StructureDefinition)
+// Topic: US Core Sex Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-sex

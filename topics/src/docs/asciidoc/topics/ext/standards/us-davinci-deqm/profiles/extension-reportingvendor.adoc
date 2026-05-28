@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-reportingvendor
-// Topic: DEQM Reporting Vendor Extension (StructureDefinition)
+// Topic: DEQM Reporting Vendor Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-reportingvendor

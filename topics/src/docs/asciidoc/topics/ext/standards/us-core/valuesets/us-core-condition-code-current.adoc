@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-condition-code-current
-// Topic: US Core Condition Codes Current (ValueSet)
+// Topic: US Core Condition Codes Current
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-condition-code-current

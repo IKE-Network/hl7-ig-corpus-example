@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-calculateddate
-// Topic: DEQM Calculated Date Extension (StructureDefinition)
+// Topic: DEQM Calculated Date Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-calculateddate

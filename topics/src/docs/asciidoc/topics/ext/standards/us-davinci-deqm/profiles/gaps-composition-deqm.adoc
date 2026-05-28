@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-gaps-composition-deqm
-// Topic: DEQM Gaps In Care Composition Profile (StructureDefinition)
+// Topic: DEQM Gaps In Care Composition Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-gaps-composition-deqm

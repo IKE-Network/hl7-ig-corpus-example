@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-body-surface-area
-// Topic: Body Surface Area (StructureDefinition)
+// Topic: Body Surface Area
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-body-surface-area

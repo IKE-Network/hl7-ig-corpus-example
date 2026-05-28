@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-low-dose-rate-temporary-technique-vs
-// Topic: Brachytherapy Low Dose Rate Temporary Radiation Technique Value Set (ValueSet)
+// Topic: Brachytherapy Low Dose Rate Temporary Radiation Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-low-dose-rate-temporary-technique-vs

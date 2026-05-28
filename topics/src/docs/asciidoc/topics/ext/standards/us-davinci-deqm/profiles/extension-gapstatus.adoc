@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-gapstatus
-// Topic: DEQM Gap Status Modifier Extension (StructureDefinition)
+// Topic: DEQM Gap Status Modifier Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-gapstatus

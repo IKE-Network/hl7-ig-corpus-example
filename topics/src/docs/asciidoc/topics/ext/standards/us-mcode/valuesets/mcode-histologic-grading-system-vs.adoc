@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-histologic-grading-system-vs
-// Topic: Histologic Grading System Value Set (ValueSet)
+// Topic: Histologic Grading System Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-histologic-grading-system-vs

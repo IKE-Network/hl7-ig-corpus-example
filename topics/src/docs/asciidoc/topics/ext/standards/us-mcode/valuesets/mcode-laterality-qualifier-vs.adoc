@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-laterality-qualifier-vs
-// Topic: Laterality Qualifier Value Set (ValueSet)
+// Topic: Laterality Qualifier Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-laterality-qualifier-vs

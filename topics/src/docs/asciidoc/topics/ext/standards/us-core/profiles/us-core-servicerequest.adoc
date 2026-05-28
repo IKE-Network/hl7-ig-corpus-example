@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-servicerequest
-// Topic: US Core ServiceRequest Profile (StructureDefinition)
+// Topic: US Core ServiceRequest Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-servicerequest

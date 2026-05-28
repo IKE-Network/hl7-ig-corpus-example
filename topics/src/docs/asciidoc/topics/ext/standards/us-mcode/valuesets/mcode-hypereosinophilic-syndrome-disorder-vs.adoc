@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-hypereosinophilic-syndrome-disorder-vs
-// Topic: Specific Diagnosis of Cancer Value Set (ValueSet)
+// Topic: Specific Diagnosis of Cancer Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-hypereosinophilic-syndrome-disorder-vs

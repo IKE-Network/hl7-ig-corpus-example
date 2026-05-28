@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-valuesets-update-type
-// Topic: DEQM Update Type Value Set (ValueSet)
+// Topic: DEQM Update Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-valuesets-update-type

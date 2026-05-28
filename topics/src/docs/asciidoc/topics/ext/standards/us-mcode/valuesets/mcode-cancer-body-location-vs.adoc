@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cancer-body-location-vs
-// Topic: Cancer Body Location Value Set (ValueSet)
+// Topic: Cancer Body Location Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-body-location-vs

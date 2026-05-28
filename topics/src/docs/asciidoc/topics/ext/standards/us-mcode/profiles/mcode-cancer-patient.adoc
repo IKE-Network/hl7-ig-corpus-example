@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-cancer-patient
-// Topic: Cancer Patient Profile (StructureDefinition)
+// Topic: Cancer Patient Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-cancer-patient

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-category-vs
-// Topic: TNM Primary Tumor Category Value Set (ValueSet)
+// Topic: TNM Primary Tumor Category Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-category-vs

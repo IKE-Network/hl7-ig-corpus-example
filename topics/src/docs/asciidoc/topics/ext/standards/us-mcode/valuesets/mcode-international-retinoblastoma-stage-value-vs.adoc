@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-international-retinoblastoma-stage-value-vs
-// Topic: International Retinoblastoma Stage Value (ValueSet)
+// Topic: International Retinoblastoma Stage Value
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-international-retinoblastoma-stage-value-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-related-condition
-// Topic: Related Condition Extension (StructureDefinition)
+// Topic: Related Condition Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-related-condition

@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes
-// Topic: US Core Non Laboratory Codes (ValueSet)
+// Topic: US Core Non Laboratory Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes

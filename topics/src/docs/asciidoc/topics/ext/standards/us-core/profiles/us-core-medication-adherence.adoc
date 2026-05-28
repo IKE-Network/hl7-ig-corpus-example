@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-medication-adherence
-// Topic: US Core Medication Adherence Extension (StructureDefinition)
+// Topic: US Core Medication Adherence Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-medication-adherence

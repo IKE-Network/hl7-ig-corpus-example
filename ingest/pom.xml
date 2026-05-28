@@ -36,21 +36,25 @@
     </description>
 
     <properties>
-        <exec.mainClass>network.ike.examples.hl7ig.ingest.IgPublisherIngester</exec.mainClass>
+        <exec.mainClass>network.ike.examples.hl7ig.ingest.FhirPackageIngester</exec.mainClass>
     </properties>
 
     <dependencies>
-        <!-- JSON parsing for FHIR resources -->
+        <!-- Cross-cutting ingest infrastructure: TarballDownloader,
+             TopicFragmentWriter, RegistryShardWriter, IncludesFileWriter,
+             provenance attribute helpers. -->
+        <dependency>
+            <groupId>network.ike.docs</groupId>
+            <artifactId>ike-doc-ingest</artifactId>
+            <version>${network.ike.docs__GA__ike-docs__VERSION}</version>
+        </dependency>
+
+        <!-- JSON parsing for FHIR resources. Stays local — the library
+             intentionally doesn't impose a JSON binding on consumers. -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.18.2</version>
-        </dependency>
-        <!-- TGZ extraction for FHIR NPM packages -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-compress</artifactId>
-            <version>1.27.1</version>
         </dependency>
     </dependencies>
 

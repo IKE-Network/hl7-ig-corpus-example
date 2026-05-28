@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-modality-vs
-// Topic: Brachytherapy Modality Value Set (ValueSet)
+// Topic: Brachytherapy Modality Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-modality-vs

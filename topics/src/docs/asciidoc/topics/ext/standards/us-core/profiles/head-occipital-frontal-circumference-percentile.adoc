@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-head-occipital-frontal-circumference-percentile
-// Topic: US Core Pediatric Head Occipital Frontal Circumference Percentile Profile (StructureDefinition)
+// Topic: US Core Pediatric Head Occipital Frontal Circumference Percentile Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-head-occipital-frontal-circumference-percentile

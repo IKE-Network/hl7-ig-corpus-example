@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-codesystems-remark-reason
-// Topic: Remark Reason CodeSystem (CodeSystem)
+// Topic: Remark Reason CodeSystem
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-codesystems-remark-reason

@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-populationdescription
-// Topic: DEQM Population Description (StructureDefinition)
+// Topic: DEQM Population Description
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-populationdescription

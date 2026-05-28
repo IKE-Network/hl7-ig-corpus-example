@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-tribal-affiliation
-// Topic: US Core Tribal Affiliation Extension (StructureDefinition)
+// Topic: US Core Tribal Affiliation Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-tribal-affiliation

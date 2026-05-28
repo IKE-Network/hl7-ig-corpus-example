@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-sessions
-// Topic: Radiotherapy Number of Sessions Extension (StructureDefinition)
+// Topic: Radiotherapy Number of Sessions Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-sessions

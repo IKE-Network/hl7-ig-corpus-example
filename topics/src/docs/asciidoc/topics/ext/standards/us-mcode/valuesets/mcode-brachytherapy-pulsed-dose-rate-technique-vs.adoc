@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-pulsed-dose-rate-technique-vs
-// Topic: Brachytherapy Pulsed Dose Rate Technique Value Set (ValueSet)
+// Topic: Brachytherapy Pulsed Dose Rate Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-pulsed-dose-rate-technique-vs

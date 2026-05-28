@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-technique
-// Topic: Radiotherapy Technique Extension (StructureDefinition)
+// Topic: Radiotherapy Technique Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-technique

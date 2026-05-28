@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-codesystems-gaps-status
-// Topic: DEQM Gaps In Care Gap Status Code System (CodeSystem)
+// Topic: DEQM Gaps In Care Gap Status Code System
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-codesystems-gaps-status

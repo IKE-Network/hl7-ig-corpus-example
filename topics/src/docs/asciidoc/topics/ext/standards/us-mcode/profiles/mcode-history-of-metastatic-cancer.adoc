@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer
-// Topic: History of Metastatic Cancer (StructureDefinition)
+// Topic: History of Metastatic Cancer
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer

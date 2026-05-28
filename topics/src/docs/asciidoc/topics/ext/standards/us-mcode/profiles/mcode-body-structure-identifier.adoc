@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-body-structure-identifier
-// Topic: Body Structure Identifier Profile (StructureDefinition)
+// Topic: Body Structure Identifier Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-body-structure-identifier

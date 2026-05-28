@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-category-max-vs
-// Topic: TNM Distant Metastases Maximum Value Set (ValueSet)
+// Topic: TNM Distant Metastases Maximum Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-category-max-vs

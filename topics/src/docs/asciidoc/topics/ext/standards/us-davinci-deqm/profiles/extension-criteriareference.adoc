@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-criteriareference
-// Topic: DEQM Criteria Reference Extension (StructureDefinition)
+// Topic: DEQM Criteria Reference Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-criteriareference

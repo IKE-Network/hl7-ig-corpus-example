@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-myeloma-riss-stage-value-vs
-// Topic: Revised International Staging System (ISS) for Multiple Myeloma Stage Value Set (ValueSet)
+// Topic: Revised International Staging System (ISS) for Multiple Myeloma Stage Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-myeloma-riss-stage-value-vs

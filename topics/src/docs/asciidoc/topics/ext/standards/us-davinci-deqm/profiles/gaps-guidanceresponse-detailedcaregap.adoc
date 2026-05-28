@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap
-// Topic: Detailed Care Gap Guidance Response (StructureDefinition)
+// Topic: Detailed Care Gap Guidance Response
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap

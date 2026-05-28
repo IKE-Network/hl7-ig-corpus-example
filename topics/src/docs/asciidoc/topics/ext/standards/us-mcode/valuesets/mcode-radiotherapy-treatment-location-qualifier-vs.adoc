@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-radiotherapy-treatment-location-qualifier-vs
-// Topic: Radiotherapy Treatment Location Qualifier Value Set (ValueSet)
+// Topic: Radiotherapy Treatment Location Qualifier Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-treatment-location-qualifier-vs

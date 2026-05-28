@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-technique-vs
-// Topic: Teleradiotherapy Technique Value Set (ValueSet)
+// Topic: Teleradiotherapy Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-technique-vs

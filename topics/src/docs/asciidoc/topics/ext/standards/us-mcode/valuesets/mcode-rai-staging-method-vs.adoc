@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-rai-staging-method-vs
-// Topic: Rai Staging System Value Set (ValueSet)
+// Topic: Rai Staging System Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-rai-staging-method-vs

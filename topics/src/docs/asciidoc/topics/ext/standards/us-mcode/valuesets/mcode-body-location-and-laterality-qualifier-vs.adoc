@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-body-location-and-laterality-qualifier-vs
-// Topic: Body Location and Laterality Qualifier Value Set (ValueSet)
+// Topic: Body Location and Laterality Qualifier Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-body-location-and-laterality-qualifier-vs

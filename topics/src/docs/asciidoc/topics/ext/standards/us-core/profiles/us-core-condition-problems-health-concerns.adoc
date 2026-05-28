@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-condition-problems-health-concerns
-// Topic: US Core Condition Problems and Health Concerns Profile (StructureDefinition)
+// Topic: US Core Condition Problems and Health Concerns Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-condition-problems-health-concerns

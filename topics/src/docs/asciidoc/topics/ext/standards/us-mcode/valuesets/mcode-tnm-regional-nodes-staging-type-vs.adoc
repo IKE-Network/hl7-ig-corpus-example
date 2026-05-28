@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-staging-type-vs
-// Topic: TNM Regional Nodes Staging Type Value Set (ValueSet)
+// Topic: TNM Regional Nodes Staging Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-staging-type-vs

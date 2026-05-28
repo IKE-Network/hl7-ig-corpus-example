@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-specimen-condition
-// Topic: US Core Specimen Condition (ValueSet)
+// Topic: US Core Specimen Condition
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-specimen-condition

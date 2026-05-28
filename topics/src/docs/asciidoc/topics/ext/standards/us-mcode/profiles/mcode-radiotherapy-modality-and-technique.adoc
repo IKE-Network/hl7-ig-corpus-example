@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-modality-and-technique
-// Topic: Radiotherapy Modality And Technique Extension (StructureDefinition)
+// Topic: Radiotherapy Modality And Technique Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-modality-and-technique

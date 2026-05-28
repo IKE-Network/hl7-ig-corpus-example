@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-clinical-group-value-vs
-// Topic: Rhabdomyosarcoma Clinical Group Value (ValueSet)
+// Topic: Rhabdomyosarcoma Clinical Group Value
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-clinical-group-value-vs

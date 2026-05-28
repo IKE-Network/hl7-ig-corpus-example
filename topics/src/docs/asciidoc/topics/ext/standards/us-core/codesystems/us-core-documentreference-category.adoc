@@ -1,5 +1,5 @@
 // ext-standards-us-core-codesystems-us-core-documentreference-category
-// Topic: US Core DocumentReferences Category Codes (CodeSystem)
+// Topic: US Core DocumentReferences Category Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-codesystems-us-core-documentreference-category

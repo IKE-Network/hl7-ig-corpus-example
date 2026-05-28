@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog
-// Topic: Wilms Tumor Body Site Value Set (ValueSet)
+// Topic: Wilms Tumor Body Site Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog

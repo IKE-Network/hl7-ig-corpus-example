@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs
-// Topic: Teleradiotherapy Modality Value Set (ValueSet)
+// Topic: Teleradiotherapy Modality Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs

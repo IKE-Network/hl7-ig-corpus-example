@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-datax-measurereport-deqm
-// Topic: DEQM Data Exchange MeasureReport Profile (StructureDefinition)
+// Topic: DEQM Data Exchange MeasureReport Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-datax-measurereport-deqm

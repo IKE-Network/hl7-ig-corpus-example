@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-permanent-seeds-technique-vs
-// Topic: Brachytherapy Permanent Seeds Technique Value Set (ValueSet)
+// Topic: Brachytherapy Permanent Seeds Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-permanent-seeds-technique-vs

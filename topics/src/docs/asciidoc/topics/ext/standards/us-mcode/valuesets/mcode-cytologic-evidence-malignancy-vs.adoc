@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cytologic-evidence-malignancy-vs
-// Topic: Cytologic Evidence of Malignancy Value Set (ValueSet)
+// Topic: Cytologic Evidence of Malignancy Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cytologic-evidence-malignancy-vs

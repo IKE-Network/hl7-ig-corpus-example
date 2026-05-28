@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-history-of-metastatic-malignant-neoplasm-vs
-// Topic: History of Metastatic Malignant Neoplasm Value Set (ValueSet)
+// Topic: History of Metastatic Malignant Neoplasm Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-history-of-metastatic-malignant-neoplasm-vs

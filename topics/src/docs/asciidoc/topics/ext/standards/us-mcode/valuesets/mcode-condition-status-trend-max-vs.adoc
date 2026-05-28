@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs
-// Topic: Condition Status Trend Maximum Value Set (ValueSet)
+// Topic: Condition Status Trend Maximum Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs

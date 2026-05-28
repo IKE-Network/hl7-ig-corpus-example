@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-vs
-// Topic: Tumor Morphology Code Value Set (ValueSet)
+// Topic: Tumor Morphology Code Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-vs

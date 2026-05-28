@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-histologic-behavior-and-type-vs
-// Topic: Histologic Behavior and Type Value Set (ValueSet)
+// Topic: Histologic Behavior and Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-histologic-behavior-and-type-vs

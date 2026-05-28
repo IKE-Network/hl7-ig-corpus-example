@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-genomic-region-studied
-// Topic: Genomic Region Studied Profile (StructureDefinition)
+// Topic: Genomic Region Studied Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-genomic-region-studied

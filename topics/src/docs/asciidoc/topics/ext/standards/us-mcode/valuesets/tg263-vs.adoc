@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-tg263-vs
-// Topic: TG263 ValueSet (ValueSet)
+// Topic: TG263 ValueSet
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-tg263-vs

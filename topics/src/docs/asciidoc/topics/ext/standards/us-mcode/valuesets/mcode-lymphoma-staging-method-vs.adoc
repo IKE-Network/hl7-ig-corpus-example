@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-lymphoma-staging-method-vs
-// Topic: Lymphoma Staging System Value Set (ValueSet)
+// Topic: Lymphoma Staging System Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-lymphoma-staging-method-vs

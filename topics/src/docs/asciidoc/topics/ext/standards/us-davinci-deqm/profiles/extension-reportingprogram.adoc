@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-reportingprogram
-// Topic: DEQM Reporting Program Extension (StructureDefinition)
+// Topic: DEQM Reporting Program Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-reportingprogram

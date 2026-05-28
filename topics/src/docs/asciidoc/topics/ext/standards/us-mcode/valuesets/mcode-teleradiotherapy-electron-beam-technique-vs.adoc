@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-electron-beam-technique-vs
-// Topic: Electron Beam Technique Value Set (ValueSet)
+// Topic: Electron Beam Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-electron-beam-technique-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-birthsex
-// Topic: US Core Birth Sex Extension (StructureDefinition)
+// Topic: US Core Birth Sex Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-birthsex

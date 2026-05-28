@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-genomic-variant
-// Topic: Genomic Variant Profile (StructureDefinition)
+// Topic: Genomic Variant Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-genomic-variant

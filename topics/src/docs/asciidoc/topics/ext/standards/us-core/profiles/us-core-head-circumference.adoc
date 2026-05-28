@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-head-circumference
-// Topic: US Core Head Circumference Profile (StructureDefinition)
+// Topic: US Core Head Circumference Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-head-circumference

@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-codesystems-update-type
-// Topic: DEQM Update Type Code System (CodeSystem)
+// Topic: DEQM Update Type Code System
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-codesystems-update-type

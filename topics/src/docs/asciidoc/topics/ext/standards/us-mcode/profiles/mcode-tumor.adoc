@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tumor
-// Topic: Tumor Profile (StructureDefinition)
+// Topic: Tumor Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tumor

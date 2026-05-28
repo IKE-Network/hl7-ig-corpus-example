@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-melanoma-in-situ-disorder-vs
-// Topic: Melanoma In-Situ Disorder Value Set (ValueSet)
+// Topic: Melanoma In-Situ Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-melanoma-in-situ-disorder-vs

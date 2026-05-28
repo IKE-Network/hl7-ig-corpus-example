@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-observation-pregnancyintent
-// Topic: US Core Observation Pregnancy Intent Profile (StructureDefinition)
+// Topic: US Core Observation Pregnancy Intent Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-observation-pregnancyintent

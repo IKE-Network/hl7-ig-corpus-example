@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-blood-pressure
-// Topic: US Core Blood Pressure Profile (StructureDefinition)
+// Topic: US Core Blood Pressure Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-blood-pressure

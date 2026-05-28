@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation
-// Topic: DEQM Group Improvement Notation Extension (StructureDefinition)
+// Topic: DEQM Group Improvement Notation Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation

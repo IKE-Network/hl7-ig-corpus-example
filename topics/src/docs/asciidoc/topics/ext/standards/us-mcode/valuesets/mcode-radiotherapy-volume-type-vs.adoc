@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-radiotherapy-volume-type-vs
-// Topic: Radiotherapy Volume Type Value Set (ValueSet)
+// Topic: Radiotherapy Volume Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-volume-type-vs

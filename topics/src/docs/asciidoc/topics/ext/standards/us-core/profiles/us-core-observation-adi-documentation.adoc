@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-observation-adi-documentation
-// Topic: US Core Observation ADI Documentation Profile (StructureDefinition)
+// Topic: US Core Observation ADI Documentation Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-observation-adi-documentation

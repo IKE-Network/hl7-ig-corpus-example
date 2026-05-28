@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-allergyintolerance
-// Topic: US Core AllergyIntolerance Profile (StructureDefinition)
+// Topic: US Core AllergyIntolerance Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-allergyintolerance

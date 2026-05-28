@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-pretext-stage-value-vs
-// Topic: PRETEXT Stage Value (ValueSet)
+// Topic: PRETEXT Stage Value
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-pretext-stage-value-vs

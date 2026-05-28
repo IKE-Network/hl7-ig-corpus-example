@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-pulse-oximetry
-// Topic: US Core Pulse Oximetry Profile (StructureDefinition)
+// Topic: US Core Pulse Oximetry Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-pulse-oximetry

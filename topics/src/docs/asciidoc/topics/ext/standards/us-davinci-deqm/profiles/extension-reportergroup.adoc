@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-reportergroup
-// Topic: DEQM Reporter Group Extension (StructureDefinition)
+// Topic: DEQM Reporter Group Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-reportergroup

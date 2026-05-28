@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-provenance-participant-type
-// Topic: US Core Provenance Participant Type Codes (ValueSet)
+// Topic: US Core Provenance Participant Type Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-provenance-participant-type

@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-patient
-// Topic: US Core Patient Profile (StructureDefinition)
+// Topic: US Core Patient Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-patient

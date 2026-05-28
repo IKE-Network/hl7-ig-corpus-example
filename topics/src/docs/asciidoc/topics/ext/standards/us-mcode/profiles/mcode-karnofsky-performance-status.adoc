@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-karnofsky-performance-status
-// Topic: Karnofsky Performance Status Profile (StructureDefinition)
+// Topic: Karnofsky Performance Status Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-karnofsky-performance-status

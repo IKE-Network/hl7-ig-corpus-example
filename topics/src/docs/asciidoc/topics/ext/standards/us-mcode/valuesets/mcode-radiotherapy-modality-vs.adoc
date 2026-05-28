@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-radiotherapy-modality-vs
-// Topic: Radiotherapy Modality Value Set (ValueSet)
+// Topic: Radiotherapy Modality Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-modality-vs

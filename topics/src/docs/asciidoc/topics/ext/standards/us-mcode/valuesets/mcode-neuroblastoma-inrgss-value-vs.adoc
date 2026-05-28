@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-neuroblastoma-inrgss-value-vs
-// Topic: International Neuroblastoma Risk Group Staging System (INRGSS) for Neuroblastoma Risk Assessment Value Set (ValueSet)
+// Topic: International Neuroblastoma Risk Group Staging System (INRGSS) for Neuroblastoma Risk Assessment Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-neuroblastoma-inrgss-value-vs

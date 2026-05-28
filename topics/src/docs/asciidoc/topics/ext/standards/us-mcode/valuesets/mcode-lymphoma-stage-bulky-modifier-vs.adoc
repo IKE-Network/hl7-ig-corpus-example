@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-bulky-modifier-vs
-// Topic: Lymphoma Stage Bulky Modifier Value Set (ValueSet)
+// Topic: Lymphoma Stage Bulky Modifier Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-bulky-modifier-vs

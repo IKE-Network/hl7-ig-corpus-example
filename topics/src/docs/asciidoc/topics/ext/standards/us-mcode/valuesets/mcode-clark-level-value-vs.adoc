@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-clark-level-value-vs
-// Topic: Clark Level Value Set (ValueSet)
+// Topic: Clark Level Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-clark-level-value-vs

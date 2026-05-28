@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-valuesets-gaps-status
-// Topic: DEQM Gaps In Care Gap Status Value Set (ValueSet)
+// Topic: DEQM Gaps In Care Gap Status Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-valuesets-gaps-status

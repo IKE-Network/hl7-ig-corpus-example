@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-body-height
-// Topic: US Core Body Height Profile (StructureDefinition)
+// Topic: US Core Body Height Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-body-height

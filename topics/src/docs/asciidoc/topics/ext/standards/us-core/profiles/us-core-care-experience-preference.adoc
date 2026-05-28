@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-care-experience-preference
-// Topic: US Core Care Experience Preference Profile (StructureDefinition)
+// Topic: US Core Care Experience Preference Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-care-experience-preference

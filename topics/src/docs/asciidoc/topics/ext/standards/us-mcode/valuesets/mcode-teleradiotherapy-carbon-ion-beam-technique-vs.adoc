@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-carbon-ion-beam-technique-vs
-// Topic: Carbon Ion Beam Technique Value Set (ValueSet)
+// Topic: Carbon Ion Beam Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-carbon-ion-beam-technique-vs

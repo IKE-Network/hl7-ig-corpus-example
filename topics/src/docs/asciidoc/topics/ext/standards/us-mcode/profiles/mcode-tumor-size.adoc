@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tumor-size
-// Topic: Tumor Size Profile (StructureDefinition)
+// Topic: Tumor Size Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tumor-size

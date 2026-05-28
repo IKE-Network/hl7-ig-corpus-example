@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-subjectlist-measurereport-deqm
-// Topic: DEQM Subject List MeasureReport (StructureDefinition)
+// Topic: DEQM Subject List MeasureReport
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-subjectlist-measurereport-deqm

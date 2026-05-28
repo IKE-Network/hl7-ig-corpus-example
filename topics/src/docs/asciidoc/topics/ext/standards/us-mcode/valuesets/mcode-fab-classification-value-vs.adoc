@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-fab-classification-value-vs
-// Topic: FAB Classification Value (ValueSet)
+// Topic: FAB Classification Value
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-fab-classification-value-vs

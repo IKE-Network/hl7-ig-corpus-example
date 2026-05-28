@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs
-// Topic: Human Specimen Type Value Set (ValueSet)
+// Topic: Human Specimen Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs

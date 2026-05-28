@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-technique-vs
-// Topic: Brachytherapy Technique Value Set (ValueSet)
+// Topic: Brachytherapy Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-technique-vs

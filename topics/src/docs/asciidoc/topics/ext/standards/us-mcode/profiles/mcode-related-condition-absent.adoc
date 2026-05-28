@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-related-condition-absent
-// Topic: Related Condition Absent Extension (StructureDefinition)
+// Topic: Related Condition Absent Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-related-condition-absent

@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-caregapremark
-// Topic: DEQM Care Gap Remark Extension (StructureDefinition)
+// Topic: DEQM Care Gap Remark Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-caregapremark

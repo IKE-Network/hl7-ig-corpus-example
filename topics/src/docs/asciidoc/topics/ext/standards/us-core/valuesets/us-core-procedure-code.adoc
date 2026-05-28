@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-procedure-code
-// Topic: US Core Procedure Codes (ValueSet)
+// Topic: US Core Procedure Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-procedure-code

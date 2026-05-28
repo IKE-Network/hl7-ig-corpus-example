@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tnm-regional-nodes-category
-// Topic: TNM Regional Nodes Category Profile (StructureDefinition)
+// Topic: TNM Regional Nodes Category Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tnm-regional-nodes-category

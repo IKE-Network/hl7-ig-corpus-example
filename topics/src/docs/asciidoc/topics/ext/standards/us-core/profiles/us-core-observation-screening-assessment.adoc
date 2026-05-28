@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-observation-screening-assessment
-// Topic: US Core Observation Screening Assessment Profile (StructureDefinition)
+// Topic: US Core Observation Screening Assessment Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-observation-screening-assessment

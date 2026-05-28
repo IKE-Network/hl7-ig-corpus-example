@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-medicationdispense
-// Topic: US Core MedicationDispense Profile (StructureDefinition)
+// Topic: US Core MedicationDispense Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-medicationdispense

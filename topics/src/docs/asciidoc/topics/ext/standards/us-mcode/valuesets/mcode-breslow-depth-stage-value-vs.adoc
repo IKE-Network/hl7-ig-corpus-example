@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-breslow-depth-stage-value-vs
-// Topic: Breslow Depth Stage Value Set (ValueSet)
+// Topic: Breslow Depth Stage Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-breslow-depth-stage-value-vs

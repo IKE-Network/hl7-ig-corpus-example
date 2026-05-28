@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tnm-primary-tumor-category
-// Topic: TNM Primary Tumor Category Profile (StructureDefinition)
+// Topic: TNM Primary Tumor Category Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tnm-primary-tumor-category

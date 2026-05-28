@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tumor-marker-test-vs
-// Topic: Tumor Marker Test Value Set (ValueSet)
+// Topic: Tumor Marker Test Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tumor-marker-test-vs

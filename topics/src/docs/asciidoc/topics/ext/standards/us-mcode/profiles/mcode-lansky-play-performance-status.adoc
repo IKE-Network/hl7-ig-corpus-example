@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status
-// Topic: Lansky Play Performance Status Profile (StructureDefinition)
+// Topic: Lansky Play Performance Status Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status

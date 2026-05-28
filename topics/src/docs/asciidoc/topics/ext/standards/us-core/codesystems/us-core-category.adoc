@@ -1,5 +1,5 @@
 // ext-standards-us-core-codesystems-us-core-category
-// Topic: US Core Category (CodeSystem)
+// Topic: US Core Category
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-codesystems-us-core-category

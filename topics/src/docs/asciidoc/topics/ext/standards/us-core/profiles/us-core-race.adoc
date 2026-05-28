@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-race
-// Topic: US Core Race Extension (StructureDefinition)
+// Topic: US Core Race Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-race

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-carcinoma-in-situ-disorder-vs
-// Topic: Carcinoma In-Situ Disorder Value Set (ValueSet)
+// Topic: Carcinoma In-Situ Disorder Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-carcinoma-in-situ-disorder-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype
-// Topic: DEQM Submit Data Update Type Extension (StructureDefinition)
+// Topic: DEQM Submit Data Update Type Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype

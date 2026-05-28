@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-deauville-scale-vs
-// Topic: Deauville Scale Value Set (ValueSet)
+// Topic: Deauville Scale Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-deauville-scale-vs

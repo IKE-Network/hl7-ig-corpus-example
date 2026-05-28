@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm
-// Topic: DEQM Gaps In Care Bundle (StructureDefinition)
+// Topic: DEQM Gaps In Care Bundle
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm

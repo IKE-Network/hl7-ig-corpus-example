@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cancer-disease-status-evidence-type-vs
-// Topic: Cancer Disease Status Evidence Type Value Set (ValueSet)
+// Topic: Cancer Disease Status Evidence Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-disease-status-evidence-type-vs

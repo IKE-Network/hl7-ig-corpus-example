@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tnm-category
-// Topic: Parent for T, N, and M Categories. (StructureDefinition)
+// Topic: Parent for T, N, and M Categories.
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tnm-category

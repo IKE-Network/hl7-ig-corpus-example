@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-normalization-basis
-// Topic: Normalization Basis Extension (StructureDefinition)
+// Topic: Normalization Basis Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-normalization-basis

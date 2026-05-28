@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-risk-assessment-type-vs
-// Topic: Risk Assessment Type Value Set (ValueSet)
+// Topic: Risk Assessment Type Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-risk-assessment-type-vs

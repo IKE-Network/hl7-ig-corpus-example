@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-organization
-// Topic: US Core Organization Profile (StructureDefinition)
+// Topic: US Core Organization Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-organization

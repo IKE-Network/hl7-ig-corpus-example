@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-extension-questionnaire-uri
-// Topic: US Core Extension Questionnaire URI (StructureDefinition)
+// Topic: US Core Extension Questionnaire URI
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-extension-questionnaire-uri

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-volume
-// Topic: Radiotherapy Volume Profile (StructureDefinition)
+// Topic: Radiotherapy Volume Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-volume

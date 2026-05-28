@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-cancer-stage
-// Topic: Cancer Stage Profile (StructureDefinition)
+// Topic: Cancer Stage Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-cancer-stage

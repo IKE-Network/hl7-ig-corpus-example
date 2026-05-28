@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-codesystems-tg263-cs
-// Topic: TG263 CodeSystem (CodeSystem)
+// Topic: TG263 CodeSystem
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-codesystems-tg263-cs

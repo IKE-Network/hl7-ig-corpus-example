@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category
-// Topic: US Core Screening Assessment Observation Category (ValueSet)
+// Topic: US Core Screening Assessment Observation Category
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category

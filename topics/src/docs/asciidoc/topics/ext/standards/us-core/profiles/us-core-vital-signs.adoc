@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-vital-signs
-// Topic: US Core Vital Signs Profile (StructureDefinition)
+// Topic: US Core Vital Signs Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-vital-signs

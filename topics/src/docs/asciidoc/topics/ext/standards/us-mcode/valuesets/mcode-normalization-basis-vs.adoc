@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-normalization-basis-vs
-// Topic: Normalization Basis Value Set (ValueSet)
+// Topic: Normalization Basis Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-normalization-basis-vs

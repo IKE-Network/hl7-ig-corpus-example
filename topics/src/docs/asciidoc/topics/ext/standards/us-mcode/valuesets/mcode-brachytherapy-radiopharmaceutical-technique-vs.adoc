@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-radiopharmaceutical-technique-vs
-// Topic: Brachytherapy Radiopharmaceutical Technique Value Set (ValueSet)
+// Topic: Brachytherapy Radiopharmaceutical Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-radiopharmaceutical-technique-vs

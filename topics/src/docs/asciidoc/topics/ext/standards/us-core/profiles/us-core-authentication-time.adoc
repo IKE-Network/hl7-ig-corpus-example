@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-authentication-time
-// Topic: US Core Authentication Time Extension (StructureDefinition)
+// Topic: US Core Authentication Time Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-authentication-time

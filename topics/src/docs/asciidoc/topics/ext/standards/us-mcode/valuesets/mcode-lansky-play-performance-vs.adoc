@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-lansky-play-performance-vs
-// Topic: Lansky Play Performance Status VS (ValueSet)
+// Topic: Lansky Play Performance Status VS
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-lansky-play-performance-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-problem-or-health-concern
-// Topic: US Core Problem or Health Concern (ValueSet)
+// Topic: US Core Problem or Health Concern
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-problem-or-health-concern

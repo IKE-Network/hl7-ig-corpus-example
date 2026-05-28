@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-dose-delivered-to-volume
-// Topic: Radiotherapy Dose Delivered To Volume Extension (StructureDefinition)
+// Topic: Radiotherapy Dose Delivered To Volume Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-dose-delivered-to-volume

@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-careplan
-// Topic: US Core CarePlan Profile (StructureDefinition)
+// Topic: US Core CarePlan Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-careplan

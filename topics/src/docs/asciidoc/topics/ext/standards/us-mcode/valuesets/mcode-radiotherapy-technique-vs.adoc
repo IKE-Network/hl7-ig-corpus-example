@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-radiotherapy-technique-vs
-// Topic: Radiotherapy Technique Value Set (ValueSet)
+// Topic: Radiotherapy Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-technique-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-cancer-related-medication-administration
-// Topic: Cancer-Related Medication Administration Profile (StructureDefinition)
+// Topic: Cancer-Related Medication Administration Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-cancer-related-medication-administration

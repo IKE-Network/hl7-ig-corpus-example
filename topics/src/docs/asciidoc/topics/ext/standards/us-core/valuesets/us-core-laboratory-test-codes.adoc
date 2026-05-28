@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-laboratory-test-codes
-// Topic: US Core Laboratory Test Codes (ValueSet)
+// Topic: US Core Laboratory Test Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-laboratory-test-codes

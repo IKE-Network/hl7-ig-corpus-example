@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-observation-lab
-// Topic: US Core Laboratory Result Observation Profile (StructureDefinition)
+// Topic: US Core Laboratory Result Observation Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-observation-lab

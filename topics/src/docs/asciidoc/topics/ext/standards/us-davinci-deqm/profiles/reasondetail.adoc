@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-reasondetail
-// Topic: Reason Detail (StructureDefinition)
+// Topic: Reason Detail
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-reasondetail

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-radiotherapy-course-summary
-// Topic: Radiotherapy Course Summary Profile (StructureDefinition)
+// Topic: Radiotherapy Course Summary Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-course-summary

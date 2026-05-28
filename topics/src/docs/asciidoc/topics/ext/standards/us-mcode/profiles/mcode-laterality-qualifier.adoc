@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-laterality-qualifier
-// Topic: Laterality Qualifier Extension (StructureDefinition)
+// Topic: Laterality Qualifier Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-laterality-qualifier

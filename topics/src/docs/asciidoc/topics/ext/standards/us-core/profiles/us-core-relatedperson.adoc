@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-relatedperson
-// Topic: US Core RelatedPerson Profile (StructureDefinition)
+// Topic: US Core RelatedPerson Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-relatedperson

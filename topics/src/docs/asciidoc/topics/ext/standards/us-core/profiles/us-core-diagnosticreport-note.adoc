@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-diagnosticreport-note
-// Topic: US Core DiagnosticReport Profile for Report and Note Exchange (StructureDefinition)
+// Topic: US Core DiagnosticReport Profile for Report and Note Exchange
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-diagnosticreport-note

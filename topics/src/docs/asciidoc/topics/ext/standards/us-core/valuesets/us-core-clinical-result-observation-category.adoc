@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-clinical-result-observation-category
-// Topic: US Core Clinical Result Observation Category (ValueSet)
+// Topic: US Core Clinical Result Observation Category
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-clinical-result-observation-category

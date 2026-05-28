@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-condition-status-trend-vs
-// Topic: Condition Status Trend Value Set (ValueSet)
+// Topic: Condition Status Trend Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-condition-status-trend-vs

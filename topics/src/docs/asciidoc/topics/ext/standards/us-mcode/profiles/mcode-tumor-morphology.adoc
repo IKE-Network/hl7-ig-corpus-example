@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-tumor-morphology
-// Topic: Tumor Morphology Report (StructureDefinition)
+// Topic: Tumor Morphology Report
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-tumor-morphology

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-histologic-behavior-and-type
-// Topic: Histologic Behavior and Type (StructureDefinition)
+// Topic: Histologic Behavior and Type
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-histologic-behavior-and-type

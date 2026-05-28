@@ -1,5 +1,5 @@
 // ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm
-// Topic: DEQM Gaps In Care Detected Issue Profile (StructureDefinition)
+// Topic: DEQM Gaps In Care Detected Issue Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm

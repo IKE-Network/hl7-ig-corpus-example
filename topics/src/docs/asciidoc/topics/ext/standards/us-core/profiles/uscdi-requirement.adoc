@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-uscdi-requirement
-// Topic: US Core USCDI Requirement Extension (StructureDefinition)
+// Topic: US Core USCDI Requirement Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-uscdi-requirement

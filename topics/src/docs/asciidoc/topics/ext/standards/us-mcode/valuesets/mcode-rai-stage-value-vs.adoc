@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-rai-stage-value-vs
-// Topic: Rai Stage Value Set (ValueSet)
+// Topic: Rai Stage Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-rai-stage-value-vs

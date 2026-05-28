@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-smokingstatus
-// Topic: US Core Smoking Status Observation Profile (StructureDefinition)
+// Topic: US Core Smoking Status Observation Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-smokingstatus

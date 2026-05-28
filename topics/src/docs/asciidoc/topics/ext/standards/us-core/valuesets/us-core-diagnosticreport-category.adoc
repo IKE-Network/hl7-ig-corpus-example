@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-diagnosticreport-category
-// Topic: US Core Diagnostic Report Category Codes (ValueSet)
+// Topic: US Core Diagnostic Report Category Codes
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-diagnosticreport-category

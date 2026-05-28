@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-genderidentity
-// Topic: US Core Gender Identity Extension (StructureDefinition)
+// Topic: US Core Gender Identity Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-genderidentity

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-cancer-staging-prognostic-factor-value-vs
-// Topic: Cancer Staging Prognostic Factors Value (ValueSet)
+// Topic: Cancer Staging Prognostic Factors Value
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-staging-prognostic-factor-value-vs

@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-questionnaireresponse
-// Topic: US Core QuestionnaireResponse Profile (StructureDefinition)
+// Topic: US Core QuestionnaireResponse Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-questionnaireresponse

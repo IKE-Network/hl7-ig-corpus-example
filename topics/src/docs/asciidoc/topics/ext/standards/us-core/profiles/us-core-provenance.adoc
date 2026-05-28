@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-provenance
-// Topic: US Core Provenance Profile (StructureDefinition)
+// Topic: US Core Provenance Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-provenance

@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-brachytherapy-high-dose-rate-technique-vs
-// Topic: Brachytherapy High Dose Rate Technique Value Set (ValueSet)
+// Topic: Brachytherapy High Dose Rate Technique Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-high-dose-rate-technique-vs

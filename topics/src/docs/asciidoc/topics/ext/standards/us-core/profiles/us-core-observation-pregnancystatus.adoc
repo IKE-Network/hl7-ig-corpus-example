@@ -1,5 +1,5 @@
 // ext-standards-us-core-profiles-us-core-observation-pregnancystatus
-// Topic: US Core Observation Pregnancy Status Profile (StructureDefinition)
+// Topic: US Core Observation Pregnancy Status Profile
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-profiles-us-core-observation-pregnancystatus

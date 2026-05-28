@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-max-vs
-// Topic: Tumor Morphology Code Max Value Set (ValueSet)
+// Topic: Tumor Morphology Code Max Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-max-vs

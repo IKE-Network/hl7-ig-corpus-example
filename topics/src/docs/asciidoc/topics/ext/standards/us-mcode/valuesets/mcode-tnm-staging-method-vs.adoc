@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tnm-staging-method-vs
-// Topic: TNM Staging Method Value Set (ValueSet)
+// Topic: TNM Staging Method Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-staging-method-vs

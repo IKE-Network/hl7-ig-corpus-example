@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-treatment-termination-reason-vs
-// Topic: Treatment Termination Reason Value Set (ValueSet)
+// Topic: Treatment Termination Reason Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-treatment-termination-reason-vs

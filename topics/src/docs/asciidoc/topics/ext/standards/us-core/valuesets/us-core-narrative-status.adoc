@@ -1,5 +1,5 @@
 // ext-standards-us-core-valuesets-us-core-narrative-status
-// Topic: US Core Narrative Status (ValueSet)
+// Topic: US Core Narrative Status
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-core-valuesets-us-core-narrative-status

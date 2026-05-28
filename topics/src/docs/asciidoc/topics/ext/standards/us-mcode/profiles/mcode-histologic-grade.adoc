@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-histologic-grade
-// Topic: Histologic Grade (StructureDefinition)
+// Topic: Histologic Grade
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-histologic-grade

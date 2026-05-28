@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-valuesets-mcode-tumor-size-method-vs
-// Topic: Tumor Size Method Value Set (ValueSet)
+// Topic: Tumor Size Method Value Set
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-valuesets-mcode-tumor-size-method-vs

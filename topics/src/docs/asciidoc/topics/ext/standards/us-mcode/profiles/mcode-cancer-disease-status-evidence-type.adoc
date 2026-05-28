@@ -1,5 +1,5 @@
 // ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type
-// Topic: Cancer Disease Status Evidence Type Extension (StructureDefinition)
+// Topic: Cancer Disease Status Evidence Type Extension
 // Type: reference
 // Status: review
 :topic-id: ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type
