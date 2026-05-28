@@ -1,0 +1,53 @@
+// ext-standards-us-core-profiles-us-core-questionnaireresponse
+// Topic: US Core QuestionnaireResponse Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-questionnaireresponse
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-questionnaireresponse
+
+[[ext-standards-us-core-profiles-us-core-questionnaireresponse]]
+= US Core QuestionnaireResponse Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-questionnaireresponse`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse
+| Kind          | `resource`
+| Type          | `QuestionnaireResponse`
+| Base definition | http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-questionnaireresponse.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core QuestionaireResponse Profile inherits from the [Structured Data Capture (SDC) Questionnaire Response Profile](http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaireresponse.html). This profile sets minimum expectations for the QuestionnaireResponse resource to record, search, and fetch retrieve captures the responses to form/survey and assessment tools such as the *Protocol for Responding to and Assessing Patients\u2019 Assets, Risks, and Experiences (PRAPARE) Survey*. It specifies which core *additional* elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Before reviewing this profile, implementers are encouraged to read the Screening and Assessments guidance page, which documents the process of recording responses and capturing assertions/determinations resulting from surveys and questionnaires.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `QuestionnaireResponse` |  |  | US Core Profile based on SDC QuestionnaireResponse
+| `QuestionnaireResponse.questionnaire` |  |  | 
+| `QuestionnaireResponse.questionnaire.extension` | 0 | 1 | The location where a non-FHIR questionnaire/survey form can be found.
+| `QuestionnaireResponse.status` |  |  | 
+| `QuestionnaireResponse.subject` | 1 |  | 
+| `QuestionnaireResponse.authored` |  |  | 
+| `QuestionnaireResponse.author` |  |  | 
+| `QuestionnaireResponse.item` |  |  | 
+| `QuestionnaireResponse.item.linkId` |  |  | 
+| `QuestionnaireResponse.item.answer.value[x]` | 0 | 1 | 
+|===
+

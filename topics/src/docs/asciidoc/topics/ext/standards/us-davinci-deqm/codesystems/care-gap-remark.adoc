@@ -1,0 +1,48 @@
+// ext-standards-us-davinci-deqm-codesystems-care-gap-remark
+// Topic: Care Gap Remark Code System (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-codesystems-care-gap-remark
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, codesystem, care-gap-remark
+
+[[ext-standards-us-davinci-deqm-codesystems-care-gap-remark]]
+= Care Gap Remark Code System
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `care-gap-remark`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/CodeSystem/care-gap-remark
+| Content       | `complete`
+| Concept count | `8`
+| Source file   | `package/CodeSystem-care-gap-remark.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This is a code system for Care Gap Remark
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `order-placed` | Order placed
+| `satisfied-in-EHR` | Satisfied in EHR
+| `out-of-range` | Out of range
+| `patient-refused` | Patient refused
+| `rejected` | Rejected
+| `suppressed` | Suppressed
+| `not-assessed` | Not assessed
+| `not-ingested` | Not ingested
+|===
+

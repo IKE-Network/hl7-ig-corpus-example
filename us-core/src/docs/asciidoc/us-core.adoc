@@ -1,25 +1,41 @@
-= US Core (Reconstructed from Corpus)
+= US Core
 :doctype: book
 :toc: left
-:toclevels: 3
+:toclevels: 2
 :sectnums:
-:sectnumlevels: 3
+:sectnumlevels: 2
 :source-highlighter: rouge
 :icons: font
 :author: IKE Network
 :topics: {generated}/topics-asciidoc
 
-// Per-IG assembly — reconstructs US Core from its ingested topic
-// fragments. Placeholder until US Core ingestion lands; framing
-// included so the module builds cleanly today.
+[preface]
+== About This Assembly
 
-== About this assembly
+This is the per-IG reconstruction of the HL7 US Core Implementation
+Guide as ingested into the corpus by the `ingest/` module.
+
+Source IG: HL7 US Core Implementation Guide,
+version 8.0.1
+(http://hl7.org/fhir/us/core).
+
+Ingested content:
+
+- 68 StructureDefinitions (profiles, extensions)
+- 21 ValueSets
+- 5 CodeSystems
+
+Per IKE-INGEST.md §"External Source Ingestion" content-handling
+rules for *Standards* sources, every fragment in this assembly is
+a fair-use summary in the project's voice. HL7 IGs are copyrighted;
+this assembly is not a republication of the source.
+
+== Corpus framing
 
 include::{topics}/topics/intro/corpus-overview.adoc[leveloffset=+1]
 
 include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
 
-// == Ingested US Core Content
-//
-// Populated by include::{topics}/topics/ext/standards/us-core/*.adoc[]
-// once the ingest module's US Core run lands.
+== Ingested US Core content
+
+include::{topics}/topics/ext/standards/us-core/_includes.adoc[leveloffset=+1]

@@ -1,0 +1,43 @@
+// ext-standards-us-core-valuesets-us-core-servicerequest-category
+// Topic: US Core ServiceRequest Category Codes (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-servicerequest-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-servicerequest-category
+
+[[ext-standards-us-core-valuesets-us-core-servicerequest-category]]
+= US Core ServiceRequest Category Codes
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-servicerequest-category`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-servicerequest-category
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-servicerequest-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+A set of SNOMED CT and LOINC concepts to classify a requested service
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://hl7.org/fhir/us/core/CodeSystem/us-core-category | (unspecified)
+| http://snomed.info/sct | 2 concepts
+|  | (unspecified)
+|===
+

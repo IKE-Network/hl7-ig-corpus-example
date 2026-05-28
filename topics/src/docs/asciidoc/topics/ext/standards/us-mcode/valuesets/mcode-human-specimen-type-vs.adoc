@@ -1,0 +1,41 @@
+// ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs
+// Topic: Human Specimen Type Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-human-specimen-type-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs]]
+= Human Specimen Type Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-human-specimen-type-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-human-specimen-type-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-human-specimen-type-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Specimen taken from a human subject. The values include the subset of codes in the HL7 Specimen Type code system (https://terminology.hl7.org/CodeSystem-v2-0487.html) representing body sites and body fluids likely to be used in tumor marker or genomic testing. The most specific term available should be used, for example, for arterial blood, use #BLDA not #BLD.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://terminology.hl7.org/CodeSystem/v2-0487 | 33 concepts
+|===
+

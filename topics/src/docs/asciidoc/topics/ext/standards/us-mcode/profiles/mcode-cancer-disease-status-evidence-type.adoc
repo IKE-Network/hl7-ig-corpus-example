@@ -1,0 +1,47 @@
+// ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type
+// Topic: Cancer Disease Status Evidence Type Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-cancer-disease-status-evidence-type
+
+[[ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type]]
+= Cancer Disease Status Evidence Type Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-cancer-disease-status-evidence-type`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status-evidence-type
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-cancer-disease-status-evidence-type.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Categorization of the kind of evidence contributing to a clinical judgment on cancer disease progression.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` |  |  | Cancer Disease Status Evidence Type Extension
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 1 |  | 
+|===
+

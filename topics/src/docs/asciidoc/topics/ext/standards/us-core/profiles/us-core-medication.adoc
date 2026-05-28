@@ -1,0 +1,45 @@
+// ext-standards-us-core-profiles-us-core-medication
+// Topic: US Core Medication Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-medication
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-medication
+
+[[ext-standards-us-core-profiles-us-core-medication]]
+= US Core Medication Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-medication`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication
+| Kind          | `resource`
+| Type          | `Medication`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Medication
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-medication.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Medication Profile inherits from the FHIR [Medication](https://hl7.org/fhir/R4/medication.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Medication resource to record, search, and fetch medications associated with a patient. When referencing a medication, the MedicationRequest resource can use a code or refer to this profile. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Medication` |  |  | 
+| `Medication.code` | 1 |  | 
+|===
+

@@ -1,0 +1,42 @@
+// ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs
+// Topic: Condition Status Trend Maximum Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-condition-status-trend-max-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs]]
+= Condition Status Trend Maximum Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-condition-status-trend-max-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-condition-status-trend-max-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-condition-status-trend-max-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Like the ConditionStatusTrendVS, but includes two additional deprecated codes. Codes from the SNOMED CT disorder hierarchy were less than ideal because the value of an Observation should be either a finding or a qualifier (see https://confluence.ihtsdotools.org/display/FHIR/Observation+binding for details).
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+|  | (unspecified)
+| http://snomed.info/sct | 9 concepts
+|===
+

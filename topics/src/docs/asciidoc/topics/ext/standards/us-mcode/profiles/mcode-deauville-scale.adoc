@@ -1,0 +1,53 @@
+// ext-standards-us-mcode-profiles-mcode-deauville-scale
+// Topic: Deauville Scale Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-deauville-scale
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-deauville-scale
+
+[[ext-standards-us-mcode-profiles-mcode-deauville-scale]]
+= Deauville Scale Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-deauville-scale`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-deauville-scale
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-deauville-scale.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Profile for Deauville Scale. A 5 point scale devised to assess the response to treatment of Hodgkin and aggressive Non-Hodgkin lymphoma.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.basedOn` |  |  | 
+| `Observation.partOf` |  |  | 
+| `Observation.code` |  |  | 
+| `Observation.subject` |  |  | 
+| `Observation.focus` |  |  | The cancer condition associated with the Deauville Score
+| `Observation.performer` |  |  | 
+| `Observation.value[x]` |  |  | 
+| `Observation.interpretation` |  |  | 
+| `Observation.specimen` |  |  | Not used in this profile
+|===
+

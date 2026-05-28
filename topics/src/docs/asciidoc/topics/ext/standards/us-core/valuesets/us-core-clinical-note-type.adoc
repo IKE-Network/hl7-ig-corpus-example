@@ -1,0 +1,41 @@
+// ext-standards-us-core-valuesets-us-core-clinical-note-type
+// Topic: US Core Clinical Note Type (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-clinical-note-type
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-clinical-note-type
+
+[[ext-standards-us-core-valuesets-us-core-clinical-note-type]]
+= US Core Clinical Note Type
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-clinical-note-type`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-clinical-note-type
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-clinical-note-type.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Clinical Note Type Value Set is a 'starter set' of types supported for fetching and storing clinical notes.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://loinc.org | 10 concepts
+|===
+

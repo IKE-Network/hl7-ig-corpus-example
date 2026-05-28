@@ -1,0 +1,56 @@
+// ext-standards-us-mcode-profiles-mcode-ecog-performance-status
+// Topic: ECOG Performance Status Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-ecog-performance-status
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-ecog-performance-status
+
+[[ext-standards-us-mcode-profiles-mcode-ecog-performance-status]]
+= ECOG Performance Status Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-ecog-performance-status`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-ecog-performance-status
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-ecog-performance-status.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+The Eastern Cooperative Oncology Group (ECOG) Performance Status represents the patient's functional status and is used to determine their ability to tolerate therapies in serious illness, specifically for chemotherapy. (Definition from: [LOINC](https://loinc.org/89262-0/))
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.basedOn` |  |  | 
+| `Observation.partOf` |  |  | 
+| `Observation.code` |  |  | 
+| `Observation.subject` |  |  | 
+| `Observation.effective[x]` |  |  | 
+| `Observation.value[x]` |  |  | 
+| `Observation.interpretation` |  |  | 
+| `Observation.bodySite` |  |  | Not used in this profile
+| `Observation.specimen` |  |  | Not used in this profile
+| `Observation.device` |  |  | Not used in this profile
+| `Observation.hasMember` |  |  | Not used in this profile
+| `Observation.component` |  |  | Not used in this profile
+|===
+

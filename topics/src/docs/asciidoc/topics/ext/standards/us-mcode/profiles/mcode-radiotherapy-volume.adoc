@@ -1,0 +1,53 @@
+// ext-standards-us-mcode-profiles-mcode-radiotherapy-volume
+// Topic: Radiotherapy Volume Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-radiotherapy-volume
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-radiotherapy-volume
+
+[[ext-standards-us-mcode-profiles-mcode-radiotherapy-volume]]
+= Radiotherapy Volume Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-radiotherapy-volume`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume
+| Kind          | `resource`
+| Type          | `BodyStructure`
+| Base definition | http://hl7.org/fhir/StructureDefinition/BodyStructure
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-radiotherapy-volume.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+A volume of the body used in radiotherapy planning or treatment delivery.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `BodyStructure` |  |  | 
+| `BodyStructure.identifier` |  |  | Volume Identifier
+| `BodyStructure.identifier` | 0 | 1 | 
+| `BodyStructure.identifier.use` | 1 |  | 
+| `BodyStructure.identifier.value` | 1 |  | 
+| `BodyStructure.morphology` |  |  | Type of Radiotherapy Volume
+| `BodyStructure.location` |  |  | Body Location Code.
+| `BodyStructure.locationQualifier` |  |  | Qualifiers on location used to specify a TG263 body structure comprising the irradiated volume.
+| `BodyStructure.description` |  |  | Volume Description
+| `BodyStructure.patient` |  |  | 
+|===
+

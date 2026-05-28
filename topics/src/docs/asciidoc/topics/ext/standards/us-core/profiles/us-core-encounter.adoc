@@ -1,0 +1,66 @@
+// ext-standards-us-core-profiles-us-core-encounter
+// Topic: US Core Encounter Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-encounter
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-encounter
+
+[[ext-standards-us-core-profiles-us-core-encounter]]
+= US Core Encounter Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-encounter`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
+| Kind          | `resource`
+| Type          | `Encounter`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Encounter
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-encounter.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Encounter Profile inherits from the FHIR [Encounter](https://hl7.org/fhir/R4/encounter.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Encounter resource to record, search, and fetch basic encounter information for an individual patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Encounter` |  |  | 
+| `Encounter.meta` |  |  | 
+| `Encounter.meta.lastUpdated` |  |  | When the resource last changed
+| `Encounter.extension` | 0 | 1 | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Whether the patient needs an interpreter
+| `Encounter.identifier` |  |  | 
+| `Encounter.identifier.system` | 1 | 1 | 
+| `Encounter.identifier.value` | 1 | 1 | 
+| `Encounter.status` |  |  | 
+| `Encounter.class` |  |  | 
+| `Encounter.type` | 1 |  | 
+| `Encounter.subject` | 1 |  | 
+| `Encounter.participant` |  |  | 
+| `Encounter.participant.type` |  |  | 
+| `Encounter.participant.period` |  |  | 
+| `Encounter.participant.individual` |  |  | 
+| `Encounter.period` |  |  | 
+| `Encounter.reasonCode` |  |  | 
+| `Encounter.reasonReference` |  | * | 
+| `Encounter.hospitalization` |  |  | 
+| `Encounter.hospitalization.dischargeDisposition` |  |  | 
+| `Encounter.location` |  |  | 
+| `Encounter.location.location` |  |  | 
+| `Encounter.serviceProvider` |  |  | 
+|===
+

@@ -1,0 +1,57 @@
+// ext-standards-us-core-profiles-us-core-servicerequest
+// Topic: US Core ServiceRequest Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-servicerequest
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-servicerequest
+
+[[ext-standards-us-core-profiles-us-core-servicerequest]]
+= US Core ServiceRequest Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-servicerequest`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest
+| Kind          | `resource`
+| Type          | `ServiceRequest`
+| Base definition | http://hl7.org/fhir/StructureDefinition/ServiceRequest
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-servicerequest.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core ServiceRequest Profile inherits from the FHIR [ServiceRequest](https://hl7.org/fhir/R4/servicerequest.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for recording, searching, and fetching the ServiceRequest information. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `ServiceRequest` |  |  | 
+| `ServiceRequest.status` |  |  | 
+| `ServiceRequest.intent` |  |  | 
+| `ServiceRequest.category` |  |  | 
+| `ServiceRequest.category` |  |  | 
+| `ServiceRequest.code` | 1 |  | 
+| `ServiceRequest.code.text` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: The name of the test, procedure, or service to be performed.
+| `ServiceRequest.subject` |  |  | 
+| `ServiceRequest.encounter` |  |  | 
+| `ServiceRequest.occurrence[x]` |  |  | 
+| `ServiceRequest.authoredOn` |  |  | 
+| `ServiceRequest.requester` |  |  | 
+| `ServiceRequest.reasonCode` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Explanation/Justification for procedure or service
+| `ServiceRequest.reasonReference` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: US Core Profile that supports the requested service
+|===
+

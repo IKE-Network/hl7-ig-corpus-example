@@ -1,0 +1,51 @@
+// ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
+// Topic: Benign Neoplasm of Brain and CNS Disorder Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs]]
+= Benign Neoplasm of Brain and CNS Disorder Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Types of benign neoplasms and neoplasms of uncertain behavior of the brain and central nervous system, coded in SNOMED CT or ICD-10-CM.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://snomed.info/sct | with filter
+| http://hl7.org/fhir/sid/icd-10-cm | 29 concepts
+|===
+

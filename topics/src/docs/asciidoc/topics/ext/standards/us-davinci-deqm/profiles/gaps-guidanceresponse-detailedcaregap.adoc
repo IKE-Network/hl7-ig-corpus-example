@@ -1,0 +1,46 @@
+// ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap
+// Topic: Detailed Care Gap Guidance Response (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, gaps-guidanceresponse-detailedcaregap
+
+[[ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap]]
+= Detailed Care Gap Guidance Response
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `gaps-guidanceresponse-detailedcaregap`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/gaps-guidanceresponse-detailedcaregap
+| Kind          | `resource`
+| Type          | `GuidanceResponse`
+| Base definition | http://hl7.org/fhir/StructureDefinition/GuidanceResponse
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-gaps-guidanceresponse-detailedcaregap.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Derived from the GuidanceResponse resource, the Detailed Care Gap Guidance Response profile supports the functionality of providing reason for guidance and detailed guidance to help address care gaps and close open gaps.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `GuidanceResponse.reasonCode` |  |  | 
+| `GuidanceResponse.reasonCode.extension` | 0 | 1 | Which data element attribute is the cause of the care gap
+| `GuidanceResponse.dataRequirement.extension` | 0 | * | What values are expected
+|===
+

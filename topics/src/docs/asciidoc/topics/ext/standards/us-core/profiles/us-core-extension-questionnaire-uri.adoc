@@ -1,0 +1,46 @@
+// ext-standards-us-core-profiles-us-core-extension-questionnaire-uri
+// Topic: US Core Extension Questionnaire URI (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-extension-questionnaire-uri
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-extension-questionnaire-uri
+
+[[ext-standards-us-core-profiles-us-core-extension-questionnaire-uri]]
+= US Core Extension Questionnaire URI
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-extension-questionnaire-uri`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-extension-questionnaire-uri
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-extension-questionnaire-uri.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The location where a non-FHIR questionnaire/survey form can be found. This extension is used when the survey, form, or questionnaire which is being answered is not a FHIR [Questionnaire](https://www.hl7.org/fhir/questionnaire.html), otherwise the [canonical url](https://www.hl7.org/fhir/references.html#canonical) for the FHIR Questionnaire is used.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | The location where a non-FHIR questionnaire/survey form can be found.
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+|===
+

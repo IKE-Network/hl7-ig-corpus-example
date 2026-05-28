@@ -1,0 +1,57 @@
+// ext-standards-us-mcode-profiles-mcode-genomics-report
+// Topic: Genomics Report Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-genomics-report
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-genomics-report
+
+[[ext-standards-us-mcode-profiles-mcode-genomics-report]]
+= Genomics Report Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-genomics-report`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genomics-report
+| Kind          | `resource`
+| Type          | `DiagnosticReport`
+| Base definition | http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomics-report
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-genomics-report.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Genomic analysis summary report. The report may include one or more tests, with two distinct test types. The first type is a targeted mutation test, where a specific mutation on a specific gene is tested for. The result is either positive or negative for that mutation. The second type is a more general test for variants. This type of test returns the identity of variants found in a certain region of the genome.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `DiagnosticReport` |  |  | 
+| `DiagnosticReport.status` |  |  | 
+| `DiagnosticReport.category` |  |  | 
+| `DiagnosticReport.category` |  |  | 
+| `DiagnosticReport.category.coding` |  | 1 | 
+| `DiagnosticReport.code` |  |  | 
+| `DiagnosticReport.subject` |  |  | 
+| `DiagnosticReport.effective[x]` |  |  | 
+| `DiagnosticReport.issued` |  |  | 
+| `DiagnosticReport.performer` |  |  | 
+| `DiagnosticReport.specimen` |  |  | 
+| `DiagnosticReport.result` |  |  | 
+| `DiagnosticReport.result` |  |  | 
+| `DiagnosticReport.result` |  |  | 
+|===
+

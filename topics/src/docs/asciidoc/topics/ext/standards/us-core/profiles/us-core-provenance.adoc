@@ -1,0 +1,55 @@
+// ext-standards-us-core-profiles-us-core-provenance
+// Topic: US Core Provenance Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-provenance
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-provenance
+
+[[ext-standards-us-core-profiles-us-core-provenance]]
+= US Core Provenance Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-provenance`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance
+| Kind          | `resource`
+| Type          | `Provenance`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Provenance
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-provenance.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Provenance Profile inherits from the FHIR [Provenance](https://hl7.org/fhir/R4/provenance.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Provenance resource to record, search, and fetch provenance information associated with a record. It covers the minimal (basic) information to support lineage of information. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Before reviewing this profile, implementers are encouraged to read the Basic Provenance guidance page, which documents several key use cases, specifically, the organization responsible for the most recent action on the resource.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Provenance` |  |  | US Core Provenance
+| `Provenance.target` |  |  | The Resource this Provenance record supports
+| `Provenance.target.reference` |  |  | 
+| `Provenance.recorded` |  |  | Timestamp when the activity was recorded / updated
+| `Provenance.agent` |  |  | 
+| `Provenance.agent.type` |  |  | 
+| `Provenance.agent.who` |  |  | 
+| `Provenance.agent.onBehalfOf` |  |  | 
+| `Provenance.agent` |  | * | 
+| `Provenance.agent.type` | 1 |  | 
+| `Provenance.agent` |  |  | 
+| `Provenance.agent.type` | 1 |  | 
+|===
+

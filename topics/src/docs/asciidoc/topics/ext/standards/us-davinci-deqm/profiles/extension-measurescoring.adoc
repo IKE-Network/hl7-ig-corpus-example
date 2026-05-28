@@ -1,0 +1,47 @@
+// ext-standards-us-davinci-deqm-profiles-extension-measurescoring
+// Topic: DEQM Measure Scoring Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-measurescoring
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-measurescoring
+
+[[ext-standards-us-davinci-deqm-profiles-extension-measurescoring]]
+= DEQM Measure Scoring Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-measureScoring`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-measureScoring.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Indicates how the calculation is performed for the measure, including proportion, ratio, continuous-variable, and cohort. The value set is extensible, allowing additional measure scoring types to be represented. It is expected to be the same as the scoring element on the referenced Measure
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+| `Extension.valueCodeableConcept` | 1 | 1 | 
+|===
+

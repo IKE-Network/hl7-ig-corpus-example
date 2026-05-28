@@ -1,0 +1,56 @@
+// ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status
+// Topic: Lansky Play Performance Status Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-lansky-play-performance-status
+
+[[ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status]]
+= Lansky Play Performance Status Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-lansky-play-performance-status`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-lansky-play-performance-status
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-lansky-play-performance-status.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+The Lansky Play-Performance Status for children is a parent-rated instrument which records usual play activity as the index of performance. It is similar to the Karnofsky Performance Scale for adults (Definition from: [NCI Thesaurus](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C38144&ns=ncit)).
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.basedOn` |  |  | 
+| `Observation.partOf` |  |  | 
+| `Observation.code` |  |  | 
+| `Observation.subject` |  |  | 
+| `Observation.effective[x]` |  |  | 
+| `Observation.value[x]` |  |  | 
+| `Observation.interpretation` |  |  | 
+| `Observation.bodySite` |  |  | Not used in this profile
+| `Observation.specimen` |  |  | Not used in this profile
+| `Observation.device` |  |  | Not used in this profile
+| `Observation.hasMember` |  |  | Not used in this profile
+| `Observation.component` |  |  | Not used in this profile
+|===
+

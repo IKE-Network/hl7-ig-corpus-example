@@ -1,0 +1,47 @@
+// ext-standards-us-mcode-profiles-mcode-laterality-qualifier
+// Topic: Laterality Qualifier Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-laterality-qualifier
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-laterality-qualifier
+
+[[ext-standards-us-mcode-profiles-mcode-laterality-qualifier]]
+= Laterality Qualifier Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-laterality-qualifier`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-laterality-qualifier
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-laterality-qualifier.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Qualifier to specify laterality.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` |  |  | Laterality Qualifier Extension
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 1 |  | 
+|===
+

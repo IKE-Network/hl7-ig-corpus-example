@@ -1,0 +1,42 @@
+// ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category
+// Topic: US Core Screening Assessment Observation Category (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-screening-assessment-observation-category
+
+[[ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category]]
+= US Core Screening Assessment Observation Category
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-screening-assessment-observation-category`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-screening-assessment-observation-category
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-screening-assessment-observation-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+This value set is the minimum value set of category codes used in the US Core Observation Screening Assessment and Simple Observation Profiles that any conformant system **SHALL** support to help identify the type of USCDI Health Status/Assessment data class being reported.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://hl7.org/fhir/us/core/CodeSystem/us-core-category | 4 concepts
+| http://terminology.hl7.org/CodeSystem/observation-category | 2 concepts
+|===
+

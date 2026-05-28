@@ -1,0 +1,57 @@
+// ext-standards-us-mcode-profiles-mcode-comorbidities
+// Topic: Comorbidities Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-comorbidities
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-comorbidities
+
+[[ext-standards-us-mcode-profiles-mcode-comorbidities]]
+= Comorbidities Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-comorbidities`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbidities
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-comorbidities.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+General structure for capturing comorbid conditions with respect to a primary ('index') condition. The user can use this profile in three ways: (1) free-form, listing any conditions they wish to highlight as significant comorbidities, (2) following a formal paradigm such as the Charlson Comorbidity Index or the NCI Comorbidity Index, or (3) use disease categories defined for registry reporting purposes, such as those defined by Center for International Blood and Marrow Transplant Research (CIBMTR).
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.extension` |  |  | 
+| `Observation.extension` | 0 | * | 
+| `Observation.extension` | 0 | * | 
+| `Observation.code` |  |  | 
+| `Observation.subject` |  |  | 
+| `Observation.focus` |  |  | The Index Condition
+| `Observation.value[x]` |  |  | 
+| `Observation.bodySite` |  |  | Not used in this profile
+| `Observation.method` |  |  | Comorbidity framework used.
+| `Observation.specimen` |  |  | Not used in this profile
+| `Observation.device` |  |  | Not used in this profile
+| `Observation.hasMember` |  |  | Not used in this profile
+| `Observation.component` |  |  | Not used in this profile
+|===
+

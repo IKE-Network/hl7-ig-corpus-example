@@ -1,0 +1,42 @@
+// ext-standards-us-core-valuesets-us-core-specimen-condition
+// Topic: US Core Specimen Condition (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-specimen-condition
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-specimen-condition
+
+[[ext-standards-us-core-valuesets-us-core-specimen-condition]]
+= US Core Specimen Condition
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-specimen-condition`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-specimen-condition
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-specimen-condition.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+This value set contains concepts the provide information regarding a specimen, including the container, that does not meet a laboratory’s criteria for acceptability.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+|  | (unspecified)
+|  | (unspecified)
+|===
+

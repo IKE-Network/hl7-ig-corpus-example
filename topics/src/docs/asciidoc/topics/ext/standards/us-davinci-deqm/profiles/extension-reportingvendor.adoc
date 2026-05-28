@@ -1,0 +1,46 @@
+// ext-standards-us-davinci-deqm-profiles-extension-reportingvendor
+// Topic: DEQM Reporting Vendor Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-reportingvendor
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-reportingvendor
+
+[[ext-standards-us-davinci-deqm-profiles-extension-reportingvendor]]
+= DEQM Reporting Vendor Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-reportingVendor`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-reportingVendor
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-reportingVendor.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+A reference to the vendor who queried the data, calculated results and/or generated the report. The 'reporting vendor' is intended to represent the submitting entity when it is not the same as the reporting entity. This extension is used when the Receiver is interested in getting vendor information in the report.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | Vendor information
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+|===
+

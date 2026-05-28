@@ -1,0 +1,46 @@
+// ext-standards-us-davinci-deqm-profiles-extension-datalocation
+// Topic: DEQM Data Location Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-datalocation
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-datalocation
+
+[[ext-standards-us-davinci-deqm-profiles-extension-datalocation]]
+= DEQM Data Location Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-dataLocation`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-dataLocation.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Location from which reported data was gathered. This extension is used to provide the location(s) from which reported data was gathered in a MeasureReport, such as individual, summary and data exchange measure report.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | * | Location(s) from which reported data was gathered
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+|===
+

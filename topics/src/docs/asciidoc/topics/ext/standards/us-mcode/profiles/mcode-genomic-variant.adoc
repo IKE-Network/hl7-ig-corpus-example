@@ -1,0 +1,98 @@
+// ext-standards-us-mcode-profiles-mcode-genomic-variant
+// Topic: Genomic Variant Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-genomic-variant
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-genomic-variant
+
+[[ext-standards-us-mcode-profiles-mcode-genomic-variant]]
+= Genomic Variant Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-genomic-variant`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genomic-variant
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-genomic-variant.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Details about a set of changes in the tested sample compared to a reference sequence. The term variant can be used to describe an alteration that may be benign, pathogenic, or of unknown significance. The term variant is increasingly being used in place of the term mutation. Variants can be computed relative to reference sequence assembly from which it was identified.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.status` |  |  | 
+| `Observation.category` |  |  | 
+| `Observation.category` |  |  | 
+| `Observation.category.coding` |  | 1 | 
+| `Observation.code` |  |  | 
+| `Observation.subject` |  |  | 
+| `Observation.effective[x]` |  |  | 
+| `Observation.effective[x]` | 0 | 1 | 
+| `Observation.value[x]` |  |  | 
+| `Observation.dataAbsentReason` |  |  | 
+| `Observation.method` |  |  | 
+| `Observation.specimen` |  |  | 
+| `Observation.referenceRange` |  |  | Not used in this profile
+| `Observation.hasMember` |  |  | Not used in this profile
+| `Observation.component` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+|===
+

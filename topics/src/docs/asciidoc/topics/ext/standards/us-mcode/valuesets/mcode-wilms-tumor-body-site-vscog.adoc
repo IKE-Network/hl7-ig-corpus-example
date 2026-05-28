@@ -1,0 +1,41 @@
+// ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog
+// Topic: Wilms Tumor Body Site Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-wilms-tumor-body-site-vscog
+
+[[ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog]]
+= Wilms Tumor Body Site Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-wilms-tumor-body-site-vsCOG`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-wilms-tumor-body-site-vsCOG
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-wilms-tumor-body-site-vsCOG.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Codes indicating the location of the Wilms Tumor.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://snomed.info/sct | 2 concepts
+|===
+

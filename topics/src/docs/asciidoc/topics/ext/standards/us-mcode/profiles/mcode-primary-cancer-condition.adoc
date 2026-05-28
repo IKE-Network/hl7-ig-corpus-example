@@ -1,0 +1,54 @@
+// ext-standards-us-mcode-profiles-mcode-primary-cancer-condition
+// Topic: Primary Cancer Condition Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-primary-cancer-condition
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-primary-cancer-condition
+
+[[ext-standards-us-mcode-profiles-mcode-primary-cancer-condition]]
+= Primary Cancer Condition Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-primary-cancer-condition`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-primary-cancer-condition
+| Kind          | `resource`
+| Type          | `Condition`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-primary-cancer-condition.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Records the primary cancer condition, the original or first neoplasm in the body (Definition from: [NCI Dictionary of Cancer Terms](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/primary-tumor)). Cancers that are not clearly secondary (i.e., of uncertain origin or behavior) should be documented as primary.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Condition.extension` |  |  | 
+| `Condition.extension` | 0 | 1 | 
+| `Condition.code` |  |  | 
+| `Condition.bodySite` |  |  | 
+| `Condition.bodySite.extension` | 0 | * | General location qualifier (excluding laterality) for this bodySite
+| `Condition.bodySite.extension` | 0 | 1 | Laterality qualifier for this bodySite
+| `Condition.stage` |  |  | 
+| `Condition.stage.summary` |  |  | Stage at time of last staging.
+| `Condition.stage.assessment` |  |  | 
+| `Condition.stage.type` |  |  | The type of stage Staging system or method used.
+| `Condition.evidence.code` |  |  | 
+|===
+

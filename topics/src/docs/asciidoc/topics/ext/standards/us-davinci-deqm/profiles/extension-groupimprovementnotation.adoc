@@ -1,0 +1,47 @@
+// ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation
+// Topic: DEQM Group Improvement Notation Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-groupimprovementnotation
+
+[[ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation]]
+= DEQM Group Improvement Notation Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-groupImprovementNotation`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-groupImprovementNotation
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-groupImprovementNotation.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Indicates whether improvement in the measure group is noted by an increase or decrease in the measure score.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+| `Extension.valueCodeableConcept` | 0 | 1 | 
+|===
+

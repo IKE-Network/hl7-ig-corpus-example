@@ -1,0 +1,54 @@
+// ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure
+// Topic: Cancer-Related Surgical Procedure Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-cancer-related-surgical-procedure
+
+[[ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure]]
+= Cancer-Related Surgical Procedure Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-cancer-related-surgical-procedure`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-surgical-procedure
+| Kind          | `resource`
+| Type          | `Procedure`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-cancer-related-surgical-procedure.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+A surgical action addressing a cancer condition. The scope of this profile has been narrowed to cancer-related procedures by constraining the reasonReference and reasonCode to cancer conditions, one of which is required. If a procedure occurs that is NOT a surgical procedure, use the US Core Procedure profile.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Procedure` |  |  | 
+| `Procedure.extension` |  |  | 
+| `Procedure.extension` | 0 | 1 | 
+| `Procedure.code` |  |  | 
+| `Procedure.subject` |  |  | 
+| `Procedure.reasonCode` |  |  | 
+| `Procedure.reasonReference` |  |  | 
+| `Procedure.bodySite` |  |  | 
+| `Procedure.bodySite.extension` |  |  | 
+| `Procedure.bodySite.extension` | 0 | * | General location qualifier (excluding laterality) for this bodySite
+| `Procedure.bodySite.extension` | 0 | 1 | Laterality qualifier for this bodySite
+|===
+

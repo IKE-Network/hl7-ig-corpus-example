@@ -1,0 +1,41 @@
+// ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes
+// Topic: US Core Non Laboratory Codes (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-diagnosticreport-report-and-note-codes
+
+[[ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes]]
+= US Core Non Laboratory Codes
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-diagnosticreport-report-and-note-codes`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-diagnosticreport-report-and-note-codes.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+This value set includes All LOINC codes defined as type "clinical," therefore excluding laboratory tests, survey instruments, and claims documents. This includes observables such as vital signs, hemodynamics, intake/output, EKG, obstetric ultrasound, and cardiac echo, and includes discrete and narrative diagnostic observations and reports.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://loinc.org | with filter
+|===
+

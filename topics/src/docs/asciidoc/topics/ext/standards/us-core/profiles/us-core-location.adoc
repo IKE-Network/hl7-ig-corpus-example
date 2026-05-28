@@ -1,0 +1,58 @@
+// ext-standards-us-core-profiles-us-core-location
+// Topic: US Core Location Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-location
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-location
+
+[[ext-standards-us-core-profiles-us-core-location]]
+= US Core Location Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-location`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
+| Kind          | `resource`
+| Type          | `Location`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Location
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-location.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Location Profile inherits from the FHIR [Location](https://hl7.org/fhir/R4/location.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Location resource for recording, searching, and fetching a "physical place of available services or resources." It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Location` |  |  | 
+| `Location.identifier` |  |  | Unique business identifier for facility or location.
+| `Location.status` |  |  | 
+| `Location.name` | 1 |  | Name by which a facility or location is known.
+| `Location.type` |  |  | Category of service or resource available in a location.
+| `Location.type.coding` | 1 |  | 
+| `Location.type.coding.system` | 1 |  | 
+| `Location.type.coding.code` | 1 |  | 
+| `Location.telecom` |  |  | 
+| `Location.address` |  |  | 
+| `Location.address.line` |  | * | 
+| `Location.address.city` |  |  | 
+| `Location.address.state` |  |  | 
+| `Location.address.postalCode` |  |  | US Zip Codes
+| `Location.managingOrganization` |  |  | 
+|===
+

@@ -1,0 +1,41 @@
+// ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs
+// Topic: Teleradiotherapy Modality Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-teleradiotherapy-modality-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs]]
+= Teleradiotherapy Modality Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-teleradiotherapy-modality-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-teleradiotherapy-modality-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-teleradiotherapy-modality-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Codes describing the modalities of teleradiotherapy (external beam) procedures.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://snomed.info/sct | 5 concepts
+|===
+

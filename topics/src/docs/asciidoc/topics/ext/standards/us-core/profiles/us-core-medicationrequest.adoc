@@ -1,0 +1,66 @@
+// ext-standards-us-core-profiles-us-core-medicationrequest
+// Topic: US Core MedicationRequest Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-medicationrequest
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-medicationrequest
+
+[[ext-standards-us-core-profiles-us-core-medicationrequest]]
+= US Core MedicationRequest Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-medicationrequest`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest
+| Kind          | `resource`
+| Type          | `MedicationRequest`
+| Base definition | http://hl7.org/fhir/StructureDefinition/MedicationRequest
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-medicationrequest.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core MedicationRequest Profile inherits from the FHIR [MedicationRequest](https://hl7.org/fhir/R4/medicationrequest.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the [U.S. Core Data for Interoperability (USCDI)](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi) *Medications* Data Class. This profile sets minimum expectations for the MedicationRequest resource to record, search, and fetch a patient's medication prescriptions or orders. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `MedicationRequest` |  |  | 
+| `MedicationRequest.extension` | 0 | * | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: US Core Medication Adherence Extension
+| `MedicationRequest.status` |  |  | 
+| `MedicationRequest.intent` |  |  | 
+| `MedicationRequest.category` |  |  | 
+| `MedicationRequest.category` |  |  | 
+| `MedicationRequest.reported[x]` |  |  | 
+| `MedicationRequest.medication[x]` |  |  | 
+| `MedicationRequest.subject` |  |  | 
+| `MedicationRequest.encounter` |  |  | 
+| `MedicationRequest.authoredOn` |  |  | 
+| `MedicationRequest.requester` |  |  | 
+| `MedicationRequest.reasonCode` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Reason or indication for ordering or not ordering the medication
+| `MedicationRequest.reasonReference` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: US Core Condition or Observation that supports the prescription
+| `MedicationRequest.dosageInstruction` |  |  | 
+| `MedicationRequest.dosageInstruction.text` |  |  | 
+| `MedicationRequest.dosageInstruction.timing` |  |  | 
+| `MedicationRequest.dosageInstruction.route` |  |  | 
+| `MedicationRequest.dosageInstruction.doseAndRate` |  |  | 
+| `MedicationRequest.dosageInstruction.doseAndRate.dose[x]` |  |  | Amount of medication per dose
+| `MedicationRequest.dispenseRequest` |  |  | 
+| `MedicationRequest.dispenseRequest.numberOfRepeatsAllowed` |  |  | 
+| `MedicationRequest.dispenseRequest.quantity` |  |  | 
+|===
+

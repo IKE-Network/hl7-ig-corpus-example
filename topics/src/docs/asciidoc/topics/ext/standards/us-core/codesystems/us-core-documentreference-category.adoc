@@ -1,0 +1,41 @@
+// ext-standards-us-core-codesystems-us-core-documentreference-category
+// Topic: US Core DocumentReferences Category Codes (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-codesystems-us-core-documentreference-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, codesystem, us-core-documentreference-category
+
+[[ext-standards-us-core-codesystems-us-core-documentreference-category]]
+= US Core DocumentReferences Category Codes
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `us-core-documentreference-category`
+| Canonical URL | http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category
+| Content       | `complete`
+| Concept count | `1`
+| Source file   | `package/CodeSystem-us-core-documentreference-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core DocumentReferences Type Code System is a 'starter set' of categories supported for fetching and storing DocumentReference Resources.
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `clinical-note` | Clinical Note
+|===
+

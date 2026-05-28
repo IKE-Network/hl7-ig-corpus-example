@@ -1,0 +1,42 @@
+// ext-standards-us-core-valuesets-us-core-provenance-participant-type
+// Topic: US Core Provenance Participant Type Codes (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-provenance-participant-type
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-provenance-participant-type
+
+[[ext-standards-us-core-valuesets-us-core-provenance-participant-type]]
+= US Core Provenance Participant Type Codes
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-provenance-participant-type`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-provenance-participant-type
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-provenance-participant-type.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The type of participation a provenance agent played for a given target.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type | (unspecified)
+| http://terminology.hl7.org/CodeSystem/provenance-participant-type | (unspecified)
+|===
+

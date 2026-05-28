@@ -1,0 +1,41 @@
+// ext-standards-us-core-valuesets-us-core-observation-smoking-status-status
+// Topic: US Core Status for Smoking Status Observation (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-observation-smoking-status-status
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-observation-smoking-status-status
+
+[[ext-standards-us-core-valuesets-us-core-observation-smoking-status-status]]
+= US Core Status for Smoking Status Observation
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-observation-smoking-status-status`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-observation-smoking-status-status
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-observation-smoking-status-status.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+Codes providing the status of an observation for smoking status. Constrained to `final`and `entered-in-error`.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://hl7.org/fhir/observation-status | 2 concepts
+|===
+

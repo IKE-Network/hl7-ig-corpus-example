@@ -1,0 +1,46 @@
+// ext-standards-us-mcode-profiles-mcode-cancer-patient
+// Topic: Cancer Patient Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-cancer-patient
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-cancer-patient
+
+[[ext-standards-us-mcode-profiles-mcode-cancer-patient]]
+= Cancer Patient Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-cancer-patient`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-patient
+| Kind          | `resource`
+| Type          | `Patient`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-cancer-patient.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+A patient who has been diagnosed with or is receiving medical treatment for a malignant growth or tumor. The only difference between CancerPatient and [US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html) is that Patient.deceased is a [must-support](https://www.hl7.org/fhir/profiling.html#mustsupport) element in mCODE. Must-support is an instruction to implementers of FHIR clients and servers, rather than a constraint on data structure. Any Patient resource complying with US Core Patient Profile will also comply with CancerPatient.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Patient` |  |  | 
+| `Patient.extension` |  |  | 
+| `Patient.deceased[x]` |  |  | 
+|===
+

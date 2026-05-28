@@ -1,0 +1,41 @@
+// ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-modifier-vs
+// Topic: Lymphoma Stage Value Modifier Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-modifier-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-lymphoma-stage-value-modifier-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-modifier-vs]]
+= Lymphoma Stage Value Modifier Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-lymphoma-stage-value-modifier-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-lymphoma-stage-value-modifier-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-lymphoma-stage-value-modifier-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Staging modifiers indicating symptoms and extent for lymphomas.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://snomed.info/sct | with filter
+|===
+

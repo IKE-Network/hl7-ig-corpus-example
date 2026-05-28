@@ -1,0 +1,50 @@
+// ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm
+// Topic: DEQM Gaps In Care Detected Issue Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, gaps-detectedissue-deqm
+
+[[ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm]]
+= DEQM Gaps In Care Detected Issue Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `gaps-detectedissue-deqm`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/gaps-detectedissue-deqm
+| Kind          | `resource`
+| Type          | `DetectedIssue`
+| Base definition | http://hl7.org/fhir/StructureDefinition/DetectedIssue
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-gaps-detectedissue-deqm.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+The DEQM Gaps In Care DetectedIssue Profile indicates that the measure reported has an open gap, prospective-gap or a closed gap as identified in the gapStatus modifier extension.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `DetectedIssue` |  |  | 
+| `DetectedIssue.modifierExtension` | 1 | 1 | 
+| `DetectedIssue.code` | 1 |  | 
+| `DetectedIssue.patient` | 1 |  | 
+| `DetectedIssue.evidence` | 1 |  | 
+| `DetectedIssue.evidence.detail` | 1 | 1 | This references either a DEQM Individual MeasureReport or a Detailed Care Gap Guidance Response resource.
+| `DetectedIssue.evidence.detail.extension` | 0 | 1 | 
+|===
+

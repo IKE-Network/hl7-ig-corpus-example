@@ -1,0 +1,52 @@
+// ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm
+// Topic: DEQM Gaps In Care Bundle (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, gaps-bundle-deqm
+
+[[ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm]]
+= DEQM Gaps In Care Bundle
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `gaps-bundle-deqm`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/gaps-bundle-deqm
+| Kind          | `resource`
+| Type          | `Bundle`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Bundle
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-gaps-bundle-deqm.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+The DEQM Gaps In Care Bundle describes a bundle returned by the Measure [care-gaps](OperationDefinition-care-gaps.html) operation. This bundle consists of a document composition for gaps in care and supporting resources referenced by the composition.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Bundle` |  |  | 
+| `Bundle.identifier` | 1 |  | 
+| `Bundle.identifier.system` | 1 |  | 
+| `Bundle.identifier.value` | 1 |  | 
+| `Bundle.type` |  |  | 
+| `Bundle.timestamp` | 1 |  | 
+| `Bundle.entry` | 1 |  | 
+| `Bundle.entry` | 0 | 1 | Contains a composition of gaps in care report for an individual for one or more measures
+| `Bundle.entry.resource` | 1 |  | This Composition uses the DEQM Gaps In Care Composition Profile
+|===
+

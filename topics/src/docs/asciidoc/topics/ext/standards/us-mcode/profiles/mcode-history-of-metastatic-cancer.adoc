@@ -1,0 +1,48 @@
+// ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer
+// Topic: History of Metastatic Cancer (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-history-of-metastatic-cancer
+
+[[ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer]]
+= History of Metastatic Cancer
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-history-of-metastatic-cancer`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-history-of-metastatic-cancer
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-history-of-metastatic-cancer.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Records the existence of a past episode of metastatic cancer, for the purpose of long term management and tracking.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.extension` |  |  | 
+| `Observation.extension` | 0 | * | 
+| `Observation.code` |  |  | 
+| `Observation.value[x]` |  |  | 
+|===
+

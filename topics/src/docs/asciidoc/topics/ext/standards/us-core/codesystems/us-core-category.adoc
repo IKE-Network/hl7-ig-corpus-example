@@ -1,0 +1,46 @@
+// ext-standards-us-core-codesystems-us-core-category
+// Topic: US Core Category (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-codesystems-us-core-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, codesystem, us-core-category
+
+[[ext-standards-us-core-codesystems-us-core-category]]
+= US Core Category
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `us-core-category`
+| Canonical URL | http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+| Content       | `complete`
+| Source file   | `package/CodeSystem-us-core-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+Category codes used across US Core Profiles and resource types. They are typically used when there is a need for categorization for searching and finding resources or workflow hints.
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `sdoh` | SDOH
+| `functional-status` | Functional Status
+| `disability-status` | Disability Status
+| `cognitive-status` | Cognitive Status
+| `treatment-intervention-preference` | Treatment Intervention Preference
+| `care-experience-preference` | Care Experience Preference
+| `observation-adi-documentation` | Observation ADI Documentation
+|===
+

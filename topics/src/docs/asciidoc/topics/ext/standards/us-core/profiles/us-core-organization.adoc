@@ -1,0 +1,61 @@
+// ext-standards-us-core-profiles-us-core-organization
+// Topic: US Core Organization Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-organization
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-organization
+
+[[ext-standards-us-core-profiles-us-core-organization]]
+= US Core Organization Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-organization`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+| Kind          | `resource`
+| Type          | `Organization`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Organization
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-organization.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Organization Profile inherits from the FHIR [Organization](https://hl7.org/fhir/R4/organization.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Organization resource to record, search, and fetch patient or provider organziation information. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Organization` |  |  | 
+| `Organization.identifier` |  |  | 
+| `Organization.identifier.system` |  | 1 | 
+| `Organization.identifier.value` |  | 1 | 
+| `Organization.identifier` |  |  | National Provider Identifier (NPI)
+| `Organization.identifier` |  |  | Clinical Laboratory Improvement Amendments (CLIA) Number for laboratories
+| `Organization.identifier` |  |  | NAIC Code
+| `Organization.active` | 1 |  | 
+| `Organization.name` | 1 |  | 
+| `Organization.telecom` |  |  | 
+| `Organization.telecom.system` |  |  | 
+| `Organization.telecom.value` |  |  | 
+| `Organization.address` |  |  | 
+| `Organization.address.line` |  | 4 | 
+| `Organization.address.city` |  | 1 | 
+| `Organization.address.state` |  | 1 | 
+| `Organization.address.postalCode` |  | 1 | US Zip Codes
+| `Organization.address.country` |  | 1 | 
+|===
+

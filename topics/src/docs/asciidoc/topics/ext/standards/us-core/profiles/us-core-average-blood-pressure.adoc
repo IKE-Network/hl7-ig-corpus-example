@@ -1,0 +1,72 @@
+// ext-standards-us-core-profiles-us-core-average-blood-pressure
+// Topic: US Core Average Blood Pressure Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-average-blood-pressure
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-average-blood-pressure
+
+[[ext-standards-us-core-profiles-us-core-average-blood-pressure]]
+= US Core Average Blood Pressure Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-average-blood-pressure`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-average-blood-pressure.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Average Blood Pressure Profile inherits from the [Observation](https://hl7.org/fobservation.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for recording, searching, and fetching average diastolic and systolic blood pressure observations with standard LOINC codes and UCUM units of measure. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | US Core Average Blood Pressure Profile
+| `Observation.status` |  |  | 
+| `Observation.category` | 1 | * | 
+| `Observation.category` | 1 | 1 | 
+| `Observation.category.coding` | 1 | * | 
+| `Observation.category.coding.system` | 1 | 1 | Identity of the terminology system
+| `Observation.category.coding.code` | 1 | 1 | Symbol in syntax defined by the system
+| `Observation.code` |  |  | Blood Pressure
+| `Observation.subject` | 1 |  | 
+| `Observation.effective[x]` | 1 |  | clinically relevant time-period for the average of blood pressure (BP) readings
+| `Observation.performer` |  |  | 
+| `Observation.value[x]` |  | 0 | 
+| `Observation.component` | 2 | * | Average systolic and diastolic blood pressure and other qualifiers.
+| `Observation.component.value[x]` |  |  | Vital Sign Component Value
+| `Observation.component.dataAbsentReason` |  |  | 
+| `Observation.component` | 1 | 1 | Systolic Average Blood Pressure
+| `Observation.component.code` | 1 | 1 | Systolic Average Blood Pressure Code
+| `Observation.component.valueQuantity` |  |  | Systolic Average Blood Pressure Value
+| `Observation.component.valueQuantity.value` | 1 | 1 | 
+| `Observation.component.valueQuantity.unit` | 1 | 1 | 
+| `Observation.component.valueQuantity.system` | 1 | 1 | 
+| `Observation.component.valueQuantity.code` | 1 | 1 | 
+| `Observation.component` | 1 | 1 | Diastolic Average Blood Pressure
+| `Observation.component.code` | 1 | 1 | Diastolic Average Blood Pressure Code
+| `Observation.component.valueQuantity` |  |  | Diastolic Average Blood Pressure Value
+| `Observation.component.valueQuantity.value` | 1 | 1 | 
+| `Observation.component.valueQuantity.unit` | 1 | 1 | 
+| `Observation.component.valueQuantity.system` | 1 | 1 | 
+| `Observation.component.valueQuantity.code` | 1 | 1 | 
+|===
+

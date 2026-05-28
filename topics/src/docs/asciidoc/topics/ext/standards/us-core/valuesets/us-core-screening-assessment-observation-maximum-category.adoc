@@ -1,0 +1,42 @@
+// ext-standards-us-core-valuesets-us-core-screening-assessment-observation-maximum-category
+// Topic: US Core Screening Assessment Observation Maximum Category (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-screening-assessment-observation-maximum-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-screening-assessment-observation-maximum-category
+
+[[ext-standards-us-core-valuesets-us-core-screening-assessment-observation-maximum-category]]
+= US Core Screening Assessment Observation Maximum Category
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-screening-assessment-observation-maximum-category`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-screening-assessment-observation-maximum-category
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-screening-assessment-observation-maximum-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+This value set is a value set of category codes used in the US Core Observation Screening Assessment that any conformant system **SHOULD** support to help identify the type of USCDI Health Status/Assessment data class being reported.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://hl7.org/fhir/us/core/CodeSystem/us-core-category | (unspecified)
+| http://terminology.hl7.org/CodeSystem/observation-category | (unspecified)
+|===
+

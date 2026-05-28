@@ -1,0 +1,46 @@
+// ext-standards-us-davinci-deqm-profiles-extension-gapstatus
+// Topic: DEQM Gap Status Modifier Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-gapstatus
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-gapstatus
+
+[[ext-standards-us-davinci-deqm-profiles-extension-gapstatus]]
+= DEQM Gap Status Modifier Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-gapStatus`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-gapStatus
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-gapStatus.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Identifies detected care gap status.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | Gap Status
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+|===
+

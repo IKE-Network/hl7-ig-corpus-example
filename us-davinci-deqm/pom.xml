@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Da Vinci DEQM — Per-IG Reconstruction Assembly
+  ══════════════════════════════════════════════════
+
+  Reconstructs the Da Vinci Data Exchange for Quality Measures (DEQM)
+  implementation guide as one document from the topics emitted by
+  the ingest module into
+  topics/src/docs/asciidoc/topics/ext/standards/us-davinci-deqm/.
+
+  Build:
+    mvn clean verify -Dike.pdf.prawn    # Prawn PDF
+    mvn clean verify                    # HTML only
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>us-davinci-deqm</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Da Vinci DEQM (per-IG assembly)</name>
+    <description>
+        Per-IG reconstruction of the Da Vinci Data Exchange for
+        Quality Measures (DEQM) HL7 implementation guide from
+        ingested topic fragments.
+    </description>
+
+    <properties>
+        <pdf.source.document>us-davinci-deqm</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>network.ike.examples</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

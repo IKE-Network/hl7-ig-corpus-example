@@ -1,0 +1,56 @@
+// ext-standards-us-core-profiles-us-core-observation-occupation
+// Topic: US Core Observation Occupation Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-observation-occupation
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-observation-occupation
+
+[[ext-standards-us-core-profiles-us-core-observation-occupation]]
+= US Core Observation Occupation Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-observation-occupation`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-occupation
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-observation-occupation.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Observation Occupation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI) *Occupation* and *Occupation Industry* Data Elements. It sets minimum expectations for the Observation resource to record, search, and fetch a patient's past or present job as occupation and industry, in other words, the type of work and type of business that compensates for work or assigns work to an unpaid worker or volunteer. In the context of this profile, a job is defined as a work situation or a training or volunteer position held for a specified period. This profile specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | Past Or Present Occupation
+| `Observation.status` |  |  | 
+| `Observation.category` |  |  | 
+| `Observation.category` | 0 | 1 | 
+| `Observation.code` |  |  | Occupation history
+| `Observation.subject` | 1 |  | 
+| `Observation.effectivePeriod` |  |  | 
+| `Observation.performer` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Who is responsible for the observation
+| `Observation.valueCodeableConcept` | 1 |  | Coded occupation or text
+| `Observation.component` |  |  | 
+| `Observation.component` | 0 | 1 | Occupation industry
+| `Observation.component.code` |  |  | Occupation industry history
+| `Observation.component.valueCodeableConcept` | 1 |  | Occupation industry or text
+|===
+

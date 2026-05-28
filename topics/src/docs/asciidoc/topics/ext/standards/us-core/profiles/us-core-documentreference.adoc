@@ -1,0 +1,61 @@
+// ext-standards-us-core-profiles-us-core-documentreference
+// Topic: US Core DocumentReference Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-documentreference
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-documentreference
+
+[[ext-standards-us-core-profiles-us-core-documentreference]]
+= US Core DocumentReference Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-documentreference`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference
+| Kind          | `resource`
+| Type          | `DocumentReference`
+| Base definition | http://hl7.org/fhir/StructureDefinition/DocumentReference
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-documentreference.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core DocumentReference Profile inherits from the FHIR [DocumentReference](https://hl7.org/fhir/R4/documentreference.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for searching and fetching patient documents including Clinical Notes using the DocumentReference resource. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption. Before reviewing this profile, implementers are encouraged to read the Clinical Notes Guidance to understand the overlap of the US Core DiagnosticReport Profile for Report and Note exchange and the US Core DocumentReference Profile.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `DocumentReference` |  |  | 
+| `DocumentReference.identifier` |  |  | 
+| `DocumentReference.status` |  |  | 
+| `DocumentReference.type` | 1 |  | 
+| `DocumentReference.category` | 1 |  | 
+| `DocumentReference.category` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Categorization of document
+| `DocumentReference.subject` | 1 |  | 
+| `DocumentReference.date` |  |  | 
+| `DocumentReference.author` |  |  | 
+| `DocumentReference.content` |  |  | 
+| `DocumentReference.content.attachment` |  |  | 
+| `DocumentReference.content.attachment.contentType` |  |  | 
+| `DocumentReference.content.attachment.data` | 0 |  | 
+| `DocumentReference.content.attachment.url` | 0 |  | 
+| `DocumentReference.content.format` |  |  | 
+| `DocumentReference.context` |  |  | 
+| `DocumentReference.context.encounter` |  | 1 | 
+| `DocumentReference.context.period` |  |  | 
+|===
+

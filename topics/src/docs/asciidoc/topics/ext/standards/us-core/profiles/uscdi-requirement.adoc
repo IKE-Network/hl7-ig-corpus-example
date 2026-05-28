@@ -1,0 +1,46 @@
+// ext-standards-us-core-profiles-uscdi-requirement
+// Topic: US Core USCDI Requirement Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-uscdi-requirement
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, uscdi-requirement
+
+[[ext-standards-us-core-profiles-uscdi-requirement]]
+= US Core USCDI Requirement Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `uscdi-requirement`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/uscdi-requirement
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-uscdi-requirement.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+**This extension is only used in the US Core Implementation Guide''s Profile StructureDefinition elements.** It flags elements that are *Additional* USCDI Requirements for certified systems. In other words, elements that are not marked as Must Support but are required for ASTP Health IT certification testing. See the [Conformance page](general-requirements.html) for more information.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | USCDI Requirement Flag: ONLY USED FOR US Core Profile StructureDefinitions
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 1 | 1 | 
+|===
+

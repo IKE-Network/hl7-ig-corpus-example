@@ -1,0 +1,66 @@
+// ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch
+// Topic: Parameters Care Gap Remark Patch Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, parameters-caregap-remark-patch
+
+[[ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch]]
+= Parameters Care Gap Remark Patch Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `parameters-caregap-remark-patch`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/parameters-caregap-remark-patch
+| Kind          | `resource`
+| Type          | `Parameters`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Parameters
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-parameters-caregap-remark-patch.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+A Parameters profile that defines structures of multi-part Parameters to be used for sending [Condition Category Remarks](StructureDefinition-extension-careGapRemark.html) to a [Risk Adjustment Coding Gap Report](https://build.fhir.org/ig/HL7/davinci-ra/StructureDefinition-ra-measurereport.html) using the [PATCH](https://www.hl7.org/fhir/http.html#patch) operation.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Parameters` |  |  | 
+| `Parameters.parameter` |  |  | 
+| `Parameters.parameter` | 0 | * | Patch operation
+| `Parameters.parameter.name` |  |  | 
+| `Parameters.parameter.part` |  |  | 
+| `Parameters.parameter.part` | 1 | 1 | parameter part: type is add
+| `Parameters.parameter.part.name` |  |  | 
+| `Parameters.parameter.part.valueCode` | 1 | 1 | 
+| `Parameters.parameter.part` | 1 | 1 | parameter part: FHIR path
+| `Parameters.parameter.part.name` |  |  | 
+| `Parameters.parameter.part.valueString` | 1 | 1 | 
+| `Parameters.parameter.part` | 1 | 1 | parameter part: name
+| `Parameters.parameter.part.name` |  |  | 
+| `Parameters.parameter.part.valueString` | 1 | 1 | 
+| `Parameters.parameter.part` | 1 | 1 | parameter part: value
+| `Parameters.parameter.part.name` |  |  | 
+| `Parameters.parameter.part.part` | 1 | * | 
+| `Parameters.parameter.part.part` | 1 | 1 | url of the ccRemark extension
+| `Parameters.parameter.part.part.name` |  |  | 
+| `Parameters.parameter.part.part.value[x]` | 1 | 1 | 
+| `Parameters.parameter.part.part` | 1 | 1 | ccRemark content to be added
+| `Parameters.parameter.part.part.name` |  |  | 
+| `Parameters.parameter.part.part.part` | 1 | * | 
+|===
+

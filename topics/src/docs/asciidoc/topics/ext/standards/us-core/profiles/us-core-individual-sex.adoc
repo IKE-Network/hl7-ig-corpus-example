@@ -1,0 +1,46 @@
+// ext-standards-us-core-profiles-us-core-individual-sex
+// Topic: US Core Individual Sex Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-individual-sex
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-individual-sex
+
+[[ext-standards-us-core-profiles-us-core-individual-sex]]
+= US Core Individual Sex Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-individual-sex`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-individual-sex
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-individual-sex.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+USCDI includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with the USCDI definition of Sex: "Documentation of a specific instance of sex." It enables systems to share the sex value as it was documented in a particular context. Systems choosing to record sources of information should use the [Provenance resource](element-level-provenance.html).
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 1 | 1 | 
+|===
+

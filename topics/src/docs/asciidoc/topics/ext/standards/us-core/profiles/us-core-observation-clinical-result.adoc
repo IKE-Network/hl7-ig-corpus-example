@@ -1,0 +1,54 @@
+// ext-standards-us-core-profiles-us-core-observation-clinical-result
+// Topic: US Core Observation Clinical Result Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-observation-clinical-result
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-observation-clinical-result
+
+[[ext-standards-us-core-profiles-us-core-observation-clinical-result]]
+= US Core Observation Clinical Result Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-observation-clinical-result`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-observation-clinical-result.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Observation Clinical Result Profile is based upon the core FHIR Observation Resource and, along with the US Core DiagnosticReport Profile, meets the US Core Data for Interoperability (USCDI) requirements for *Diagnostic Imaging* and *Clinical Tests* Data Classes. This profile sets minimum expectations for the Observation resource to record and search non-laboratory clinical test results (e.g., radiology and other clinical observations generated from procedures). An example would be when a gastroenterologist reports the size of a polyp observed during a colonoscopy. This profile is the basis for the US Core Laboratory Result Observation Profile, which defines additional data elements to record and search laboratory test results. The US Core Observation Clinical Result Profile sets minimum expectations to promote interoperability and adoption through common implementation. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.status` |  |  | 
+| `Observation.category` | 1 |  | 
+| `Observation.category` |  |  | Classification of type of observation
+| `Observation.code` |  |  | Clinical Test or Procedure Name
+| `Observation.subject` | 1 |  | 
+| `Observation.encounter` |  |  | Encounter associated with Observation
+| `Observation.effective[x]` |  |  | 
+| `Observation.performer` |  |  | 
+| `Observation.value[x]` |  |  | Result Value
+| `Observation.dataAbsentReason` |  |  | 
+|===
+

@@ -1,0 +1,51 @@
+// ext-standards-us-core-profiles-us-core-condition-encounter-diagnosis
+// Topic: US Core Condition Encounter Diagnosis Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-condition-encounter-diagnosis
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-condition-encounter-diagnosis
+
+[[ext-standards-us-core-profiles-us-core-condition-encounter-diagnosis]]
+= US Core Condition Encounter Diagnosis Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-condition-encounter-diagnosis`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis
+| Kind          | `resource`
+| Type          | `Condition`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Condition
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-condition-encounter-diagnosis.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Condition Encounter Diagnosis Profile inherits from the FHIR [Condition](https://hl7.org/fhir/R4/condition.html) resource; refer to it for scope and usage definitions. US Core version 5.0.0 split the US Core Condition Profile into this profile and the US Core Condition Problems and Health Concerns Profile. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI) *Encounter Diagnosis* Data Element. It sets minimum expectations for the Condition resource to record, search, and fetch information about an encounter diagnosis. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Condition` |  |  | 
+| `Condition.category` | 1 |  | category codes
+| `Condition.category` | 1 | 1 | encounter-diagnosis
+| `Condition.code` | 1 |  | 
+| `Condition.subject` |  |  | 
+| `Condition.encounter` |  |  | 
+| `Condition.recordedDate` |  |  | 
+| `Condition.recorder` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Who recorded the condition
+|===
+

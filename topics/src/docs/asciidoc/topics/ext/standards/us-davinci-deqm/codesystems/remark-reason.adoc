@@ -1,0 +1,41 @@
+// ext-standards-us-davinci-deqm-codesystems-remark-reason
+// Topic: Remark Reason CodeSystem (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-codesystems-remark-reason
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, codesystem, remark-reason
+
+[[ext-standards-us-davinci-deqm-codesystems-remark-reason]]
+= Remark Reason CodeSystem
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `remark-reason`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/CodeSystem/remark-reason
+| Content       | `complete`
+| Concept count | `1`
+| Source file   | `package/CodeSystem-remark-reason.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+Reason codes for remark
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `inapplicable-gap` | Inapplicable gap
+|===
+

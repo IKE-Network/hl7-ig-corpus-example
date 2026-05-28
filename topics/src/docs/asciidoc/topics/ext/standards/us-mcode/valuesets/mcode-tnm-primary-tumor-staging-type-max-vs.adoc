@@ -1,0 +1,42 @@
+// ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-staging-type-max-vs
+// Topic: TNM Primary Tumor Staging Type Maximum Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-staging-type-max-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-tnm-primary-tumor-staging-type-max-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-staging-type-max-vs]]
+= TNM Primary Tumor Staging Type Maximum Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-tnm-primary-tumor-staging-type-max-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-primary-tumor-staging-type-max-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-tnm-primary-tumor-staging-type-max-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Like TNMPrimaryTumorStagingTypeVS, but in addition, contains deprecated LOINC codes (which are still allowed).
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+|  | (unspecified)
+| http://loinc.org | 3 concepts
+|===
+

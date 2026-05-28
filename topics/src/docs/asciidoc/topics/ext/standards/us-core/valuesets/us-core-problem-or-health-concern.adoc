@@ -1,0 +1,42 @@
+// ext-standards-us-core-valuesets-us-core-problem-or-health-concern
+// Topic: US Core Problem or Health Concern (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-problem-or-health-concern
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-problem-or-health-concern
+
+[[ext-standards-us-core-valuesets-us-core-problem-or-health-concern]]
+= US Core Problem or Health Concern
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-problem-or-health-concern`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-problem-or-health-concern
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-problem-or-health-concern.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+Code set for category codes for *US Core Condition Problems and Health Concerns Profile* consisting of the concepts "problem" and "health-concern".
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://terminology.hl7.org/CodeSystem/condition-category | 1 concepts
+| http://hl7.org/fhir/us/core/CodeSystem/condition-category | 1 concepts
+|===
+

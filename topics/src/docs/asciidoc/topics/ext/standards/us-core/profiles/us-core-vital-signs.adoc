@@ -1,0 +1,60 @@
+// ext-standards-us-core-profiles-us-core-vital-signs
+// Topic: US Core Vital Signs Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-vital-signs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-vital-signs
+
+[[ext-standards-us-core-profiles-us-core-vital-signs]]
+= US Core Vital Signs Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-vital-signs`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/StructureDefinition/vitalsigns
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-vital-signs.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+This profile is based on the base [FHIR Vital Signs Profile](http://hl7.org/fhir/R4/observation-vitalsigns.html) and defines *additional* constraints on the Observation resource to represent vital signs observations. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption. This US Core profiles that are derived from this profile are listed below.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | US Core Vital Signs Profile
+| `Observation.status` |  |  | 
+| `Observation.category` | 1 | * | 
+| `Observation.category` | 1 | 1 | 
+| `Observation.category.coding` | 1 | * | 
+| `Observation.category.coding.system` | 1 | 1 | Identity of the terminology system
+| `Observation.category.coding.code` | 1 | 1 | Symbol in syntax defined by the system
+| `Observation.code` |  |  | Coded vital sign result type
+| `Observation.subject` |  |  | 
+| `Observation.effective[x]` |  |  | Often just a dateTime for Vital Signs
+| `Observation.performer` |  |  | 
+| `Observation.value[x]` |  |  | Vital Signs Value
+| `Observation.dataAbsentReason` |  |  | 
+| `Observation.component` |  |  | Component observations
+| `Observation.component.code` |  |  | Coded vital sign result type
+| `Observation.component.value[x]` |  |  | Vital Sign Component Value
+| `Observation.component.dataAbsentReason` |  |  | 
+|===
+

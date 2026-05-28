@@ -1,0 +1,44 @@
+// ext-standards-us-davinci-deqm-codesystems-gaps-status
+// Topic: DEQM Gaps In Care Gap Status Code System (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-codesystems-gaps-status
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, codesystem, gaps-status
+
+[[ext-standards-us-davinci-deqm-codesystems-gaps-status]]
+= DEQM Gaps In Care Gap Status Code System
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `gaps-status`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/CodeSystem/gaps-status
+| Content       | `complete`
+| Concept count | `4`
+| Source file   | `package/CodeSystem-gaps-status.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This is a code system for Gaps in Care gap status.
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `prospective-gap` | Prospective Gap
+| `open-gap` | Open Gap
+| `closed-gap` | Closed Gap
+| `not-applicable` | Not Applicable
+|===
+

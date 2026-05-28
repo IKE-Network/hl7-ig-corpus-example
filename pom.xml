@@ -109,6 +109,8 @@
         <subproject>corpus-guide</subproject>
         <subproject>compendium</subproject>
         <subproject>us-core</subproject>
+        <subproject>us-mcode</subproject>
+        <subproject>us-davinci-deqm</subproject>
         <subproject>cross-ig-overlap</subproject>
     </subprojects>
 

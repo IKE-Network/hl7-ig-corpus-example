@@ -1,0 +1,73 @@
+// ext-standards-us-mcode-profiles-mcode-genomic-region-studied
+// Topic: Genomic Region Studied Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-genomic-region-studied
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-genomic-region-studied
+
+[[ext-standards-us-mcode-profiles-mcode-genomic-region-studied]]
+= Genomic Region Studied Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-genomic-region-studied`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genomic-region-studied
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/region-studied
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-genomic-region-studied.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+A subset of genes or genomic regions of interest in a targeted resequencing study.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.status` |  |  | 
+| `Observation.category` |  |  | 
+| `Observation.category` |  |  | 
+| `Observation.category.coding` |  | 1 | 
+| `Observation.code` |  |  | 
+| `Observation.subject` | 1 |  | 
+| `Observation.effective[x]` |  |  | 
+| `Observation.effective[x]` | 0 | 1 | 
+| `Observation.value[x]` |  |  | 
+| `Observation.dataAbsentReason` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+| `Observation.component` |  |  | 
+| `Observation.component.code` |  |  | 
+| `Observation.component.value[x]` |  |  | 
+|===
+

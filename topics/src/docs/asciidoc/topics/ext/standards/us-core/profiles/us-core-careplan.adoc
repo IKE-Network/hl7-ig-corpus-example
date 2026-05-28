@@ -1,0 +1,53 @@
+// ext-standards-us-core-profiles-us-core-careplan
+// Topic: US Core CarePlan Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-careplan
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-careplan
+
+[[ext-standards-us-core-profiles-us-core-careplan]]
+= US Core CarePlan Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-careplan`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan
+| Kind          | `resource`
+| Type          | `CarePlan`
+| Base definition | http://hl7.org/fhir/StructureDefinition/CarePlan
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-careplan.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core CarePlan Profile inherits from the FHIR [CarePlan](https://hl7.org/fhir/R4/careplan.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the CarePlan resource to record, search, and fetch assessment and plan of treatment data associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `CarePlan` |  |  | 
+| `CarePlan.text` |  |  | Text summary of the resource, for human interpretation
+| `CarePlan.text.status` |  |  | generated | additional
+| `CarePlan.text.div` |  |  | Limited xhtml content
+| `CarePlan.status` |  |  | 
+| `CarePlan.intent` |  |  | 
+| `CarePlan.category` | 1 |  | 
+| `CarePlan.category` | 0 | 1 | 
+| `CarePlan.subject` |  |  | 
+| `CarePlan.contributor` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Who provided the content of the care plan
+|===
+

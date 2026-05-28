@@ -1,0 +1,60 @@
+// ext-standards-us-core-profiles-us-core-medicationdispense
+// Topic: US Core MedicationDispense Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-medicationdispense
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-medicationdispense
+
+[[ext-standards-us-core-profiles-us-core-medicationdispense]]
+= US Core MedicationDispense Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-medicationdispense`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense
+| Kind          | `resource`
+| Type          | `MedicationDispense`
+| Base definition | http://hl7.org/fhir/StructureDefinition/MedicationDispense
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-medicationdispense.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core MedicationDispense Profile inherits from the FHIR [MedicationDispense](https://hl7.org/fhir/R4/medicationdispense.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationDispense resource to record, search, and fetch the state of a patients medication with regards to dispensing or other activity. (e.g., dispensed, partially dispensed, not dispensed) It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `MedicationDispense` |  |  | 
+| `MedicationDispense.status` |  |  | 
+| `MedicationDispense.medication[x]` |  |  | 
+| `MedicationDispense.subject` | 1 |  | 
+| `MedicationDispense.context` |  |  | Encounter associated with MedicationDispense
+| `MedicationDispense.performer` |  |  | 
+| `MedicationDispense.performer.actor` |  |  | 
+| `MedicationDispense.authorizingPrescription` |  |  | 
+| `MedicationDispense.type` |  |  | 
+| `MedicationDispense.quantity` |  |  | 
+| `MedicationDispense.whenHandedOver` |  |  | When product was given out or mailed
+| `MedicationDispense.dosageInstruction` |  |  | 
+| `MedicationDispense.dosageInstruction.text` |  |  | 
+| `MedicationDispense.dosageInstruction.timing` |  |  | 
+| `MedicationDispense.dosageInstruction.route` |  |  | 
+| `MedicationDispense.dosageInstruction.doseAndRate` |  |  | 
+| `MedicationDispense.dosageInstruction.doseAndRate.dose[x]` |  |  | Amount of medication per dose
+|===
+

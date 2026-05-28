@@ -1,0 +1,47 @@
+// ext-standards-us-mcode-profiles-mcode-related-condition
+// Topic: Related Condition Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-related-condition
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-related-condition
+
+[[ext-standards-us-mcode-profiles-mcode-related-condition]]
+= Related Condition Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-related-condition`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-related-condition.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+A condition that has a relationship with the resource.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` |  |  | Related Condition Extension
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 1 |  | 
+|===
+

@@ -1,0 +1,37 @@
+= mCODE
+:doctype: book
+:toc: left
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:topics: {generated}/topics-asciidoc
+
+[preface]
+== About This Assembly
+
+This is the per-IG reconstruction of the HL7 minimal Common Oncology
+Data Elements (mCODE) Implementation Guide as ingested into the
+corpus by the `ingest/` module.
+
+Source IG: HL7 minimal Common Oncology Data Elements (mCODE)
+Implementation Guide,
+version 4.0.0
+(http://hl7.org/fhir/us/mcode).
+
+Ingested content:
+
+- 53 StructureDefinitions (profiles, extensions)
+- 103 ValueSets
+- 1 CodeSystem
+
+Per IKE-INGEST.md §"External Source Ingestion" content-handling
+rules for *Standards* sources, every fragment in this assembly is
+a fair-use summary in the project's voice. HL7 IGs are copyrighted;
+this assembly is not a republication of the source.
+
+== Ingested mCODE content
+
+include::{topics}/topics/ext/standards/us-mcode/_includes.adoc[leveloffset=+1]

@@ -1,0 +1,47 @@
+// ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype
+// Topic: DEQM Submit Data Update Type Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-submitdataupdatetype
+
+[[ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype]]
+= DEQM Submit Data Update Type Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-submitDataUpdateType`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-submitDataUpdateType
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-submitDataUpdateType.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This Extension supports the concepts 'incremental' and 'snapshot' and corresponds to the measureScore types in the FHIR R5 version of MeasureReport. - The DEQM Consumer Server **SHALL** use this Extension to advertise whether it supports [snapshot or incremental](datax.html#collect-updates) updates for the [DEQM Submit Data transaction](datax.html#submit-data). - The DEQM Producer Client **SHALL** use this Extension to indicate whether the payload is a snapshot or incremental update for DEQM Submit Data transaction. When responding to the [DEQM Collect Data transaction](datax.html#collect-data), the DEQM Producer Server **SHALL** value it 'incremental' if the `lastReceivedOn` parameter is present or 'snapshot if the `lastReceivedOn` parameter is absent.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension.extension` |  | 0 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` |  |  | 
+| `Extension.valueCode` | 0 | 1 | 
+|===
+

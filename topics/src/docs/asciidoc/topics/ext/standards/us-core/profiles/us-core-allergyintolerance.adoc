@@ -1,0 +1,51 @@
+// ext-standards-us-core-profiles-us-core-allergyintolerance
+// Topic: US Core AllergyIntolerance Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-allergyintolerance
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-allergyintolerance
+
+[[ext-standards-us-core-profiles-us-core-allergyintolerance]]
+= US Core AllergyIntolerance Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-allergyintolerance`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance
+| Kind          | `resource`
+| Type          | `AllergyIntolerance`
+| Base definition | http://hl7.org/fhir/StructureDefinition/AllergyIntolerance
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-allergyintolerance.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core AllergyIntolerance Profile inherits from the FHIR [AllergyIntolerance](https://hl7.org/fhir/R4/allergyintolerance.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the AllergyIntolerance resource to record, search, and fetch allergies/adverse reactions associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `AllergyIntolerance` |  |  | 
+| `AllergyIntolerance.clinicalStatus` |  |  | 
+| `AllergyIntolerance.verificationStatus` |  |  | 
+| `AllergyIntolerance.code` | 1 |  | 
+| `AllergyIntolerance.patient` |  |  | 
+| `AllergyIntolerance.recorder` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Who recorded the sensitivity
+| `AllergyIntolerance.reaction` |  |  | 
+| `AllergyIntolerance.reaction.manifestation` |  |  | 
+|===
+

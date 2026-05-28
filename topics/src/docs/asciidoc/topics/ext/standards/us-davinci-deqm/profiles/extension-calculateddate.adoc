@@ -1,0 +1,46 @@
+// ext-standards-us-davinci-deqm-profiles-extension-calculateddate
+// Topic: DEQM Calculated Date Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-calculateddate
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-calculateddate
+
+[[ext-standards-us-davinci-deqm-profiles-extension-calculateddate]]
+= DEQM Calculated Date Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-calculatedDate`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-calculatedDate
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-calculatedDate.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This extension applies to the date the metric was actually calculated. If your measure calculation draws on stored calculations and there are multiple calculation dates, this extension would not apply, as in the example of a composite measure where the individual measures were calculated on different dates. This would only cover the case where there is only one calculation date.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | The date the score was calculated
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 0 | 1 | The date the score was calculated.
+|===
+

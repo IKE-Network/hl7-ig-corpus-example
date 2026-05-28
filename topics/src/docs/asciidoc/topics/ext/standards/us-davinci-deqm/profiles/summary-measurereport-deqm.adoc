@@ -1,0 +1,96 @@
+// ext-standards-us-davinci-deqm-profiles-summary-measurereport-deqm
+// Topic: DEQM Summary MeasureReport Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-summary-measurereport-deqm
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, summary-measurereport-deqm
+
+[[ext-standards-us-davinci-deqm-profiles-summary-measurereport-deqm]]
+= DEQM Summary MeasureReport Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `summary-measurereport-deqm`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm
+| Kind          | `resource`
+| Type          | `MeasureReport`
+| Base definition | http://hl7.org/fhir/StructureDefinition/MeasureReport
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-summary-measurereport-deqm.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+[MeasureReport](http://hl7.org/fhir/R4/measurereport.html) is used as an organizer for both data exchange for measure and for measure reporting. Three profiles on the MeasureReport resource are defined in this guide to delineate these different uses. The **DEQM Summary MeasureReport Profile** defined here is used when a measure is reported to an aggregator for a group of subjects. It contains all of the data that is relevant to generate the report including the measure outcome and is similar to a QRDA Category 3 report. Unlike the [DEQM Individual MeasureReport Profile](StructureDefinition-indv-measurereport-deqm.html), the report is typically transacted as a single MeasureReport report.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `MeasureReport` |  |  | 
+| `MeasureReport.extension` | 0 | 1 | 
+| `MeasureReport.extension` | 0 | 1 | 
+| `MeasureReport.extension` | 0 | 1 | 
+| `MeasureReport.extension` | 0 | * | 
+| `MeasureReport.extension.value[x].extension` | 0 | 1 | 
+| `MeasureReport.extension.value[x].extension` | 0 | 1 | Description of the supplemental data
+| `MeasureReport.extension` | 0 | 1 | proportion | ratio | continuous-variable | cohort | composite | attestation
+| `MeasureReport.extension` | 0 | 1 | 
+| `MeasureReport.extension` | 0 | * | 
+| `MeasureReport.extension` | 0 | 1 | CMS EHR Certification ID
+| `MeasureReport.extension.valueIdentifier` | 1 | 1 | 
+| `MeasureReport.extension` | 0 | * | 
+| `MeasureReport.extension` | 0 | 1 | 
+| `MeasureReport.status` |  |  | 
+| `MeasureReport.type` |  |  | 
+| `MeasureReport.measure` |  |  | What measure and version was calculated
+| `MeasureReport.subject` | 0 | 0 | 
+| `MeasureReport.date` | 1 | 1 | When the report was generated. Note: The language in R5 was changed to calculated. We are clarifying that intent.
+| `MeasureReport.reporter` | 1 | 1 | Organization that generated the MeasureReport
+| `MeasureReport.reporter.extension` | 0 | 1 | 
+| `MeasureReport.period` | 1 | 1 | 
+| `MeasureReport.period.start` | 1 | 1 | 
+| `MeasureReport.period.end` | 1 | 1 | 
+| `MeasureReport.improvementNotation` | 0 | 1 | 
+| `MeasureReport.group` | 1 | * | 
+| `MeasureReport.group.id` |  |  | 
+| `MeasureReport.group.extension` | 0 | 1 | proportion | ratio | continuous-variable | cohort | composite | attestation
+| `MeasureReport.group.extension` | 0 | 1 | 
+| `MeasureReport.group.extension` | 0 | 1 | increase | decrease
+| `MeasureReport.group.extension` | 0 | 1 | Description of the group
+| `MeasureReport.group.code` |  |  | 
+| `MeasureReport.group.population` |  |  | 
+| `MeasureReport.group.population.extension` | 0 | 1 | Count as a Quantity
+| `MeasureReport.group.population.extension` | 0 | 1 | Description of the population
+| `MeasureReport.group.population.code` | 1 | 1 | 
+| `MeasureReport.group.population.count` | 0 | 1 | 
+| `MeasureReport.group.population.subjectResults` | 0 | 0 | 
+| `MeasureReport.group.measureScore` | 0 | 1 | 
+| `MeasureReport.group.measureScore.extension` | 0 | 1 | 
+| `MeasureReport.group.stratifier` |  |  | 
+| `MeasureReport.group.stratifier.extension` | 0 | 1 | Description of the stratifier
+| `MeasureReport.group.stratifier.code` | 0 | 1 | 
+| `MeasureReport.group.stratifier.stratum` |  |  | 
+| `MeasureReport.group.stratifier.stratum.value` |  |  | 
+| `MeasureReport.group.stratifier.stratum.population` |  |  | 
+| `MeasureReport.group.stratifier.stratum.population.extension` | 0 | 1 | 
+| `MeasureReport.group.stratifier.stratum.population.code` | 1 | 1 | 
+| `MeasureReport.group.stratifier.stratum.population.count` | 1 | 1 | 
+| `MeasureReport.group.stratifier.stratum.population.subjectResults` | 0 | 0 | 
+| `MeasureReport.group.stratifier.stratum.measureScore` |  |  | 
+| `MeasureReport.group.stratifier.stratum.measureScore.extension` | 0 | 1 | 
+| `MeasureReport.evaluatedResource` | 0 | 0 | 
+|===
+

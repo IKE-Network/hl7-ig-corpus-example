@@ -1,0 +1,56 @@
+// ext-standards-us-core-profiles-us-core-race
+// Topic: US Core Race Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-race
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-race
+
+[[ext-standards-us-core-profiles-us-core-race]]
+= US Core Race Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-race`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-race.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality. The race codes used to represent these concepts are based upon the [Race & Ethnicity - CDC (CDCREC)](https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.238) which includes over 900 concepts for representing race and ethnicity of which 921 reference race. The race concepts are grouped by and pre-mapped to the 5 OMB race categories: - American Indian or Alaska Native - Asian - Black or African American - Native Hawaiian or Other Pacific Islander - White.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | 1 | US Core Race Extension
+| `Extension.extension` | 1 |  | 
+| `Extension.extension` | 0 | 6 | American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | * | Extended race codes
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 1 | 1 | Race Text
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.url` | 1 | 1 | 
+| `Extension.value[x]` | 0 | 0 | 
+|===
+

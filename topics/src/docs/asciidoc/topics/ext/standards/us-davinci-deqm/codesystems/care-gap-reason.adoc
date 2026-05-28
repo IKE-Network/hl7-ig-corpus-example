@@ -1,0 +1,50 @@
+// ext-standards-us-davinci-deqm-codesystems-care-gap-reason
+// Topic: Care Gap Reasons Code System (CodeSystem)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-codesystems-care-gap-reason
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, codesystem, care-gap-reason
+
+[[ext-standards-us-davinci-deqm-codesystems-care-gap-reason]]
+= Care Gap Reasons Code System
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `CodeSystem`
+| Resource id   | `care-gap-reason`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/CodeSystem/care-gap-reason
+| Content       | `complete`
+| Concept count | `10`
+| Source file   | `package/CodeSystem-care-gap-reason.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This is a code system for Care Gap Reasons
+
+== Concepts
+
+[cols="1,3", options="header"]
+|===
+| Code | Display
+
+| `NotFound` | Data Element Not Found
+| `Missing` | Missing Data Element
+| `Present` | Data Element is Present
+| `InvalidAttribute` | Attribute is Invalid
+| `DateInRange` | Date is within specified range
+| `DateOutOfRange` | Date is out of specified range
+| `ValueInRange` | Value is within specified range
+| `ValueOutOfRange` | Value is out of specified range
+| `CountInRange` | Count is within specified range
+| `CountOutOfRange` | Count is out of specified range
+|===
+

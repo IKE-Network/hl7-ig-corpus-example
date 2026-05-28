@@ -1,0 +1,68 @@
+// ext-standards-us-davinci-deqm-profiles-extension-caregapremark
+// Topic: DEQM Care Gap Remark Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-davinci-deqm-profiles-extension-caregapremark
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Quality Information. Data Exchange For Quality Measures Implementation Guide, version 5.0.0. http://hl7.org/fhir/us/davinci-deqm.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-davinci-deqm, structuredefinition, extension-caregapremark
+
+[[ext-standards-us-davinci-deqm-profiles-extension-caregapremark]]
+= DEQM Care Gap Remark Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `extension-careGapRemark`
+| Canonical URL | http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-careGapRemark
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-extension-careGapRemark.json`
+| IG package    | `hl7.fhir.us.davinci-deqm` @ `5.0.0`
+|===
+
+== Description
+
+This extension allows a coded and/or narrative remark be added to a Care Gap's Individual Measure Report that adds context from a Provider about the gap.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | * | Condition Category remark
+| `Extension.extension` | 0 | * | 
+| `Extension.extension` | 0 | 1 | Identifier of the person who added the remark such as NPI
+| `Extension.extension.url` | 1 | 1 | Identifier of the person who added the remark such as NPI
+| `Extension.extension.value[x]` | 1 | 1 | Identifier of the person who added the remark such as NPI
+| `Extension.extension` | 0 | 1 | Identifier of the organization that added the remark such as TIN, NPI.
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | 1 | Identifier of the software that added the remark.
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | 1 | When the remark was added
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | * | Free text remark
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | 1 | Coded remark
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | * | Related data
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 0 | 0 | 
+|===
+

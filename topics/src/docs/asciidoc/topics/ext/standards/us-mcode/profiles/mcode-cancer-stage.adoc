@@ -1,0 +1,53 @@
+// ext-standards-us-mcode-profiles-mcode-cancer-stage
+// Topic: Cancer Stage Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-cancer-stage
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-cancer-stage
+
+[[ext-standards-us-mcode-profiles-mcode-cancer-stage]]
+= Cancer Stage Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-cancer-stage`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-stage
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-cancer-stage.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Profile for observations regarding cancer stage, grade, or classification. The stage is an assessment of the extent of the cancer in the body, according to a given cancer staging classification system. The key elements are the code, method, value, and optionally, prognostic factors referenced in the hasMember (if the prognostic factor is captured in a different profile) or component (if the prognostic factor is not captured in a different profile) element.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation.code` |  |  | The type of stage information reported.
+| `Observation.subject` |  |  | 
+| `Observation.focus` |  |  | The cancer condition associated with staging assessment.
+| `Observation.value[x]` |  |  | The value of the stage
+| `Observation.method` |  |  | The staging system used.
+| `Observation.device` |  |  | Not used in this profile
+| `Observation.referenceRange` |  |  | Not used in this profile
+| `Observation.hasMember` |  |  | Prognostic factors contributing to stage determination.
+| `Observation.component.code` |  |  | Type of prognostic factor
+| `Observation.component.value[x]` |  |  | Prognostic factor value
+|===
+

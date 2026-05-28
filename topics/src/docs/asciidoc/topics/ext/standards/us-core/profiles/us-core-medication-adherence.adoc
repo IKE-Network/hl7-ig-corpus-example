@@ -1,0 +1,56 @@
+// ext-standards-us-core-profiles-us-core-medication-adherence
+// Topic: US Core Medication Adherence Extension (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-medication-adherence
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-medication-adherence
+
+[[ext-standards-us-core-profiles-us-core-medication-adherence]]
+= US Core Medication Adherence Extension
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-medication-adherence`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication-adherence
+| Kind          | `complex-type`
+| Type          | `Extension`
+| Base definition | http://hl7.org/fhir/StructureDefinition/Extension
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-medication-adherence.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The Medication Adherence Extension is used to report whether a medication has been consumed according to instructions as reported by a patient or on behalf of the patient.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Extension` | 0 | * | 
+| `Extension.extension` | 2 |  | 
+| `Extension.extension` | 1 | 1 | Medication adherence code
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 1 | 1 | When the medication adherence was asserted
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.extension` | 0 | * | Who provided the information about the medication adherence
+| `Extension.extension.url` | 1 | 1 | 
+| `Extension.extension.value[x]` | 1 | 1 | 
+| `Extension.url` |  |  | 
+| `Extension.value[x]` | 0 | 0 | 
+|===
+

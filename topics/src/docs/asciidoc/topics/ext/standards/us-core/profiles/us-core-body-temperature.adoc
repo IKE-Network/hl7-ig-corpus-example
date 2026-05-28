@@ -1,0 +1,50 @@
+// ext-standards-us-core-profiles-us-core-body-temperature
+// Topic: US Core Body Temperature Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-profiles-us-core-body-temperature
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, us-core-body-temperature
+
+[[ext-standards-us-core-profiles-us-core-body-temperature]]
+= US Core Body Temperature Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `us-core-body-temperature`
+| Canonical URL | http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-us-core-body-temperature.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Body Temperature Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search, and fetch body temperature observations with a standard LOINC code and UCUM units of measure. It specifies which *additional* core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | US Core Body Temperature Profile
+| `Observation.code` |  |  | Body Temperature
+| `Observation.valueQuantity` | 0 | 1 | Vital Signs Value
+| `Observation.valueQuantity.value` | 1 | 1 | 
+| `Observation.valueQuantity.unit` | 1 | 1 | 
+| `Observation.valueQuantity.system` | 1 | 1 | 
+| `Observation.valueQuantity.code` | 1 | 1 | Coded responses from the common UCUM units for vital signs value set.
+|===
+

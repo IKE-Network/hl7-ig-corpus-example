@@ -1,0 +1,51 @@
+// ext-standards-us-mcode-profiles-mcode-tnm-stage-group
+// Topic: TNM Stage Group Profile (StructureDefinition)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-profiles-mcode-tnm-stage-group
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, structuredefinition, mcode-tnm-stage-group
+
+[[ext-standards-us-mcode-profiles-mcode-tnm-stage-group]]
+= TNM Stage Group Profile
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `StructureDefinition`
+| Resource id   | `mcode-tnm-stage-group`
+| Canonical URL | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-stage-group
+| Kind          | `resource`
+| Type          | `Observation`
+| Base definition | http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-stage
+| Derivation    | `constraint`
+| Abstract      | `false`
+| Source file   | `package/StructureDefinition-mcode-tnm-stage-group.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Reporting of the stage group representing the overall extent of a cancer, based on AJCC staging guidelines.
+
+== Differential elements
+
+[cols="2,1,1,3", options="header"]
+|===
+| Path | Min | Max | Notes
+
+| `Observation` |  |  | 
+| `Observation.code` |  |  | 
+| `Observation.focus` | 1 | 1 | 
+| `Observation.value[x]` |  |  | The stage group
+| `Observation.method` | 1 |  | 
+| `Observation.hasMember` |  |  | Element containing the T, N, and M categories as references to separate T, N, M observations. The referenced resources are observations leading to the Stage Group reported in the current resource.
+| `Observation.hasMember` | 0 | 3 | 
+| `Observation.component` |  |  | Not used in this profile
+|===
+

@@ -21,7 +21,16 @@ include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
 
 include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
 
-// == Ingested IGs
-//
-// Per-IG sections populate as ext/standards/{ig-id}/ topics land
-// in the topic library.
+== Ingested IGs
+
+=== US Core 8.0.1
+
+include::{topics}/topics/ext/standards/us-core/_includes.adoc[leveloffset=+2]
+
+=== mCODE 4.0.0
+
+include::{topics}/topics/ext/standards/us-mcode/_includes.adoc[leveloffset=+2]
+
+=== Da Vinci DEQM 5.0.0
+
+include::{topics}/topics/ext/standards/us-davinci-deqm/_includes.adoc[leveloffset=+2]

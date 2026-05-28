@@ -1,0 +1,41 @@
+// ext-standards-us-core-valuesets-us-core-diagnosticreport-category
+// Topic: US Core Diagnostic Report Category Codes (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-core-valuesets-us-core-diagnosticreport-category
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, version 8.0.1. http://hl7.org/fhir/us/core.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, us-core-diagnosticreport-category
+
+[[ext-standards-us-core-valuesets-us-core-diagnosticreport-category]]
+= US Core Diagnostic Report Category Codes
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `us-core-diagnosticreport-category`
+| Canonical URL | http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-category
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-us-core-diagnosticreport-category.json`
+| IG package    | `hl7.fhir.us.core` @ `8.0.1`
+|===
+
+== Description
+
+The US Core Diagnostic Report Category Value Set is a 'starter set' of categories supported for fetching and Diagnostic Reports and notes.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://loinc.org | 3 concepts
+|===
+

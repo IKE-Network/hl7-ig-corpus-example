@@ -1,0 +1,43 @@
+// ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs
+// Topic: Cancer-Related Surgical Procedure Value Set (ValueSet)
+// Type: reference
+// Status: review
+:topic-id: ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International / Clinical Interoperability Council. minimal Common Oncology Data Elements (mCODE) Implementation Guide, version 4.0.0. http://hl7.org/fhir/us/mcode.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-mcode, valueset, mcode-cancer-related-surgical-procedure-vs
+
+[[ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs]]
+= Cancer-Related Surgical Procedure Value Set
+
+[cols="1,3", options="header"]
+|===
+| Attribute | Value
+
+| Resource type | `ValueSet`
+| Resource id   | `mcode-cancer-related-surgical-procedure-vs`
+| Canonical URL | http://hl7.org/fhir/us/mcode/ValueSet/mcode-cancer-related-surgical-procedure-vs
+| Status        | `active`
+| Experimental  | `false`
+| Source file   | `package/ValueSet-mcode-cancer-related-surgical-procedure-vs.json`
+| IG package    | `hl7.fhir.us.mcode` @ `4.0.0`
+|===
+
+== Description
+
+Includes surgical procedure codes from SNOMED CT, ICD-10-PCS and CPT. The value set may be a superset of cancer surgery codes, but narrowing the set further risks eliminating potentially useful and relevant codes.
+
+== Compose include
+
+[cols="2,3", options="header"]
+|===
+| System | Notes
+
+| http://snomed.info/sct | with filter
+| http://www.ama-assn.org/go/cpt | (unspecified)
+| http://www.cms.gov/Medicare/Coding/ICD10 | (unspecified)
+|===
+
