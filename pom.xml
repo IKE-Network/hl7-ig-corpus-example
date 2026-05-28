@@ -41,7 +41,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>96</version>
+        <version>97</version>
         <relativePath/>
     </parent>
 
@@ -97,6 +97,10 @@
              ike:release-publish ships internally only (tag + Nexus +
              GitHub Release + gh-pages site) without Maven Central. -->
         <ike.publishToCentral>false</ike.publishToCentral>
+        <!-- Examples tier — sentry-orange chrome per
+             IKE-Network/ike-issues#545, #546. Distinguishes worked
+             examples from foundation (sentry-green) under ike.network. -->
+        <ike.site.deployment>ike-network-example</ike.site.deployment>
     </properties>
 
     <subprojects>
