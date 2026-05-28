@@ -1,0 +1,24 @@
+# Cross-IG Overlap Report
+
+> Cross-IG analytic assembly — overlap, conflict, and value-set
+> drift across ingested HL7 implementation guides.
+
+## Other
+
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/dependencies.html.md)
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/built-with.html.md)
+
+## Overview
+
+- [About](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/index.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/cross-ig-overlap/project-info.html.md)

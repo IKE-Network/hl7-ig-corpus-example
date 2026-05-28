@@ -249,6 +249,80 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=site-theme&amp;type=zip">
+      <publisher>IKE Network</publisher>
+      <group>network.ike.tooling</group>
+      <name>ike-build-standards</name>
+      <version>217</version>
+      <description>Versioned Claude instruction files for IKE projects.
+        Modular standards (Maven, Java, IKE-specific) distributed
+        as a classified Maven artifact.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1dde3cf6accc0155f395ae4f0420bcce</hash>
+        <hash alg="SHA-1">7fa5d3f91335080d79d0a20444a902dc33f216f3</hash>
+        <hash alg="SHA-256">8bb7456d181cb9d1c8635efdc18d48ff85102a554486844feab06a7a7ac6e7b7</hash>
+        <hash alg="SHA-512">28a185f32b9899a7b487d9821c62854d591e91908679f11b260a8de070edb3a03623b970efe809f9c4385e86079482d4bb41004dcc8c9e8c3963627b3cd8dfc6</hash>
+        <hash alg="SHA-384">83394575b0dae58d74df1417a556d2f2837e9735101a5abd1c06c0f054b1107c962960571d3147b7b562a67069c1b2dc</hash>
+        <hash alg="SHA3-384">15cdfd1452c3c2b2cd0dd5a66a46514869667ad8c53d756737ec95abe6ddf9a412507f203a74176d81a2c90d89c3784e</hash>
+        <hash alg="SHA3-256">3f39cde819fc68c9f1324487d07b24db1c23262e854a6a31860be8fd1b93d308</hash>
+        <hash alg="SHA3-512">54589b417022b07b26258583fdf5caab5be0577e5ed08ba9340c1050da372f6a0a729ff49f819ab422be0c71d9f80831abd47b8e448abc6c003bf9df6e833574</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=site-theme&amp;type=zip</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://ike.network/ike-tooling/ike-build-standards/</url>
+        </reference>
+        <reference type="distribution-intake">
+          <url>https://nexus.tinkar.org/repository/ike-staging/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/IKE-Network/ike-tooling/ike-build-standards</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=built-with&amp;type=zip">
+      <publisher>IKE Network</publisher>
+      <group>network.ike.tooling</group>
+      <name>ike-build-standards</name>
+      <version>217</version>
+      <description>Versioned Claude instruction files for IKE projects.
+        Modular standards (Maven, Java, IKE-specific) distributed
+        as a classified Maven artifact.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e75100a497933ab0be91601881ec8b7f</hash>
+        <hash alg="SHA-1">b305a613ef3ed3f2adf82650dd3f3b7991aa74db</hash>
+        <hash alg="SHA-256">956e0be21ae14af974b48660c687e5c9d76c2fe601f0ae8a6ebf3a98b0b8aea4</hash>
+        <hash alg="SHA-512">1ba642d536252609f1ea6c5a288c328b6e7b4b506db0a5fc5ccaeb7296ed38398b330aec51834236ebc6772ba0a8ba4206eba078012abd1ea215349c55a12fd7</hash>
+        <hash alg="SHA-384">2467136ffba0fd95d61663c9b82ee420944cd19cef0f2e73954bc78e3b97ca9279370ebbf540f9e31a0f8cf781d493cf</hash>
+        <hash alg="SHA3-384">9819c1efcd92b8c5e3952ccf7af34109949785af380f6c63c535284d992b47b76cccf449fda2b3a5c6cdda697966cf47</hash>
+        <hash alg="SHA3-256">e6b7644b856b11c8022f858f732e51377e811e4e9822f22e450173bb540ffbe1</hash>
+        <hash alg="SHA3-512">daea2f6f8624e87e017e8cb32a01703b13ba698b6817f66e95bf23b079590fc6ee6183d6c48567b583bbaf082d946bae79da2082bc1b26cc6ed1846bcba945d9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=built-with&amp;type=zip</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://ike.network/ike-tooling/ike-build-standards/</url>
+        </reference>
+        <reference type="distribution-intake">
+          <url>https://nexus.tinkar.org/repository/ike-staging/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/IKE-Network/ike-tooling/ike-build-standards</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=asciidoctorconfig&amp;type=zip">
       <publisher>IKE Network</publisher>
       <group>network.ike.tooling</group>
@@ -408,6 +482,8 @@
       <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=config&amp;type=zip"/>
       <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=scaffold&amp;type=zip"/>
       <dependency ref="pkg:maven/network.ike/ike-base-parent@15?classifier=site-theme&amp;type=zip"/>
+      <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=site-theme&amp;type=zip"/>
+      <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=built-with&amp;type=zip"/>
       <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=asciidoctorconfig&amp;type=zip"/>
       <dependency ref="pkg:maven/network.ike.docs/ike-doc-resources@65?type=jar"/>
       <dependency ref="pkg:maven/network.ike.docs/minimal-fonts@65?type=zip"/>
@@ -421,6 +497,8 @@
     <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=config&amp;type=zip"/>
     <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=scaffold&amp;type=zip"/>
     <dependency ref="pkg:maven/network.ike/ike-base-parent@15?classifier=site-theme&amp;type=zip"/>
+    <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=site-theme&amp;type=zip"/>
+    <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=built-with&amp;type=zip"/>
     <dependency ref="pkg:maven/network.ike.tooling/ike-build-standards@217?classifier=asciidoctorconfig&amp;type=zip"/>
     <dependency ref="pkg:maven/network.ike.docs/ike-doc-resources@65?type=jar"/>
     <dependency ref="pkg:maven/network.ike.docs/docbook-xsl@65?type=jar"/>

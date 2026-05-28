@@ -1,0 +1,23 @@
+# HL7 IG Corpus Compendium
+
+> Master assembly containing every topic in the corpus.
+
+## Other
+
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/compendium/dependencies.html.md)
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/compendium/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/compendium/built-with.html.md)
+
+## Overview
+
+- [About](https://ike.network/hl7-ig-corpus-example/compendium/index.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/compendium/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/compendium/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/compendium/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/compendium/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/compendium/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/compendium/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/compendium/project-info.html.md)

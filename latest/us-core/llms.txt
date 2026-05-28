@@ -1,0 +1,24 @@
+# US Core (per-IG assembly)
+
+> Per-IG reconstruction of the US Core HL7 implementation guide
+> from ingested topic fragments.
+
+## Other
+
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/us-core/dependencies.html.md)
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/us-core/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/us-core/built-with.html.md)
+
+## Overview
+
+- [About](https://ike.network/hl7-ig-corpus-example/us-core/index.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/us-core/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/us-core/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/us-core/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/us-core/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/us-core/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/us-core/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/us-core/project-info.html.md)

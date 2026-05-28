@@ -1,0 +1,24 @@
+# HL7 IG Corpus Topics
+
+> Reusable topic fragments for the HL7 IG corpus. Publishes
+> an AsciiDoc source ZIP consumed by assembly modules.
+
+## Other
+
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/topics/dependencies.html.md)
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/topics/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/topics/built-with.html.md)
+
+## Overview
+
+- [About](https://ike.network/hl7-ig-corpus-example/topics/index.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/topics/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/topics/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/topics/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/topics/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/topics/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/topics/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/topics/project-info.html.md)

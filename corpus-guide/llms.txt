@@ -1,0 +1,26 @@
+# HL7 IG Corpus Guide
+
+> Reader-facing narrative explaining the corpus-example pattern
+> as instantiated in this repository — what the pattern is, how
+> ingestion works, what cross-corpus analysis enables, and how
+> to extend the example to additional implementation guides.
+
+## Other
+
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/corpus-guide/dependencies.html.md)
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/corpus-guide/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/corpus-guide/built-with.html.md)
+
+## Overview
+
+- [About](https://ike.network/hl7-ig-corpus-example/corpus-guide/index.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/corpus-guide/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/corpus-guide/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/corpus-guide/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/corpus-guide/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/corpus-guide/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/corpus-guide/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/corpus-guide/project-info.html.md)

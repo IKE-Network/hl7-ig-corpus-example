@@ -1,0 +1,26 @@
+# hl7-ig-corpus-example
+
+> Worked example of the corpus-example pattern — multi-module
+> documentation project that ingests a corpus of HL7 implementation
+> guides into the IKE topic library and produces per-IG assemblies
+> plus cross-IG analytic outputs.
+
+## Documentation
+
+- [hl7-ig-corpus-example](https://ike.network/hl7-ig-corpus-example/index.html.md)
+- [Dependencies (SBOM)](https://ike.network/hl7-ig-corpus-example/dependencies.html.md)
+
+## Other
+
+- [Licenses (SPDX)](https://ike.network/hl7-ig-corpus-example/licenses.html.md)
+- [Built With](https://ike.network/hl7-ig-corpus-example/built-with.html.md)
+
+## Reports
+
+- [Project Summary](https://ike.network/hl7-ig-corpus-example/summary.html.md)
+- [Maven Coordinates](https://ike.network/hl7-ig-corpus-example/dependency-info.html.md)
+- [Project Dependency Management](https://ike.network/hl7-ig-corpus-example/dependency-management.html.md)
+- [Project Plugins](https://ike.network/hl7-ig-corpus-example/plugins.html.md)
+- [Project Plugin Management](https://ike.network/hl7-ig-corpus-example/plugin-management.html.md)
+- [Project Distribution Management](https://ike.network/hl7-ig-corpus-example/distribution-management.html.md)
+- [Project Information](https://ike.network/hl7-ig-corpus-example/project-info.html.md)
