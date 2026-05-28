@@ -1,0 +1,25 @@
+= US Core (Reconstructed from Corpus)
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:topics: {generated}/topics-asciidoc
+
+// Per-IG assembly — reconstructs US Core from its ingested topic
+// fragments. Placeholder until US Core ingestion lands; framing
+// included so the module builds cleanly today.
+
+== About this assembly
+
+include::{topics}/topics/intro/corpus-overview.adoc[leveloffset=+1]
+
+include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
+
+// == Ingested US Core Content
+//
+// Populated by include::{topics}/topics/ext/standards/us-core/*.adoc[]
+// once the ingest module's US Core run lands.

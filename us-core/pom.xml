@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  US Core — Per-IG Reconstruction Assembly
+  ═════════════════════════════════════════════
+
+  Reconstructs the US Core implementation guide as one document from
+  the topics emitted by the ingest module into
+  topics/src/main/asciidoc/topics/ext/standards/us-core/.
+
+  Status: placeholder. Becomes meaningful once US Core ingestion lands.
+
+  This module is the per-IG assembly template. Subsequent IGs follow
+  the same shape — copy this directory, rename to the IG's package id,
+  point the assembly file at the appropriate ext/standards/ subdirectory.
+
+  Build:
+    mvn clean verify -Dike.pdf.prawn    # Prawn PDF
+    mvn clean verify                    # HTML only
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>us-core</artifactId>
+    <packaging>pom</packaging>
+
+    <name>US Core (per-IG assembly)</name>
+    <description>
+        Per-IG reconstruction of the US Core HL7 implementation guide
+        from ingested topic fragments.
+    </description>
+
+    <properties>
+        <pdf.source.document>us-core</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>network.ike.examples</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

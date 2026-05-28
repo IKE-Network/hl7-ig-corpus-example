@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Compendium — Validation Assembly
+  ════════════════════════════════════
+
+  Master document including every topic in the registry. Used as the
+  validation target — every published topic must appear here.
+
+  Build:
+    mvn clean verify -Dike.pdf.prawn    # Prawn PDF
+    mvn clean verify                    # HTML only
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>compendium</artifactId>
+    <packaging>pom</packaging>
+
+    <name>HL7 IG Corpus Compendium</name>
+    <description>
+        Master assembly containing every topic in the corpus.
+    </description>
+
+    <properties>
+        <pdf.source.document>compendium</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>network.ike.examples</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

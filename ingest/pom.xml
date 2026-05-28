@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ingest — HL7 IG Bundle Normalizer
+  ═════════════════════════════════════
+
+  Java tool that converts HL7 IG-publisher output bundles into AsciiDoc
+  topic fragments placed under
+  topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/.
+
+  Status: skeleton — first real run will be on US Core.
+
+  Invocation (see README and ingest module javadoc for full options).
+
+  Output fragments require post-processing — run the semantic-linebreak
+  normalizer (see IKE-INGEST.md §"Step 2") before committing.
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>ingest</artifactId>
+    <packaging>jar</packaging>
+
+    <name>HL7 IG Bundle Ingester</name>
+    <description>
+        Java tool that converts HL7 IG-publisher output bundles into
+        AsciiDoc topic fragments for ingestion into the corpus topic
+        library.
+    </description>
+
+    <properties>
+        <exec.mainClass>network.ike.examples.hl7ig.ingest.IgPublisherIngester</exec.mainClass>
+    </properties>
+
+</project>

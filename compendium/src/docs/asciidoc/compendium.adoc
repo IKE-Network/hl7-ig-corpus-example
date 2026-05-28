@@ -1,0 +1,27 @@
+= HL7 IG Corpus Compendium
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:topics: {generated}/topics-asciidoc
+
+// Master compendium — every published topic must appear here.
+
+== Corpus Framing
+
+include::{topics}/topics/intro/corpus-overview.adoc[leveloffset=+1]
+
+include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
+
+== Analysis Methods
+
+include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+
+// == Ingested IGs
+//
+// Per-IG sections populate as ext/standards/{ig-id}/ topics land
+// in the topic library.

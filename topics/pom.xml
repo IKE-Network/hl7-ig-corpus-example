@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Topics — HL7 IG Corpus Topic Library
+  ═════════════════════════════════════
+
+  Reusable AsciiDoc topic fragments for the HL7 IG corpus.
+
+  Most topics under topics/ext/standards/ are emitted by the
+  ingest module from upstream IG-publisher bundles. Original
+  framing and analysis topics live under topics/intro/ and
+  topics/analysis/.
+
+  Build:
+    mvn clean verify                    # HTML preview
+    mvn clean install                   # install adoc:zip for assemblies
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>topics</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Topics</name>
+    <description>
+        Reusable topic fragments for the HL7 IG corpus. Publishes
+        an AsciiDoc source ZIP consumed by assembly modules.
+    </description>
+
+    <properties>
+        <ike.skip.prince>true</ike.skip.prince>
+        <ike.skip.html>true</ike.skip.html>
+        <ike.skip.html-single>true</ike.skip.html-single>
+        <ike.skip.pdf-default>true</ike.skip.pdf-default>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

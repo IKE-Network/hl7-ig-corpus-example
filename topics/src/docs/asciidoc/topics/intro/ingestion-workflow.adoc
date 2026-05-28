@@ -1,0 +1,77 @@
+// intro-ingestion-workflow
+// Topic: HL7 IG Corpus — Ingestion Workflow
+// Type: procedure
+// Status: draft
+:topic-id: intro-ingestion-workflow
+:topic-type: procedure
+:topic-status: draft
+:topic-keywords: ingestion, ig-publisher, normalizer, topic-fragments, provenance, ext-standards
+
+[[intro-ingestion-workflow]]
+= HL7 IG Corpus — Ingestion Workflow
+
+indexterm:[ingestion workflow, HL7 IG]
+indexterm:[IG-publisher bundle, normalization]
+This topic describes how an HL7 implementation guide is ingested into
+the corpus.
+The workflow is a concrete instance of
+`IKE-INGEST.md` §"External Source Ingestion"
+applied to the IG-publisher output bundle format.
+
+== Inputs
+
+An HL7 IG-publisher *output bundle* —
+either downloaded from `build.fhir.org` for the IG in question
+or produced locally by running the IG publisher against the IG source.
+
+The bundle contains:
+
+- `package.tgz` — the FHIR NPM package
+  (StructureDefinitions, ValueSets, CodeSystems, examples)
+- Narrative HTML — one file per section of the IG's published site
+- `qa.json` — IG-publisher's quality report
+- `version.info` — IG version, FHIR version, IG package identifier
+
+== Output
+
+A set of `.adoc` topic fragments placed under
+`topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/`,
+each carrying the provenance attributes required for external sources.
+
+[source,asciidoc]
+----
+:topic-id: ext-standards-{ig-package-id}-{section-slug}
+:topic-type: reference
+:topic-status: review
+:topic-provenance: external
+:topic-citation: HL7 International. {IG Title}, version {ig-version} ({ig-publish-date}). {ig-canonical-url}.
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+----
+
+Each fragment is a fair-use summary in the project's voice
+(per `IKE-INGEST.md` §"Standards" content handling),
+with short quoted definitions where direct quotation is unavoidable.
+
+== Tool
+
+The `ingest/` module is a Java application
+that walks an IG-publisher output directory
+and emits one `.adoc` fragment per logical section.
+
+Invocation (see `ingest/README.adoc` for full options):
+
+[source,bash]
+----
+mvn -pl ingest exec:java \
+  -Dexec.args="--bundle path/to/us-core-bundle \
+               --out topics/src/main/asciidoc/topics/ext/standards/us-core"
+----
+
+After ingestion, run the semantic-linebreak normalizer
+(see `IKE-INGEST.md` §"Step 2") on the emitted topics,
+then register them in `topic-registry.yaml`.
+
+== Status
+
+The ingest module is currently a *skeleton*.
+Its first real run will be on US Core.

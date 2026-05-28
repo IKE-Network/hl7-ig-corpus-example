@@ -1,0 +1,95 @@
+# HL7 IG Corpus Example — Topic Registry
+#
+# Initial scaffold registry. Populated as IGs are ingested under
+# topics/ext/standards/, alongside the seed intro and analysis topics
+# that frame the corpus.
+
+intro:
+  description: >
+    Corpus framing topics — overview, ingestion workflow, scope.
+  topics:
+    - id: intro-corpus-overview
+      file: topics/intro/corpus-overview.adoc
+      title: "HL7 IG Corpus — Overview"
+      type: concept
+      keywords: [hl7, implementation-guides, corpus, US-Core, cardiac, digital-quality-measures, ingestion, cross-ig-analysis]
+      status: draft
+      dependencies: []
+      summary: >
+        Why a corpus rather than per-IG reading, and what this
+        example demonstrates: ingest module, ext/standards/
+        placement, per-IG reconstruction assemblies, and a
+        cross-IG analysis assembly.
+
+    - id: intro-ingestion-workflow
+      file: topics/intro/ingestion-workflow.adoc
+      title: "HL7 IG Corpus — Ingestion Workflow"
+      type: procedure
+      keywords: [ingestion, ig-publisher, normalizer, topic-fragments, provenance, ext-standards]
+      status: draft
+      dependencies: [intro-corpus-overview]
+      summary: >
+        Concrete instance of IKE-INGEST §"External Source Ingestion"
+        applied to IG-publisher output bundles. Describes inputs
+        (package.tgz, narrative HTML, qa.json), outputs (provenance-
+        attributed .adoc topics under ext/standards/), and the
+        ingest module invocation.
+
+analysis:
+  description: >
+    Method topics framing cross-IG analytic assemblies.
+  topics:
+    - id: analysis-cross-ig-overlap-method
+      file: topics/analysis/cross-ig-overlap-method.adoc
+      title: "Cross-IG Overlap — Analysis Method"
+      type: concept
+      keywords: [cross-ig-analysis, overlap-detection, profile-comparison, conformance-conflicts, value-set-drift]
+      status: draft
+      dependencies: [intro-corpus-overview]
+      summary: >
+        Three flavors of overlap (profile, value-set, narrative-only)
+        and the registry-driven method by which the cross-ig-overlap
+        assembly surfaces them. Method is meaningful once at least
+        two IGs are ingested.
+
+ext-standards:
+  description: >
+    Ingested HL7 IG content. Each subdirectory under
+    topics/ext/standards/ holds one IG's normalized fragments.
+    Empty until ingestion runs land.
+  topics: []
+
+assemblies:
+  description: >
+    Assembly entries — populated as assemblies stabilize.
+  topics:
+    - id: assembly-compendium
+      file: ../../../compendium/src/docs/asciidoc/compendium.adoc
+      title: "HL7 IG Corpus Compendium"
+      type: assembly
+      keywords: [compendium, all-topics, validation-target]
+      status: draft
+      summary: >
+        Master assembly including every topic in the registry.
+        Validation target — every published topic must appear here.
+
+    - id: assembly-us-core
+      file: ../../../us-core/src/docs/asciidoc/us-core.adoc
+      title: "US Core (per-IG assembly)"
+      type: assembly
+      keywords: [us-core, per-ig-assembly, placeholder]
+      status: draft
+      summary: >
+        Per-IG reconstruction assembly. Currently a placeholder;
+        becomes meaningful once US Core ingestion lands.
+
+    - id: assembly-cross-ig-overlap
+      file: ../../../cross-ig-overlap/src/docs/asciidoc/cross-ig-overlap.adoc
+      title: "Cross-IG Overlap Report"
+      type: assembly
+      keywords: [cross-ig-overlap, analysis, placeholder]
+      status: draft
+      summary: >
+        Cross-IG analytic assembly. Placeholder until at least two
+        IGs are ingested; method described in
+        analysis-cross-ig-overlap-method.

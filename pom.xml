@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IKE Network — HL7 IG Corpus Example
+  ════════════════════════════════════════
+
+  First worked example of the *corpus-example* pattern (see
+  IKE-Network/ike-issues#538 and dev-corpus-example-pattern in
+  ike-lab-documents).
+
+  A multi-module documentation project that ingests a corpus of
+  HL7 implementation guides into the IKE topic library and produces
+  both per-IG assemblies and cross-IG analytic outputs.
+
+  Modules:
+    ingest/            corpus-specific normalizer (Java)
+                       converts IG-publisher output bundles into
+                       AsciiDoc topic fragments under
+                       topics/src/main/asciidoc/topics/ext/standards/
+    topics/            topic library (IKE-INGEST standard layout)
+    compendium/        all-topics validation assembly
+    us-core/           per-source assembly (placeholder — populated
+                       once US Core ingestion lands)
+    cross-ig-overlap/  analysis assembly (placeholder — meaningful
+                       once a second IG is ingested)
+
+  Build:
+    mvn validate                                  # unpack build standards
+    mvn clean verify                              # HTML for all assemblies
+    mvn clean verify -Dike.pdf.prawn              # HTML + Prawn PDF
+    mvn clean verify -pl compendium -am           # single assembly
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd"
+         root="true">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.platform</groupId>
+        <artifactId>ike-parent</artifactId>
+        <version>96</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>network.ike.examples</groupId>
+    <artifactId>hl7-ig-corpus-example</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>HL7 IG Corpus Example</name>
+    <description>
+        Worked example of the corpus-example pattern — multi-module
+        documentation project that ingests a corpus of HL7 implementation
+        guides into the IKE topic library and produces per-IG assemblies
+        plus cross-IG analytic outputs.
+    </description>
+    <url>https://ike.network/hl7-ig-corpus-example/</url>
+    <inceptionYear>2026</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>IKE Network</name>
+        <url>https://ike.network</url>
+    </organization>
+
+    <scm>
+        <connection>scm:git:https://github.com/IKE-Network/hl7-ig-corpus-example.git</connection>
+        <developerConnection>scm:git:git@github.com:IKE-Network/hl7-ig-corpus-example.git</developerConnection>
+        <url>https://github.com/IKE-Network/hl7-ig-corpus-example</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/IKE-Network/ike-issues/issues</url>
+    </issueManagement>
+
+    <distributionManagement>
+        <site>
+            <id>ike-site</id>
+            <url>https://ike.network/hl7-ig-corpus-example/</url>
+        </site>
+    </distributionManagement>
+
+    <subprojects>
+        <subproject>ingest</subproject>
+        <subproject>topics</subproject>
+        <subproject>compendium</subproject>
+        <subproject>us-core</subproject>
+        <subproject>cross-ig-overlap</subproject>
+    </subprojects>
+
+</project>

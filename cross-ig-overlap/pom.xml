@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Cross-IG Overlap — Analysis Assembly
+  ═══════════════════════════════════════
+
+  Cross-IG analytic assembly. Surfaces profile overlap, value-set drift,
+  and narrative-only conformance language across ingested IGs.
+
+  Status: placeholder. Becomes meaningful once at least two IGs are
+  ingested into ext/standards/. Method described in
+  analysis-cross-ig-overlap-method.
+
+  Build:
+    mvn clean verify -Dike.pdf.prawn    # Prawn PDF
+    mvn clean verify                    # HTML only
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.examples</groupId>
+        <artifactId>hl7-ig-corpus-example</artifactId>
+    </parent>
+
+    <artifactId>cross-ig-overlap</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Cross-IG Overlap Report</name>
+    <description>
+        Cross-IG analytic assembly — overlap, conflict, and value-set
+        drift across ingested HL7 implementation guides.
+    </description>
+
+    <properties>
+        <pdf.source.document>cross-ig-overlap</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>network.ike.examples</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

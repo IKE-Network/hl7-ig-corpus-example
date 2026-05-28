@@ -1,0 +1,52 @@
+// intro-corpus-overview
+// Topic: HL7 IG Corpus — Overview
+// Type: concept
+// Status: draft
+:topic-id: intro-corpus-overview
+:topic-type: concept
+:topic-status: draft
+:topic-keywords: hl7, implementation-guides, corpus, US-Core, cardiac, digital-quality-measures, ingestion, cross-ig-analysis
+
+[[intro-corpus-overview]]
+= HL7 IG Corpus — Overview
+
+indexterm:[HL7 IG corpus]
+indexterm:[corpus example, HL7]
+This corpus ingests selected HL7 FHIR implementation guides into the
+IKE topic library and exposes them to cross-IG analysis.
+
+The initial ingestion target is *US Core* as the canonical FHIR base IG,
+followed by cardiac-focused IGs relevant to congestive heart failure
+and digital quality measures.
+
+== Why a corpus
+
+A single IG read in isolation answers the question "what does this
+IG require?" but not the questions a downstream implementer or
+reviewer actually has:
+
+- Where do two IGs profile the same FHIR resource differently?
+- Where has the same value-set drifted between IG editions?
+- Which conformance requirements contradict between overlapping IGs?
+- Where does an IG's narrative carry constraints that its
+  StructureDefinitions don't capture?
+
+Answering those requires reading IGs *together*, not one at a time.
+A corpus puts every IG's content into the same topic-registry and
+makes cross-IG queries tractable.
+
+== Scope of the example
+
+This repository is a *worked example* of the corpus pattern, not a
+production IG-conformance system. It ingests a small set of IGs to
+demonstrate:
+
+- the `ingest/` module pattern for upstream-bundle normalization,
+- the placement of ingested content under `topics/ext/standards/`
+  per `IKE-INGEST.md` §"External Source Ingestion",
+- per-IG reconstruction assemblies that round-trip the source IG,
+- a cross-IG analysis assembly that compares profiles across IGs.
+
+The pattern generalizes to other corpora — see the FDA IFU
+counterpart (forthcoming) for the same shape applied to a corpus
+of manufacturer Instructions for Use.

@@ -1,0 +1,30 @@
+= Cross-IG Overlap Report
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:topics: {generated}/topics-asciidoc
+
+// Analysis assembly — cross-IG overlap, conflict, and value-set drift.
+// Placeholder until at least two IGs are ingested; method topic included
+// so the module builds cleanly today.
+
+== Method
+
+include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+
+== Reports
+
+[NOTE]
+====
+Reports populate once at least two implementation guides have been
+ingested into `topics/ext/standards/`. Until then this assembly carries
+only the method description above.
+
+The first meaningful pass runs after US Core ingestion plus the first
+cardiac-focused IG.
+====

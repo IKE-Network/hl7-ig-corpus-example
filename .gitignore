@@ -1,0 +1,5 @@
+target/
+**/.claude/standards/
+.idea/
+*.iml
+.DS_Store

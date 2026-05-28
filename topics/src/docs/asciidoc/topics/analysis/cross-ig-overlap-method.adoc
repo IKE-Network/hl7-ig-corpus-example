@@ -1,0 +1,65 @@
+// analysis-cross-ig-overlap-method
+// Topic: Cross-IG Overlap — Analysis Method
+// Type: concept
+// Status: draft
+:topic-id: analysis-cross-ig-overlap-method
+:topic-type: concept
+:topic-status: draft
+:topic-keywords: cross-ig-analysis, overlap-detection, profile-comparison, conformance-conflicts, value-set-drift
+
+[[analysis-cross-ig-overlap-method]]
+= Cross-IG Overlap — Analysis Method
+
+indexterm:[cross-IG analysis]
+indexterm:[overlap detection, FHIR profiles]
+This topic frames the method by which the corpus surfaces overlap and
+conflict across multiple ingested HL7 implementation guides.
+It is a *method* topic —
+the actual reports live in the `cross-ig-overlap` analysis assembly
+and refresh as new IGs are added.
+
+== Three flavors of overlap
+
+. *Profile overlap* —
+  two IGs profile the same FHIR resource
+  (e.g., `Patient`, `Observation`)
+  with non-identical conformance constraints.
+  Often benign
+  (different IGs serve different use cases);
+  sometimes conflicting
+  (one IG requires a field the other forbids).
+
+. *Value-set drift* —
+  two IGs bind the same conceptual concept
+  to non-identical value sets,
+  or one IG's value set is a strict subset/superset
+  of the other.
+
+. *Narrative-only constraints* —
+  an IG's narrative HTML carries conformance language
+  not expressible in StructureDefinitions
+  ("implementations SHALL …").
+  These are invisible to structural diff;
+  the corpus surfaces them by parsing IG narrative.
+
+== Method, in outline
+
+. *Register each IG's content* in the corpus topic-registry,
+  with each topic carrying its IG's `topic-citation` provenance.
+. *Build a concept anchor map* —
+  each topic emits an anchor for the FHIR resource type
+  and the profile name it constrains.
+. *Pair topics by anchor*
+  across IG citations
+  and emit a difference report per anchor pair.
+. *Cross-walk value-set bindings*
+  by emitting one analytic topic per shared concept
+  with the set of bound value sets and their relationships.
+
+== Status
+
+Until a second IG is ingested,
+the analysis assembly's reports are placeholders.
+The first meaningful run is
+after US Core
+plus the first cardiac IG land in the topic library.
