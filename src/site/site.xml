@@ -27,7 +27,7 @@
     </skin>
 
     <custom>
-        <bodyClass>sentry-green</bodyClass>
+        <bodyClass>sentry-orange</bodyClass>
         <checkImageLinks>false</checkImageLinks>
         <convertImagesToWebp>false</convertImagesToWebp>
         <convertImagesToThumbnails>false</convertImagesToThumbnails>
