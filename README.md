@@ -1,5 +1,12 @@
 # hl7-ig-corpus-example
 
+<a href="https://ike.network">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ike.network/brand/powered-by/powered-by-ike-color-on-dark.svg">
+    <img alt="Powered by IKE" height="28" src="https://ike.network/brand/powered-by/powered-by-ike-color-on-light.svg">
+  </picture>
+</a>
+
 First worked example of the IKE *corpus-example* pattern.
 
 A multi-module documentation project that ingests a corpus of HL7
