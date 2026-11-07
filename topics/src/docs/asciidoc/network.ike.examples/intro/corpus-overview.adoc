@@ -42,7 +42,7 @@ production IG-conformance system. It ingests a small set of IGs to
 demonstrate:
 
 - the `ingest/` module pattern for upstream-bundle normalization,
-- the placement of ingested content under `topics/ext/standards/`
+- the placement of ingested content under `network.ike.examples/ext/standards/`
   per `IKE-INGEST.md` §"External Source Ingestion",
 - per-IG reconstruction assemblies that round-trip the source IG,
 - a cross-IG analysis assembly that compares profiles across IGs.

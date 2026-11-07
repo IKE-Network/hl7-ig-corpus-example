@@ -5,7 +5,7 @@
 
   Reconstructs the US Core implementation guide as one document from
   the topics emitted by the ingest module into
-  topics/src/main/asciidoc/topics/ext/standards/us-core/.
+  topics/src/docs/asciidoc/network.ike.examples/ext/standards/us-core/.
 
   Status: placeholder. Becomes meaningful once US Core ingestion lands.
 

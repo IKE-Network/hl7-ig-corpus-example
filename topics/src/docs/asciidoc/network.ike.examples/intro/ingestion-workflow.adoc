@@ -35,7 +35,7 @@ The bundle contains:
 == Output
 
 A set of `.adoc` topic fragments placed under
-`topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/`,
+`topics/src/docs/asciidoc/network.ike.examples/ext/standards/{ig-package-id}/`,
 each carrying the provenance attributes required for external sources.
 
 [source,asciidoc]
@@ -64,12 +64,12 @@ Invocation (see `ingest/README.adoc` for full options):
 ----
 mvn -pl ingest exec:java \
   -Dexec.args="--bundle path/to/us-core-bundle \
-               --out topics/src/main/asciidoc/topics/ext/standards/us-core"
+               --out topics/src/docs/asciidoc/network.ike.examples/ext/standards/us-core"
 ----
 
 After ingestion, run the semantic-linebreak normalizer
 (see `IKE-INGEST.md` §"Step 2") on the emitted topics,
-then register them in `topic-registry.yaml`.
+then register them in `network.ike.examples/hl7/topic-registry.yaml`.
 
 == Status
 

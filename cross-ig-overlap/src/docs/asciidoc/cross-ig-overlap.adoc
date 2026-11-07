@@ -7,7 +7,6 @@
 :source-highlighter: rouge
 :icons: font
 :author: IKE Network
-:topics: {generated}/topics-asciidoc
 
 // Analysis assembly — cross-IG overlap, conflict, and value-set drift.
 // Placeholder until at least two IGs are ingested; method topic included
@@ -15,14 +14,14 @@
 
 == Method
 
-include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
 
 == Reports
 
 [NOTE]
 ====
 Reports populate once at least two implementation guides have been
-ingested into `topics/ext/standards/`. Until then this assembly carries
+ingested into `network.ike.examples/ext/standards/`. Until then this assembly carries
 only the method description above.
 
 The first meaningful pass runs after US Core ingestion plus the first

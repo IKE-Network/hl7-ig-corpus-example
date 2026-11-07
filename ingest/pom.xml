@@ -5,7 +5,7 @@
 
   Java tool that converts HL7 IG-publisher output bundles into AsciiDoc
   topic fragments placed under
-  topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/.
+  topics/src/docs/asciidoc/network.ike.examples/ext/standards/{ig-package-id}/.
 
   Status: skeleton — first real run will be on US Core.
 

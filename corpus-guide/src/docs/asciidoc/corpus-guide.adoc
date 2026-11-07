@@ -8,7 +8,6 @@
 :icons: font
 :author: IKE Network
 :email: info@ike.network
-:topics: {generated}/topics-asciidoc
 :corpus-guide:
 
 [preface]
@@ -53,7 +52,7 @@ This guide is the *instance-level* counterpart to that design note.
 
 == The corpus in one sentence
 
-include::{topics}/topics/intro/corpus-overview.adoc[leveloffset=+2]
+include::{adoc}/network.ike.examples/intro/corpus-overview.adoc[leveloffset=+2]
 
 == Why a corpus rather than per-IG reading
 
@@ -114,7 +113,7 @@ with topic-level evidence bindings.
 
 = Part 2 — How Ingestion Works
 
-include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/intro/ingestion-workflow.adoc[leveloffset=+1]
 
 // ============================================================
 // Part 3 — Cross-IG analysis
@@ -122,7 +121,7 @@ include::{topics}/topics/intro/ingestion-workflow.adoc[leveloffset=+1]
 
 = Part 3 — Cross-IG Analysis
 
-include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
 
 // ============================================================
 // Part 4 — Extending the example
@@ -134,10 +133,11 @@ include::{topics}/topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
 
 . Run the ingester against the new IG's publisher bundle,
   pointing `--out` at
-  `topics/src/main/asciidoc/topics/ext/standards/{ig-package-id}/`.
+  `topics/src/docs/asciidoc/network.ike.examples/ext/standards/`,
+  which places the IG under `{ig-package-id}/`.
 . Run the semantic-linebreak normalizer over the emitted fragments.
 . Register the new topics in
-  `topics/src/docs/asciidoc/topic-registry.yaml`
+  `topics/src/docs/asciidoc/network.ike.examples/hl7/topic-registry.yaml`
   under the `ext-standards` domain.
 . Clone the `us-core/` per-IG assembly module to
   `{ig-package-id}/`,
@@ -153,30 +153,30 @@ A different external-source corpus
 (FDA IFUs, ISO standards, journal articles)
 follows the same shape
 with a different `ingest/` module
-and different `topics/ext/{subdir}/`
-placement:
+and a different `ext/{subdir}/`
+placement in its library's package tree:
 
 [cols="1,2,2", options="header"]
 |===
 | Source type
-| `topics/ext/` subdirectory
+| `ext/` subdirectory
 | `:topic-license:` per `IKE-INGEST.md`
 
 | HL7 IGs, ISO, IHE, DICOM
-| `topics/ext/standards/{id}/`
+| `ext/standards/{id}/`
 | Fair use summary of copyrighted work — not for redistribution.
 
 | FDA guidance, EU MDR, NSHE policy
-| `topics/ext/regulatory/{id}/`
+| `ext/regulatory/{id}/`
 | Federal works: public domain.
   Non-federal: per source's reuse terms.
 
 | Journal articles, conference papers
-| `topics/ext/literature/{id}/`
+| `ext/literature/{id}/`
 | Fair use summary of copyrighted work — not for redistribution.
 
 | Collaborator memoranda, partner correspondence
-| `topics/ext/internal/{id}/`
+| `ext/internal/{id}/`
 | Internal use — project collaborator content.
 |===
 

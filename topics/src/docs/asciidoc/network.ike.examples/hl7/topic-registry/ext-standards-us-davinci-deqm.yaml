@@ -10,7 +10,7 @@
     topics:
 
       - id: ext-standards-us-davinci-deqm-codesystems-care-gap-reason
-        file: topics/ext/standards/us-davinci-deqm/codesystems/care-gap-reason.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/codesystems/care-gap-reason.adoc
         title: "Care Gap Reasons Code System"
         type: reference
         keywords: [us-davinci-deqm, codesystem, care-gap-reason]
@@ -24,7 +24,7 @@
           This is a code system for Care Gap Reasons
 
       - id: ext-standards-us-davinci-deqm-codesystems-care-gap-remark
-        file: topics/ext/standards/us-davinci-deqm/codesystems/care-gap-remark.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/codesystems/care-gap-remark.adoc
         title: "Care Gap Remark Code System"
         type: reference
         keywords: [us-davinci-deqm, codesystem, care-gap-remark]
@@ -38,7 +38,7 @@
           This is a code system for Care Gap Remark
 
       - id: ext-standards-us-davinci-deqm-codesystems-gaps-status
-        file: topics/ext/standards/us-davinci-deqm/codesystems/gaps-status.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/codesystems/gaps-status.adoc
         title: "DEQM Gaps In Care Gap Status Code System"
         type: reference
         keywords: [us-davinci-deqm, codesystem, gaps-status]
@@ -52,7 +52,7 @@
           This is a code system for Gaps in Care gap status.
 
       - id: ext-standards-us-davinci-deqm-codesystems-remark-reason
-        file: topics/ext/standards/us-davinci-deqm/codesystems/remark-reason.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/codesystems/remark-reason.adoc
         title: "Remark Reason CodeSystem"
         type: reference
         keywords: [us-davinci-deqm, codesystem, remark-reason]
@@ -66,7 +66,7 @@
           Reason codes for remark
 
       - id: ext-standards-us-davinci-deqm-codesystems-update-type
-        file: topics/ext/standards/us-davinci-deqm/codesystems/update-type.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/codesystems/update-type.adoc
         title: "DEQM Update Type Code System"
         type: reference
         keywords: [us-davinci-deqm, codesystem, update-type]
@@ -80,7 +80,7 @@
           Concepts for how a DEQM Consumer supports data exchange updates. The choices are snapshot or incremental updates
 
       - id: ext-standards-us-davinci-deqm-profiles-datax-measurereport-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/datax-measurereport-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/datax-measurereport-deqm.adoc
         title: "DEQM Data Exchange MeasureReport Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, datax-measurereport-deqm]
@@ -94,7 +94,7 @@
           [MeasureReport](http://hl7.org/fhir/R4/measurereport.html) is used as an organizer for both data exchange for measure and for measure reporting.  Three profiles on the MeasureReport resource are defined in this guide to delineate these different uses. When a data producer needs to send data to a data consumer, they use the **DEQM Data-Exchange MeasureReport Profile** defined here.  The `type`…
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-alternatescoretype
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-alternatescoretype.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-alternatescoretype.adoc
         title: "DEQM Alternate Score Type Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-alternatescoretype]
@@ -108,7 +108,7 @@
           Possible value types for the measureScore elements *in addition to* the standard [Quantity](http://hl7.org/fhir/R4/datatypes.html#Quantity) type. For continuous variable measures, the alternate type is determined by the Quality Measure [Aggregate Method](http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-aggregateMethod) extension used on the Measure. The reported type of the measureScore…
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-calculateddate
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-calculateddate.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-calculateddate.adoc
         title: "DEQM Calculated Date Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-calculateddate]
@@ -122,7 +122,7 @@
           This extension applies to the date the metric was actually calculated. If your measure calculation draws on stored calculations and there are multiple calculation dates, this extension would not apply, as in the example of a composite measure where the individual measures were calculated on different dates.  This would only cover the case where there is only one calculation date.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-caregapremark
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-caregapremark.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-caregapremark.adoc
         title: "DEQM Care Gap Remark Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-caregapremark]
@@ -136,7 +136,7 @@
           This extension allows a coded and/or narrative remark be added to a Care Gap's Individual Measure Report that adds context from a Provider about the gap.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-certificationidentifier
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-certificationidentifier.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-certificationidentifier.adoc
         title: "DEQM Certification Identifier Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-certificationidentifier]
@@ -150,7 +150,7 @@
           An identifier that represents the EHR certication number (CERHT).  See [Certified EHR Technology](https://www.cms.gov/regulations-and-guidance/legislation/ehrincentiveprograms/certification.html) For more information.  This Extension is used when the receiver is interested in getting EHR certification information in the report.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-criteriareference
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-criteriareference.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-criteriareference.adoc
         title: "DEQM Criteria Reference Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-criteriareference]
@@ -164,7 +164,7 @@
           DEPRECATED in favor of cqf-criteriaReference: Identifies which measure criteria (i.e. population, stratifier, or supplementalData) was responsible for the inclusion of the evaluatedResource or supplementalData on which it appears.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-datalocation
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-datalocation.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-datalocation.adoc
         title: "DEQM Data Location Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-datalocation]
@@ -178,7 +178,7 @@
           Location from which reported data was gathered. This extension is used to provide the location(s) from which reported data was gathered in a MeasureReport, such as individual, summary and data exchange measure report.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-gapstatus
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-gapstatus.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-gapstatus.adoc
         title: "DEQM Gap Status Modifier Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-gapstatus]
@@ -192,7 +192,7 @@
           Identifies detected care gap status.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-groupimprovementnotation
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-groupimprovementnotation.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-groupimprovementnotation.adoc
         title: "DEQM Group Improvement Notation Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-groupimprovementnotation]
@@ -206,7 +206,7 @@
           Indicates whether improvement in the measure group is noted by an increase or decrease in the measure score.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-measurescoring
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-measurescoring.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-measurescoring.adoc
         title: "DEQM Measure Scoring Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-measurescoring]
@@ -220,7 +220,7 @@
           Indicates how the calculation is performed for the measure, including proportion, ratio, continuous-variable, and cohort. The value set is extensible, allowing additional measure scoring types to be represented. It is expected to be the same as the scoring element on the referenced Measure
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-populationdescription
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-populationdescription.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-populationdescription.adoc
         title: "DEQM Population Description"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-populationdescription]
@@ -234,7 +234,7 @@
           DEPRECATED in favor of the measurereport-populationDescription extension: The human readable description of this population criteria.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-reportergroup
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-reportergroup.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-reportergroup.adoc
         title: "DEQM Reporter Group Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-reportergroup]
@@ -248,7 +248,7 @@
           Group of practitioners responsible for a report. This extension is used to provide the capability to allow the participating practitioners to be documented.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-reportingprogram
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-reportingprogram.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-reportingprogram.adoc
         title: "DEQM Reporting Program Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-reportingprogram]
@@ -262,7 +262,7 @@
           Extension that supports the reporting program as a reference to the CRMI Manifest Library, as well as an identifier of the reporting program, for which measures are being evaluated
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-reportingvendor
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-reportingvendor.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-reportingvendor.adoc
         title: "DEQM Reporting Vendor Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-reportingvendor]
@@ -276,7 +276,7 @@
           A reference to the vendor who queried the data, calculated results and/or generated the report. The 'reporting vendor' is intended to represent the submitting entity when it is not the same as the reporting entity. This extension is used when the Receiver is interested in getting vendor information in the report.
 
       - id: ext-standards-us-davinci-deqm-profiles-extension-submitdataupdatetype
-        file: topics/ext/standards/us-davinci-deqm/profiles/extension-submitdataupdatetype.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/extension-submitdataupdatetype.adoc
         title: "DEQM Submit Data Update Type Extension"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, extension-submitdataupdatetype]
@@ -290,7 +290,7 @@
           This Extension supports the concepts 'incremental' and 'snapshot' and corresponds to the measureScore types in the FHIR R5 version of MeasureReport.  - The DEQM Consumer Server **SHALL** use this Extension to advertise whether it supports [snapshot or incremental](datax.html#collect-updates) updates for the [DEQM Submit Data transaction](datax.html#submit-data). - The DEQM Producer Client…
 
       - id: ext-standards-us-davinci-deqm-profiles-gaps-bundle-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/gaps-bundle-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/gaps-bundle-deqm.adoc
         title: "DEQM Gaps In Care Bundle"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, gaps-bundle-deqm]
@@ -304,7 +304,7 @@
           The DEQM Gaps In Care Bundle describes a bundle returned by the Measure [care-gaps](OperationDefinition-care-gaps.html) operation. This bundle consists of a document composition for gaps in care and supporting resources referenced by the composition.
 
       - id: ext-standards-us-davinci-deqm-profiles-gaps-composition-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/gaps-composition-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/gaps-composition-deqm.adoc
         title: "DEQM Gaps In Care Composition Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, gaps-composition-deqm]
@@ -318,7 +318,7 @@
           The DEQM Gaps In Care Composition Profile defines a document composition consisting of one or more individual MeasureReport(s). Each section of this composition corresponds to an individual MeasureReport for a specific measure. The subject of each individual MeasureReport referenced by the section must be for the same individual specified in the subject of this Composition.
 
       - id: ext-standards-us-davinci-deqm-profiles-gaps-detectedissue-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/gaps-detectedissue-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/gaps-detectedissue-deqm.adoc
         title: "DEQM Gaps In Care Detected Issue Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, gaps-detectedissue-deqm]
@@ -332,7 +332,7 @@
           The DEQM Gaps In Care DetectedIssue Profile indicates that the measure reported has an open gap, prospective-gap or a closed gap as identified in the gapStatus modifier extension.
 
       - id: ext-standards-us-davinci-deqm-profiles-gaps-group-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/gaps-group-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/gaps-group-deqm.adoc
         title: "DEQM Gaps In Care Group Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, gaps-group-deqm]
@@ -346,7 +346,7 @@
           The DEQM Gaps In Care Group Profile describes a group consisting of one or more patients.
 
       - id: ext-standards-us-davinci-deqm-profiles-gaps-guidanceresponse-detailedcaregap
-        file: topics/ext/standards/us-davinci-deqm/profiles/gaps-guidanceresponse-detailedcaregap.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/gaps-guidanceresponse-detailedcaregap.adoc
         title: "Detailed Care Gap Guidance Response"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, gaps-guidanceresponse-detailedcaregap]
@@ -360,7 +360,7 @@
           Derived from the GuidanceResponse resource, the Detailed Care Gap Guidance Response profile supports the functionality of providing reason for guidance and detailed guidance to help address care gaps and close open gaps.
 
       - id: ext-standards-us-davinci-deqm-profiles-indv-measurereport-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/indv-measurereport-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/indv-measurereport-deqm.adoc
         title: "DEQM Individual MeasureReport Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, indv-measurereport-deqm]
@@ -374,7 +374,7 @@
           [MeasureReport](http://hl7.org/fhir/R4/measurereport.html) is used as an organizer for both data exchange for measure and for measure reporting. Three profiles on the MeasureReport resource are defined in this guide to delineate these different uses.     The **DEQM Individual MeasureReport Profile** defined here is used when a measure is reported to an aggregator for one specific subject. It…
 
       - id: ext-standards-us-davinci-deqm-profiles-indv-measurereport-list
-        file: topics/ext/standards/us-davinci-deqm/profiles/indv-measurereport-list.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/indv-measurereport-list.adoc
         title: "DEQM Individual MeasureReport List"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, indv-measurereport-list]
@@ -388,7 +388,7 @@
           A list that contains entries of referencing DEQM Individual MeasureReport resources for the same measure, one for each subject in the overall population.
 
       - id: ext-standards-us-davinci-deqm-profiles-parameters-caregap-remark-patch
-        file: topics/ext/standards/us-davinci-deqm/profiles/parameters-caregap-remark-patch.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/parameters-caregap-remark-patch.adoc
         title: "Parameters Care Gap Remark Patch Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, parameters-caregap-remark-patch]
@@ -402,7 +402,7 @@
           A Parameters profile that defines structures of multi-part Parameters to be used for sending [Condition Category Remarks](StructureDefinition-extension-careGapRemark.html) to a [Risk Adjustment Coding Gap Report](https://build.fhir.org/ig/HL7/davinci-ra/StructureDefinition-ra-measurereport.html) using the [PATCH](https://www.hl7.org/fhir/http.html#patch) operation.
 
       - id: ext-standards-us-davinci-deqm-profiles-reasondetail
-        file: topics/ext/standards/us-davinci-deqm/profiles/reasondetail.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/reasondetail.adoc
         title: "Reason Detail"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, reasondetail]
@@ -416,7 +416,7 @@
           Reason Detail Extension
 
       - id: ext-standards-us-davinci-deqm-profiles-subjectlist-measurereport-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/subjectlist-measurereport-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/subjectlist-measurereport-deqm.adoc
         title: "DEQM Subject List MeasureReport"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, subjectlist-measurereport-deqm]
@@ -430,7 +430,7 @@
           Subject List MeasureReport is for data exchange and reporting on a list of subjects, which also allows individual MeasureReports be provided for each of the subjects in the population.
 
       - id: ext-standards-us-davinci-deqm-profiles-summary-measurereport-deqm
-        file: topics/ext/standards/us-davinci-deqm/profiles/summary-measurereport-deqm.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/profiles/summary-measurereport-deqm.adoc
         title: "DEQM Summary MeasureReport Profile"
         type: reference
         keywords: [us-davinci-deqm, structuredefinition, summary-measurereport-deqm]
@@ -444,7 +444,7 @@
           [MeasureReport](http://hl7.org/fhir/R4/measurereport.html) is used as an organizer for both data exchange for measure and for measure reporting. Three profiles on the MeasureReport resource are defined in this guide to delineate these different uses. The **DEQM Summary MeasureReport Profile** defined here is used when a measure is reported to an aggregator for a group of subjects. It contains all…
 
       - id: ext-standards-us-davinci-deqm-valuesets-care-gap-reason
-        file: topics/ext/standards/us-davinci-deqm/valuesets/care-gap-reason.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/valuesets/care-gap-reason.adoc
         title: "Care Gap Reasons Value Set"
         type: reference
         keywords: [us-davinci-deqm, valueset, care-gap-reason]
@@ -458,7 +458,7 @@
           This is a ValueSet for Care Gap Reasons
 
       - id: ext-standards-us-davinci-deqm-valuesets-care-gap-remark
-        file: topics/ext/standards/us-davinci-deqm/valuesets/care-gap-remark.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/valuesets/care-gap-remark.adoc
         title: "Care Gap Remark Value Set"
         type: reference
         keywords: [us-davinci-deqm, valueset, care-gap-remark]
@@ -472,7 +472,7 @@
           This is a ValueSet for Care Gap Remark
 
       - id: ext-standards-us-davinci-deqm-valuesets-gaps-status
-        file: topics/ext/standards/us-davinci-deqm/valuesets/gaps-status.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/valuesets/gaps-status.adoc
         title: "DEQM Gaps In Care Gap Status Value Set"
         type: reference
         keywords: [us-davinci-deqm, valueset, gaps-status]
@@ -486,7 +486,7 @@
           Concepts for care gap status
 
       - id: ext-standards-us-davinci-deqm-valuesets-remark-reason
-        file: topics/ext/standards/us-davinci-deqm/valuesets/remark-reason.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/valuesets/remark-reason.adoc
         title: "Remark Reason"
         type: reference
         keywords: [us-davinci-deqm, valueset, remark-reason]
@@ -500,7 +500,7 @@
           Reason for the remark
 
       - id: ext-standards-us-davinci-deqm-valuesets-update-type
-        file: topics/ext/standards/us-davinci-deqm/valuesets/update-type.adoc
+        file: network.ike.examples/ext/standards/us-davinci-deqm/valuesets/update-type.adoc
         title: "DEQM Update Type Value Set"
         type: reference
         keywords: [us-davinci-deqm, valueset, update-type]

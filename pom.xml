@@ -15,7 +15,7 @@
     ingest/            corpus-specific normalizer (Java)
                        converts IG-publisher output bundles into
                        AsciiDoc topic fragments under
-                       topics/src/main/asciidoc/topics/ext/standards/
+                       topics/src/docs/asciidoc/network.ike.examples/ext/standards/
     topics/            topic library (IKE-INGEST standard layout)
     corpus-guide/      narrative explaining the corpus-example pattern
                        (the reader-facing entry point to this repo)
@@ -41,13 +41,15 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>219</version>
+        <version>223</version>
         <relativePath/>
     </parent>
 
     <groupId>network.ike.examples</groupId>
     <artifactId>hl7-ig-corpus-example</artifactId>
-    <version>1-SNAPSHOT</version>
+    <!-- 2 is the packages layout; 1 ships the topics/ tree
+         (IKE-Network/ike-issues#1346). -->
+    <version>2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>HL7 IG Corpus Example</name>

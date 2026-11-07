@@ -29,8 +29,8 @@ import java.util.stream.Stream;
 /// Downloads FHIR packages from the FHIR package registry, walks each
 /// package's conformance resources (StructureDefinitions, ValueSets,
 /// CodeSystems), and emits AsciiDoc topic fragments under the corpus's
-/// `topics/ext/standards/{ig-slug}/` tree along with a per-IG topic-
-/// registry shard and an `_includes.adoc` manifest.
+/// `network.ike.examples/ext/standards/{ig-slug}/` package tree along
+/// with a per-IG topic-registry shard and an `_includes.adoc` manifest.
 ///
 /// Source-specific behavior — FHIR registry URL resolution, package
 /// metadata extraction, per-resource-type metadata and body rendering —
@@ -45,14 +45,26 @@ import java.util.stream.Stream;
 ///   --package hl7.fhir.us.core@8.0.1 \
 ///   --package hl7.fhir.us.mcode@4.0.0 \
 ///   --package hl7.fhir.us.davinci-deqm@5.0.0 \
-///   --out ../topics/src/docs/asciidoc/topics/ext/standards"
+///   --out $PWD/topics/src/docs/asciidoc/network.ike.examples/ext/standards"
 /// ```
 ///
-/// Tracking: IKE-Network/ike-issues#549 (ingestion), #550 (library).
+/// `--out` is best absolute: `exec:java` runs in the Maven JVM, whose
+/// working directory is wherever `mvn` was started.
+///
+/// Tracking: IKE-Network/ike-issues#549 (ingestion), #550 (library),
+/// #1346 (packages layout).
 public final class FhirPackageIngester {
 
     /// FHIR package registry. `{base}/{packageId}/{version}` returns the package tarball directly.
     private static final String REGISTRY_BASE = "https://packages.fhir.org";
+
+    /// The group whose packages the topic library ships (dev-adoc-packages).
+    /// Topic and registry paths are written relative to the AsciiDoc root,
+    /// which holds one directory per group.
+    static final String GROUP = "network.ike.examples";
+
+    /// The library-kind package that holds the preview index and the registry.
+    static final String LIBRARY_PACKAGE = "hl7";
 
     private static final ObjectMapper JSON = new ObjectMapper();
 
@@ -254,7 +266,7 @@ public final class FhirPackageIngester {
         Path target = igOutDir.resolve(subDir).resolve(resourceSlug + ".adoc");
         fragmentWriter.write(target, fragment);
 
-        String relPath = "topics/ext/standards/" + coord.slug() + "/" + subDir + "/" + resourceSlug + ".adoc";
+        String relPath = GROUP + "/ext/standards/" + coord.slug() + "/" + subDir + "/" + resourceSlug + ".adoc";
         return Optional.of(new EmittedTopic(topicId, relPath, title, resourceType, id, canonical, description));
     }
 
@@ -396,10 +408,10 @@ public final class FhirPackageIngester {
 
     private void writeRegistryShard(List<EmittedTopic> emitted, PackageCoord coord,
                                     IgMetadata meta, Path outRoot) throws IOException {
-        // outRoot is .../topics/src/docs/asciidoc/topics/ext/standards
-        // The registry shard goes to .../topics/src/docs/asciidoc/topic-registry/
-        Path topicsRoot = outRoot.getParent().getParent().getParent();
-        Path shardDir = topicsRoot.resolve("topic-registry");
+        // outRoot is .../asciidoc/network.ike.examples/ext/standards; the
+        // registry shard goes to .../asciidoc/network.ike.examples/hl7/topic-registry/
+        Path groupRoot = outRoot.getParent().getParent();
+        Path shardDir = groupRoot.resolve(LIBRARY_PACKAGE).resolve("topic-registry");
         Path shardFile = shardDir.resolve("ext-standards-" + coord.slug() + ".yaml");
 
         List<EmittedTopic> sorted = new ArrayList<>(emitted);
@@ -506,8 +518,9 @@ public final class FhirPackageIngester {
 
                   --package  FHIR package coordinate, e.g. hl7.fhir.us.core@8.0.1.
                              May be repeated to ingest multiple IGs in one run.
-                  --out      Output root, typically the corpus's
-                             topics/src/docs/asciidoc/topics/ext/standards/ path.
+                  --out      Output root, the corpus's
+                             topics/src/docs/asciidoc/network.ike.examples/ext/standards/
+                             path, best given absolute.
 
                 Downloads each FHIR NPM package from packages.fhir.org,
                 walks StructureDefinitions / ValueSets / CodeSystems,
@@ -516,7 +529,7 @@ public final class FhirPackageIngester {
                 (tarball download, fragment / registry / includes writing)
                 comes from network.ike.docs:ike-doc-ingest.
 
-                Tracking issues: IKE-Network/ike-issues#549, #550.
+                Tracking issues: IKE-Network/ike-issues#549, #550, #1346.
                 """);
     }
 }

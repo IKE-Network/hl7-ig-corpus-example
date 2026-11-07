@@ -7,7 +7,6 @@
 :source-highlighter: rouge
 :icons: font
 :author: IKE Network
-:topics: {generated}/topics-asciidoc
 
 [preface]
 == About This Assembly
@@ -34,4 +33,4 @@ this assembly is not a republication of the source.
 
 == Ingested DEQM content
 
-include::{topics}/topics/ext/standards/us-davinci-deqm/_includes.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/ext/standards/us-davinci-deqm/_includes.adoc[leveloffset=+1]

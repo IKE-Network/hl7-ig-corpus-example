@@ -6,7 +6,7 @@
   Reconstructs the minimal Common Oncology Data Elements (mCODE)
   implementation guide as one document from the topics emitted by
   the ingest module into
-  topics/src/docs/asciidoc/topics/ext/standards/us-mcode/.
+  topics/src/docs/asciidoc/network.ike.examples/ext/standards/us-mcode/.
 
   Build:
     mvn clean verify -Dike.pdf.prawn    # Prawn PDF

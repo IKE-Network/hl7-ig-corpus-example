@@ -9,7 +9,7 @@ design topic `dev-corpus-example-pattern` lives in `ike-lab-documents`).
 A multi-module documentation project that:
 
 1. Ingests HL7 implementation guides via the `ingest/` module,
-2. Places ingested topic fragments under `topics/ext/standards/{ig-id}/`,
+2. Places ingested topic fragments under `network.ike.examples/ext/standards/{ig-id}/`,
 3. Reconstructs each IG as one document in a per-IG assembly module,
 4. Surfaces cross-IG overlap and conflict in analysis assembly modules.
 
@@ -49,25 +49,42 @@ from `ike-parent` and produces an executable jar.
 
 ## Content placement rules
 
-- Framing topics → `topics/src/docs/asciidoc/topics/intro/`
-- Analytic method topics → `topics/src/docs/asciidoc/topics/analysis/`
-- Ingested IG content → `topics/src/docs/asciidoc/topics/ext/standards/{ig-package-id}/`
+The topic library uses the AsciiDoc packages layout (design topic
+`dev-adoc-packages` in `ike-lab-documents`; IKE-Network/ike-issues#1346):
+one directory per domain package of the group `network.ike.examples`,
+named by the prefix of each topic's `:topic-id:`.
+
+- Framing topics → `topics/src/docs/asciidoc/network.ike.examples/intro/`
+- Analytic method topics → `topics/src/docs/asciidoc/network.ike.examples/analysis/`
+- Ingested IG content → `topics/src/docs/asciidoc/network.ike.examples/ext/standards/{ig-package-id}/`
   - Every ingested topic carries `:topic-provenance: external`,
     `:topic-citation:`, `:topic-license:` per `IKE-INGEST.md`
   - Content is **fair-use summary** (HL7 standards are copyrighted);
     direct quotation is limited and in quote blocks with attribution
+- Preview index and registry → `topics/src/docs/asciidoc/network.ike.examples/hl7/` (the library package)
+
+Assemblies include topics through the `{adoc}` attribute:
+
+```asciidoc
+include::{adoc}/network.ike.examples/intro/corpus-overview.adoc[leveloffset=+1]
+```
+
+`ike:adoc-union` writes the AsciiDoc union at
+`target/generated-sources/adoc` and installs the root `.asciidoctorconfig`
+that sets `{adoc}` for the IDE preview; there are no per-module copies.
 
 ## Ingestion workflow (quick reference)
 
 ```bash
-# Resolve a bundle (download from build.fhir.org or run IG publisher)
-mvn -pl ingest exec:java \
-  -Dexec.args="--bundle path/to/us-core-bundle \
-               --out topics/src/main/asciidoc/topics/ext/standards/us-core"
+# Download FHIR packages from packages.fhir.org and emit topics. Give
+# --out absolutely: exec:java runs in the Maven JVM's working directory.
+./mvnw -pl ingest compile exec:java \
+  -Dexec.args="--package hl7.fhir.us.core@8.0.1 \
+               --out $PWD/topics/src/docs/asciidoc/network.ike.examples/ext/standards"
 
 # Normalize line breaks (see IKE-INGEST §"Step 2"); run from ike-docs:
 mvn exec:java -pl semantic-linebreak -f ../../ike-docs/pom.xml \
-  -Dexec.args="topics/src/main/asciidoc/topics/ext/standards/us-core"
+  -Dexec.args="topics/src/docs/asciidoc/network.ike.examples/ext/standards/us-core"
 
 # Register topics in topic-registry.yaml (merge the shard the ingester
 # emitted) and add includes to the appropriate assembly + compendium.
@@ -81,7 +98,7 @@ mvn clean verify
 1. Run the ingester (`mvn -pl ingest exec:java ...`) for the new IG.
 2. Add a new per-IG assembly module by cloning `us-core/` →
    `{ig-package-id}/` and updating the parent POM's `<subprojects>`.
-3. Register the new topics in `topics/src/docs/asciidoc/topic-registry.yaml`.
+3. Register the new topics in `topics/src/docs/asciidoc/network.ike.examples/hl7/topic-registry.yaml`.
 4. Add includes to the per-IG assembly and to `compendium`.
 5. Build and verify.
 
@@ -97,7 +114,7 @@ mvn clean verify
 
 - Don't `sed`/`awk`/regex on POMs (per `feedback_no_sed_on_poms`).
   Use OpenRewrite recipes or the Maven 4 model API.
-- Don't include `topics/ext/...` content in `topics/src/docs/asciidoc/index.adoc`
+- Don't include `ext/...` content in `topics/src/docs/asciidoc/network.ike.examples/hl7/index.adoc`
   if doing so violates the external-source assembly-exclusion rule —
   see `IKE-INGEST.md` §"Assembly exclusion rule" for the nuance
   (external topics *can* be cross-referenced via `xref:` but should

@@ -5,10 +5,11 @@
 
   Reusable AsciiDoc topic fragments for the HL7 IG corpus.
 
-  Most topics under topics/ext/standards/ are emitted by the
-  ingest module from upstream IG-publisher bundles. Original
-  framing and analysis topics live under topics/intro/ and
-  topics/analysis/.
+  Topics are laid out as packages of the group network.ike.examples
+  (dev-adoc-packages). Most are under network.ike.examples/ext/standards/,
+  emitted by the ingest module from FHIR NPM packages. Original framing
+  and analysis topics are in the intro and analysis packages; the preview
+  index and the registry are in the library package hl7.
 
   Build:
     mvn clean verify                    # HTML preview
@@ -35,6 +36,8 @@
     </description>
 
     <properties>
+        <!-- dev-adoc-packages, IKE-Network/ike-issues#1346 -->
+        <ike.adoc.layout>packages</ike.adoc.layout>
         <ike.skip.prince>true</ike.skip.prince>
         <ike.skip.html>true</ike.skip.html>
         <ike.skip.html-single>true</ike.skip.html-single>

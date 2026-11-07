@@ -71,7 +71,7 @@ records with topic-level evidence bindings.
 
 | link:ingest/[`ingest`]
 | Java skeleton — converts HL7 IG-publisher output bundles into AsciiDoc
-  topic fragments under `topics/ext/standards/{ig-id}/`. First real run:
+  topic fragments under `network.ike.examples/ext/standards/{ig-id}/`. First real run:
   US Core.
 
 | link:topics/[`topics`]

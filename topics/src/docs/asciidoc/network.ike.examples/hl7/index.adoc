@@ -14,13 +14,13 @@
 
 == Corpus Framing
 
-include::topics/intro/corpus-overview.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/intro/corpus-overview.adoc[leveloffset=+1]
 
-include::topics/intro/ingestion-workflow.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/intro/ingestion-workflow.adoc[leveloffset=+1]
 
 == Analysis Methods
 
-include::topics/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
+include::{adoc}/network.ike.examples/analysis/cross-ig-overlap-method.adoc[leveloffset=+1]
 
 // == Ingested IGs
 //

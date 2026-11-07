@@ -10,7 +10,7 @@
     topics:
 
       - id: ext-standards-us-mcode-codesystems-tg263-cs
-        file: topics/ext/standards/us-mcode/codesystems/tg263-cs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/codesystems/tg263-cs.adoc
         title: "TG263 CodeSystem"
         type: reference
         keywords: [us-mcode, codesystem, tg263-cs]
@@ -24,7 +24,7 @@
           Placeholder Codesystem to represent concepts from the American Association of Physicists in Medicine (AAPM) [Task Group 263 report on Standardizing Nomenclatures in Radiation Oncology][TG263].
 
       - id: ext-standards-us-mcode-profiles-mcode-all-risk-assessment
-        file: topics/ext/standards/us-mcode/profiles/mcode-all-risk-assessment.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-all-risk-assessment.adoc
         title: "ALL Risk Assessment Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-all-risk-assessment]
@@ -38,7 +38,7 @@
           Risk assessment for acute lymphoblastic leukemia (ALL).
 
       - id: ext-standards-us-mcode-profiles-mcode-body-location-qualifier
-        file: topics/ext/standards/us-mcode/profiles/mcode-body-location-qualifier.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-body-location-qualifier.adoc
         title: "Body Location Qualifier Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-body-location-qualifier]
@@ -52,7 +52,7 @@
           Qualifier to refine an body location. These include qualifiers for relative location, directionality, number, and plane, and exclude qualifiers for laterality.
 
       - id: ext-standards-us-mcode-profiles-mcode-body-structure-identifier
-        file: topics/ext/standards/us-mcode/profiles/mcode-body-structure-identifier.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-body-structure-identifier.adoc
         title: "Body Structure Identifier Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-body-structure-identifier]
@@ -66,7 +66,7 @@
           An identifier that designates a body structure such as a tumor and can be used for tracking the structure over time.
 
       - id: ext-standards-us-mcode-profiles-mcode-body-surface-area
-        file: topics/ext/standards/us-mcode/profiles/mcode-body-surface-area.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-body-surface-area.adoc
         title: "Body Surface Area"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-body-surface-area]
@@ -80,7 +80,7 @@
           Entire body surface area, either measured or calculated.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-disease-status
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-disease-status.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-disease-status.adoc
         title: "Cancer Disease Status Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-disease-status]
@@ -94,7 +94,7 @@
           A clinician's qualitative judgment on the current trend of the cancer, e.g., whether it is stable, worsening (progressing), or improving (responding). The judgment may be based a single type or multiple kinds of evidence, such as imaging data, assessment of symptoms, tumor markers, laboratory data, etc.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-disease-status-evidence-type
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-disease-status-evidence-type.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-disease-status-evidence-type.adoc
         title: "Cancer Disease Status Evidence Type Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-disease-status-evidence-type]
@@ -108,7 +108,7 @@
           Categorization of the kind of evidence contributing to a clinical judgment on cancer disease progression.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-patient
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-patient.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-patient.adoc
         title: "Cancer Patient Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-patient]
@@ -122,7 +122,7 @@
           A patient who has been diagnosed with or is receiving medical treatment for a malignant growth or tumor. The only difference between CancerPatient and [US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html) is that Patient.deceased is a [must-support](https://www.hl7.org/fhir/profiling.html#mustsupport) element in mCODE. Must-support is an instruction to…
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-related-medication-administration
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-related-medication-administration.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-related-medication-administration.adoc
         title: "Cancer-Related Medication Administration Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-related-medication-administration]
@@ -136,7 +136,7 @@
           An episode of medication administration for a patient whose condition is related to a primary or secondary cancer condition. In the context of chemotherapy drugs, the medication administration in most cases is performed and documented by the provider.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-related-medication-request
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-related-medication-request.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-related-medication-request.adoc
         title: "Cancer-Related Medication Request Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-related-medication-request]
@@ -150,7 +150,7 @@
           A record of a medication prescription or consumption associated with cancer treatment. The medication may reported by the prescriber, prescribing organization, or patient. It does not have to be directly observed.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-related-surgical-procedure
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-related-surgical-procedure.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-related-surgical-procedure.adoc
         title: "Cancer-Related Surgical Procedure Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-related-surgical-procedure]
@@ -164,7 +164,7 @@
           A surgical action addressing a cancer condition. The scope of this profile has been narrowed to cancer-related procedures by constraining the reasonReference and reasonCode to cancer conditions, one of which is required. If a procedure occurs that is NOT a surgical procedure, use the US Core Procedure profile.
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-risk-assessment
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-risk-assessment.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-risk-assessment.adoc
         title: "Cancer Risk Assessment Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-risk-assessment]
@@ -178,7 +178,7 @@
           Parent profile for observations regarding cancer risk assessment. Risk assessment is a process used to estimate the risk that a certain event will happen. In medicine, this may include a person’s risk of having a child with a certain condition or disease, such as cancer. It may also be used to estimate the risk of carrying a certain gene mutation (change), or of having an adverse event (unexpected…
 
       - id: ext-standards-us-mcode-profiles-mcode-cancer-stage
-        file: topics/ext/standards/us-mcode/profiles/mcode-cancer-stage.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-cancer-stage.adoc
         title: "Cancer Stage Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-cancer-stage]
@@ -192,7 +192,7 @@
           Profile for observations regarding cancer stage, grade, or classification. The stage is an assessment of the extent of the cancer in the body, according to a given cancer staging classification system. The key elements are the code, method, value, and optionally, prognostic factors referenced in the hasMember (if the prognostic factor is captured in a different profile) or component (if the…
 
       - id: ext-standards-us-mcode-profiles-mcode-comorbidities
-        file: topics/ext/standards/us-mcode/profiles/mcode-comorbidities.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-comorbidities.adoc
         title: "Comorbidities Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-comorbidities]
@@ -206,7 +206,7 @@
           General structure for capturing comorbid conditions with respect to a primary ('index') condition. The user can use this profile in three ways: (1) free-form, listing any conditions they wish to highlight as significant comorbidities, (2) following a formal paradigm such as the Charlson Comorbidity Index or the NCI Comorbidity Index, or (3) use disease categories defined for registry reporting…
 
       - id: ext-standards-us-mcode-profiles-mcode-deauville-scale
-        file: topics/ext/standards/us-mcode/profiles/mcode-deauville-scale.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-deauville-scale.adoc
         title: "Deauville Scale Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-deauville-scale]
@@ -220,7 +220,7 @@
           Profile for Deauville Scale. A 5 point scale devised to assess the response to treatment of Hodgkin and aggressive Non-Hodgkin lymphoma.
 
       - id: ext-standards-us-mcode-profiles-mcode-ecog-performance-status
-        file: topics/ext/standards/us-mcode/profiles/mcode-ecog-performance-status.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-ecog-performance-status.adoc
         title: "ECOG Performance Status Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-ecog-performance-status]
@@ -234,7 +234,7 @@
           The Eastern Cooperative Oncology Group (ECOG) Performance Status represents the patient's functional status and is used to determine their ability to tolerate therapies in serious illness, specifically for chemotherapy. (Definition from: [LOINC](https://loinc.org/89262-0/))
 
       - id: ext-standards-us-mcode-profiles-mcode-genomic-region-studied
-        file: topics/ext/standards/us-mcode/profiles/mcode-genomic-region-studied.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-genomic-region-studied.adoc
         title: "Genomic Region Studied Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-genomic-region-studied]
@@ -248,7 +248,7 @@
           A subset of genes or genomic regions of interest in a targeted resequencing study.
 
       - id: ext-standards-us-mcode-profiles-mcode-genomic-variant
-        file: topics/ext/standards/us-mcode/profiles/mcode-genomic-variant.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-genomic-variant.adoc
         title: "Genomic Variant Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-genomic-variant]
@@ -262,7 +262,7 @@
           Details about a set of changes in the tested sample compared to a reference sequence. The term variant can be used to describe an alteration that may be benign, pathogenic, or of unknown significance. The term variant is increasingly being used in place of the term mutation. Variants can be computed relative to reference sequence assembly from which it was identified.
 
       - id: ext-standards-us-mcode-profiles-mcode-genomics-report
-        file: topics/ext/standards/us-mcode/profiles/mcode-genomics-report.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-genomics-report.adoc
         title: "Genomics Report Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-genomics-report]
@@ -276,7 +276,7 @@
           Genomic analysis summary report. The report may include one or more tests, with two distinct test types. The first type is a targeted mutation test, where a specific mutation on a specific gene is tested for. The result is either positive or negative for that mutation. The second type is a more general test for variants. This type of test returns the identity of variants found in a certain region…
 
       - id: ext-standards-us-mcode-profiles-mcode-histologic-behavior-and-type
-        file: topics/ext/standards/us-mcode/profiles/mcode-histologic-behavior-and-type.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-histologic-behavior-and-type.adoc
         title: "Histologic Behavior and Type"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-histologic-behavior-and-type]
@@ -290,7 +290,7 @@
           Histologic behavior and type determined from examination of tumor sample. ICD-O-3 morphology codes are referenced in the logical definition but not expanded in the value set for intellectual property reasons. For primary cancers, the ICD-O-3 behavior suffix should be /1, /2, or /3. For secondary cancers, the ICD-O-3 behavior suffix should be /6.
 
       - id: ext-standards-us-mcode-profiles-mcode-histologic-grade
-        file: topics/ext/standards/us-mcode/profiles/mcode-histologic-grade.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-histologic-grade.adoc
         title: "Histologic Grade"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-histologic-grade]
@@ -304,7 +304,7 @@
           Histologic grade determined from examination of tumor sample. The grade system should be captured using the method data element.
 
       - id: ext-standards-us-mcode-profiles-mcode-histology-morphology-behavior
-        file: topics/ext/standards/us-mcode/profiles/mcode-histology-morphology-behavior.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-histology-morphology-behavior.adoc
         title: "Histology-Morphology-Behavior Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-histology-morphology-behavior]
@@ -318,7 +318,7 @@
           An extension describing the morphologic and behavioral characteristics of the cancer.
 
       - id: ext-standards-us-mcode-profiles-mcode-history-of-metastatic-cancer
-        file: topics/ext/standards/us-mcode/profiles/mcode-history-of-metastatic-cancer.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-history-of-metastatic-cancer.adoc
         title: "History of Metastatic Cancer"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-history-of-metastatic-cancer]
@@ -332,7 +332,7 @@
           Records the existence of a past episode of metastatic cancer, for the purpose of long term management and tracking.
 
       - id: ext-standards-us-mcode-profiles-mcode-human-specimen
-        file: topics/ext/standards/us-mcode/profiles/mcode-human-specimen.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-human-specimen.adoc
         title: "Human Specimen Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-human-specimen]
@@ -346,7 +346,7 @@
           A specimen taken from a Patient for the purpose of oncology-related testing. The profile includes extensions to specify a more precise body site and an identifier of source body structure at that site (for example, a tumor identifier).
 
       - id: ext-standards-us-mcode-profiles-mcode-karnofsky-performance-status
-        file: topics/ext/standards/us-mcode/profiles/mcode-karnofsky-performance-status.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-karnofsky-performance-status.adoc
         title: "Karnofsky Performance Status Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-karnofsky-performance-status]
@@ -360,7 +360,7 @@
           The Karnofsky Performance Status (KPS) is a tool used to measure a patient's functional status. It can be used to compare the effectiveness of different therapies and to help assess the prognosis of certain patients, such as those with certain cancers. The KPS score ranges from 0 to 100 in intervals of 10. Higher scores are associated with better functional status, with 100 representing no…
 
       - id: ext-standards-us-mcode-profiles-mcode-lansky-play-performance-status
-        file: topics/ext/standards/us-mcode/profiles/mcode-lansky-play-performance-status.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-lansky-play-performance-status.adoc
         title: "Lansky Play Performance Status Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-lansky-play-performance-status]
@@ -374,7 +374,7 @@
           The Lansky Play-Performance Status for children is a parent-rated instrument which records usual play activity as the index of performance. It is similar to the Karnofsky Performance Scale for adults (Definition from: [NCI Thesaurus](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C38144&ns=ncit)).
 
       - id: ext-standards-us-mcode-profiles-mcode-laterality-qualifier
-        file: topics/ext/standards/us-mcode/profiles/mcode-laterality-qualifier.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-laterality-qualifier.adoc
         title: "Laterality Qualifier Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-laterality-qualifier]
@@ -388,7 +388,7 @@
           Qualifier to specify laterality.
 
       - id: ext-standards-us-mcode-profiles-mcode-lymphoma-stage
-        file: topics/ext/standards/us-mcode/profiles/mcode-lymphoma-stage.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-lymphoma-stage.adoc
         title: "Lymphoma Stage Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-lymphoma-stage]
@@ -402,7 +402,7 @@
           Staging of lymphoma (both Hodgkins and Non-Hodgkins) by Ann Arbor, Cotswold, or Lugano staging systems. The method (required) indicates which of these related staging systems was used.
 
       - id: ext-standards-us-mcode-profiles-mcode-normalization-basis
-        file: topics/ext/standards/us-mcode/profiles/mcode-normalization-basis.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-normalization-basis.adoc
         title: "Normalization Basis Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-normalization-basis]
@@ -416,7 +416,7 @@
           The method (e.g., body weight, body surface area, flat dose, age) used to normalize the medication dosage.
 
       - id: ext-standards-us-mcode-profiles-mcode-patient-bundle
-        file: topics/ext/standards/us-mcode/profiles/mcode-patient-bundle.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-patient-bundle.adoc
         title: "mCODE Patient Bundle Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-patient-bundle]
@@ -430,7 +430,7 @@
           A collection of data for an mCODE cancer patient.
 
       - id: ext-standards-us-mcode-profiles-mcode-patient-group
-        file: topics/ext/standards/us-mcode/profiles/mcode-patient-group.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-patient-group.adoc
         title: "mCODE Patient Group Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-patient-group]
@@ -444,7 +444,7 @@
           A group of patients included in the scope of mCODE, whose cancer-related resources conform to mCODE profiles.
 
       - id: ext-standards-us-mcode-profiles-mcode-primary-cancer-condition
-        file: topics/ext/standards/us-mcode/profiles/mcode-primary-cancer-condition.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-primary-cancer-condition.adoc
         title: "Primary Cancer Condition Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-primary-cancer-condition]
@@ -458,7 +458,7 @@
           Records the primary cancer condition, the original or first neoplasm in the body (Definition from: [NCI Dictionary of Cancer Terms](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/primary-tumor)). Cancers that are not clearly secondary (i.e., of uncertain origin or behavior) should be documented as primary.
 
       - id: ext-standards-us-mcode-profiles-mcode-procedure-intent
-        file: topics/ext/standards/us-mcode/profiles/mcode-procedure-intent.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-procedure-intent.adoc
         title: "Procedure Intent Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-procedure-intent]
@@ -472,7 +472,7 @@
           The purpose of a treatment, medication, or procedure.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-course-summary
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-course-summary.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-course-summary.adoc
         title: "Radiotherapy Course Summary Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-course-summary]
@@ -486,7 +486,7 @@
           A summary of a course of radiotherapy delivered to a patient. It records the treatment intent, termination reason, modalities, techniques, number of sessions, and doses delivered to one or more body volumes. Whether the course has been fully delivered or stopped is indicated in the status element.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-dose-delivered-to-volume
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-dose-delivered-to-volume.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-dose-delivered-to-volume.adoc
         title: "Radiotherapy Dose Delivered To Volume Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-dose-delivered-to-volume]
@@ -500,7 +500,7 @@
           Dose delivered to a given radiotherapy volume.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-modality
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-modality.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-modality.adoc
         title: "Radiotherapy Modality Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-modality]
@@ -514,7 +514,7 @@
           Extension capturing a modality of external beam or brachytherapy radiation procedures.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-modality-and-technique
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-modality-and-technique.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-modality-and-technique.adoc
         title: "Radiotherapy Modality And Technique Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-modality-and-technique]
@@ -528,7 +528,7 @@
           Extension capturing modality and technique of a given radiotherapy procedure.  The allowed combinations of modality and technique are constrained by invariants, one per modality.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-sessions
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-sessions.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-sessions.adoc
         title: "Radiotherapy Number of Sessions Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-sessions]
@@ -542,7 +542,7 @@
           The number of sessions in a course of radiotherapy.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-technique
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-technique.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-technique.adoc
         title: "Radiotherapy Technique Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-technique]
@@ -556,7 +556,7 @@
           Extension capturing a technique of external beam or brachytherapy radiation procedures.
 
       - id: ext-standards-us-mcode-profiles-mcode-radiotherapy-volume
-        file: topics/ext/standards/us-mcode/profiles/mcode-radiotherapy-volume.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-radiotherapy-volume.adoc
         title: "Radiotherapy Volume Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-radiotherapy-volume]
@@ -570,7 +570,7 @@
           A volume of the body used in radiotherapy planning or treatment delivery.
 
       - id: ext-standards-us-mcode-profiles-mcode-related-condition
-        file: topics/ext/standards/us-mcode/profiles/mcode-related-condition.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-related-condition.adoc
         title: "Related Condition Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-related-condition]
@@ -584,7 +584,7 @@
           A condition that has a relationship with the resource.
 
       - id: ext-standards-us-mcode-profiles-mcode-related-condition-absent
-        file: topics/ext/standards/us-mcode/profiles/mcode-related-condition-absent.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-related-condition-absent.adoc
         title: "Related Condition Absent Extension"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-related-condition-absent]
@@ -598,7 +598,7 @@
           A condition that is NOT present, related to the resource.
 
       - id: ext-standards-us-mcode-profiles-mcode-rhabdomyosarcoma-risk-assessment
-        file: topics/ext/standards/us-mcode/profiles/mcode-rhabdomyosarcoma-risk-assessment.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-rhabdomyosarcoma-risk-assessment.adoc
         title: "Rhabdomyocaroma Risk Assessment Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-rhabdomyosarcoma-risk-assessment]
@@ -612,7 +612,7 @@
           Risk assessment for rhabdomyocaroma. The assessment is based on three things - TNM stage, clinical group, and whether cancer cells have a PAX/FOX01 fusion gene.
 
       - id: ext-standards-us-mcode-profiles-mcode-secondary-cancer-condition
-        file: topics/ext/standards/us-mcode/profiles/mcode-secondary-cancer-condition.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-secondary-cancer-condition.adoc
         title: "Secondary Cancer Condition Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-secondary-cancer-condition]
@@ -626,7 +626,7 @@
           Records the history of secondary neoplasms, including location(s) and the date of onset of metastases. A secondary cancer results from the spread (metastasization) of cancer from its original site (Definition from: NCI Dictionary of Cancer Terms).
 
       - id: ext-standards-us-mcode-profiles-mcode-tnm-category
-        file: topics/ext/standards/us-mcode/profiles/mcode-tnm-category.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tnm-category.adoc
         title: "Parent for T, N, and M Categories."
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tnm-category]
@@ -640,7 +640,7 @@
           Parent profile for T, N, and M category profiles.
 
       - id: ext-standards-us-mcode-profiles-mcode-tnm-distant-metastases-category
-        file: topics/ext/standards/us-mcode/profiles/mcode-tnm-distant-metastases-category.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tnm-distant-metastases-category.adoc
         title: "TNM Distant Metastases Category Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tnm-distant-metastases-category]
@@ -654,7 +654,7 @@
           Category describing the extent of a tumor metastasis in remote anatomical locations, based on evidence such as physical examination, imaging, and/or biopsy.
 
       - id: ext-standards-us-mcode-profiles-mcode-tnm-primary-tumor-category
-        file: topics/ext/standards/us-mcode/profiles/mcode-tnm-primary-tumor-category.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tnm-primary-tumor-category.adoc
         title: "TNM Primary Tumor Category Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tnm-primary-tumor-category]
@@ -668,7 +668,7 @@
           Category of the primary tumor, based on its size and extent, based on evidence such as physical examination, imaging, and/or biopsy.
 
       - id: ext-standards-us-mcode-profiles-mcode-tnm-regional-nodes-category
-        file: topics/ext/standards/us-mcode/profiles/mcode-tnm-regional-nodes-category.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tnm-regional-nodes-category.adoc
         title: "TNM Regional Nodes Category Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tnm-regional-nodes-category]
@@ -682,7 +682,7 @@
           Category of the presence or absence of metastases in regional lymph nodes, based on evidence such as physical examination, imaging, and/or biopsy.
 
       - id: ext-standards-us-mcode-profiles-mcode-tnm-stage-group
-        file: topics/ext/standards/us-mcode/profiles/mcode-tnm-stage-group.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tnm-stage-group.adoc
         title: "TNM Stage Group Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tnm-stage-group]
@@ -696,7 +696,7 @@
           Reporting of the stage group representing the overall extent of a cancer, based on AJCC staging guidelines.
 
       - id: ext-standards-us-mcode-profiles-mcode-treatment-termination-reason
-        file: topics/ext/standards/us-mcode/profiles/mcode-treatment-termination-reason.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-treatment-termination-reason.adoc
         title: "Treatment Termination Reason Extension (deprecated)"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-treatment-termination-reason]
@@ -710,7 +710,7 @@
           A code explaining the unplanned or premature termination, or normal completion, of a plan of treatment, course of medication, or research study. This extension is deprecated since it is redundant with the statusReason field.
 
       - id: ext-standards-us-mcode-profiles-mcode-tumor
-        file: topics/ext/standards/us-mcode/profiles/mcode-tumor.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tumor.adoc
         title: "Tumor Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tumor]
@@ -724,7 +724,7 @@
           Identifies a tumor that has not been removed from the body. Whenever possible, a single resource conforming to this profile will be used to track a tumor over time (as opposed to creating new Tumor-conforming BodyStructure resources each time that tumor is measured). Use HumanSpecimen to represent the tumor after removal from the body.  Note that the required code for morphology used in STU2 is…
 
       - id: ext-standards-us-mcode-profiles-mcode-tumor-marker-test
-        file: topics/ext/standards/us-mcode/profiles/mcode-tumor-marker-test.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tumor-marker-test.adoc
         title: "Tumor Marker Test Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tumor-marker-test]
@@ -738,7 +738,7 @@
           The result of a tumor marker test. Tumor marker tests are generally used to guide cancer treatment decisions and monitor treatment, as well as to predict the chance of recovery and cancer recurrence.
 
       - id: ext-standards-us-mcode-profiles-mcode-tumor-morphology
-        file: topics/ext/standards/us-mcode/profiles/mcode-tumor-morphology.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tumor-morphology.adoc
         title: "Tumor Morphology Report"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tumor-morphology]
@@ -752,7 +752,7 @@
           Tumor morphology can include information on the type of cell (type), the malignant potential of the tumor (behavior), and the degree of differentiation (grade). For some cancers, the type and behavior are described in the ICD-O-3 code.
 
       - id: ext-standards-us-mcode-profiles-mcode-tumor-size
-        file: topics/ext/standards/us-mcode/profiles/mcode-tumor-size.adoc
+        file: network.ike.examples/ext/standards/us-mcode/profiles/mcode-tumor-size.adoc
         title: "Tumor Size Profile"
         type: reference
         keywords: [us-mcode, structuredefinition, mcode-tumor-size]
@@ -766,7 +766,7 @@
           Records the dimensions of a tumor
 
       - id: ext-standards-us-mcode-valuesets-mcode-all-risk-assessment-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-all-risk-assessment-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-all-risk-assessment-value-vs.adoc
         title: "Acute Lymphoblastic Leukemia (ALL) Risk Assessment Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-all-risk-assessment-value-vs]
@@ -780,7 +780,7 @@
           Codes in the ALL risk assessment system.
 
       - id: ext-standards-us-mcode-valuesets-mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs.adoc
         title: "Benign Neoplasm of Brain and CNS Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-benign-uncertain-neoplasm-brain-cns-disorder-vs]
@@ -794,7 +794,7 @@
           Types of benign neoplasms and neoplasms of uncertain behavior of the brain and central nervous system, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-binet-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-binet-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-binet-stage-value-vs.adoc
         title: "Binet Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-binet-stage-value-vs]
@@ -808,7 +808,7 @@
           Codes in the Binet staging system representing Chronic Lymphocytic Leukemia (CLL) stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-body-location-and-laterality-qualifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-body-location-and-laterality-qualifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-body-location-and-laterality-qualifier-vs.adoc
         title: "Body Location and Laterality Qualifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-body-location-and-laterality-qualifier-vs]
@@ -822,7 +822,7 @@
           Qualifiers to refine a body structure or location including qualifiers for relative location, directionality, number, plane, and laterality.
 
       - id: ext-standards-us-mcode-valuesets-mcode-body-location-qualifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-body-location-qualifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-body-location-qualifier-vs.adoc
         title: "Body Location Qualifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-body-location-qualifier-vs]
@@ -836,7 +836,7 @@
           Qualifiers to refine a body structure or location including qualifiers for relative location, directionality, number, and plane, and excluding qualifiers for laterality.
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-high-dose-rate-electronic-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-high-dose-rate-electronic-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-high-dose-rate-electronic-technique-vs.adoc
         title: "Brachytherapy High Dose Rate Electronic Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-high-dose-rate-electronic-technique-vs]
@@ -850,7 +850,7 @@
           Allowed techniques for brachytherapy modality High Dose Rate electronic
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-high-dose-rate-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-high-dose-rate-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-high-dose-rate-technique-vs.adoc
         title: "Brachytherapy High Dose Rate Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-high-dose-rate-technique-vs]
@@ -864,7 +864,7 @@
           Allowed techniques for brachytherapy modality High Dose Rate
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-low-dose-rate-temporary-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-low-dose-rate-temporary-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-low-dose-rate-temporary-technique-vs.adoc
         title: "Brachytherapy Low Dose Rate Temporary Radiation Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-low-dose-rate-temporary-technique-vs]
@@ -878,7 +878,7 @@
           Allowed techniques for brachytherapy modality Low Dose Rate using temporary radiation source
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-modality-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-modality-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-modality-vs.adoc
         title: "Brachytherapy Modality Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-modality-vs]
@@ -892,7 +892,7 @@
           Codes describing the modalities of brachytherapy procedures.
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-permanent-seeds-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-permanent-seeds-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-permanent-seeds-technique-vs.adoc
         title: "Brachytherapy Permanent Seeds Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-permanent-seeds-technique-vs]
@@ -906,7 +906,7 @@
           Allowed techniques for brachytherapy modality internal radiotherapy - permanent seeds
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-pulsed-dose-rate-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-pulsed-dose-rate-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-pulsed-dose-rate-technique-vs.adoc
         title: "Brachytherapy Pulsed Dose Rate Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-pulsed-dose-rate-technique-vs]
@@ -920,7 +920,7 @@
           Allowed techniques for brachytherapy modality Pulsed Dose Rate
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-radiopharmaceutical-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-radiopharmaceutical-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-radiopharmaceutical-technique-vs.adoc
         title: "Brachytherapy Radiopharmaceutical Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-radiopharmaceutical-technique-vs]
@@ -934,7 +934,7 @@
           Allowed techniques for brachytherapy modality radiopharmaceutical
 
       - id: ext-standards-us-mcode-valuesets-mcode-brachytherapy-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-brachytherapy-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-brachytherapy-technique-vs.adoc
         title: "Brachytherapy Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-brachytherapy-technique-vs]
@@ -948,7 +948,7 @@
           Codes describing the techniques of brachytherapy (internal or surface radiation) procedures.
 
       - id: ext-standards-us-mcode-valuesets-mcode-breslow-depth-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-breslow-depth-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-breslow-depth-stage-value-vs.adoc
         title: "Breslow Depth Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-breslow-depth-stage-value-vs]
@@ -962,7 +962,7 @@
           Codes in the Breslow staging system representing melanoma depth.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-body-location-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-body-location-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-body-location-vs.adoc
         title: "Cancer Body Location Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-body-location-vs]
@@ -976,7 +976,7 @@
           Codes describing the location(s) of primary or secondary cancer. The value set includes all codes from the SNOMED CT body structure hierarchy (codes descending from 123037004 'Body Structure'). The cancer body location may also be expressed using ICD-O-3 topography codes, however, those codes are not included here due to intellectual property restrictions. These topography terms have…
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-disease-status-evidence-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-disease-status-evidence-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-disease-status-evidence-type-vs.adoc
         title: "Cancer Disease Status Evidence Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-disease-status-evidence-type-vs]
@@ -990,7 +990,7 @@
           The type of evidence backing up the clinical determination of cancer progression.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-disorder-vs.adoc
         title: "Cancer Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-disorder-vs]
@@ -1004,7 +1004,7 @@
           A broad cancer-related value set containing both primary and secondary tumor types, with codes from ICD-10 and SNOMED CT, including both diagnosis and histology/morphology/behavior codes. ICD-O-3 morphology codes may also be used and are considered conformant to the specification. For SNOMED, the value set includes all codes descending from 363346000 'Malignant neoplastic disease (disorder)' and…
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-related-surgical-procedure-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-related-surgical-procedure-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-related-surgical-procedure-vs.adoc
         title: "Cancer-Related Surgical Procedure Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-related-surgical-procedure-vs]
@@ -1018,7 +1018,7 @@
           Includes surgical procedure codes from SNOMED CT, ICD-10-PCS and CPT. The value set may be a superset of cancer surgery codes, but narrowing the set further risks eliminating potentially useful and relevant codes.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-stage-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-stage-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-stage-type-vs.adoc
         title: "Cancer Stage Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-stage-type-vs]
@@ -1032,7 +1032,7 @@
           Codes that identify the kind of stage reported in an Observation, necessary to correctly interpret the value associated with a staging Observation. In terms of the SNOMED CT hierarchy, these codes represent observable entities. If the staging system used to determine the stage is not implicit in this code, the staging system must be separately recorded in Observation.method. More specific staging…
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-stage-value-vs.adoc
         title: "Cancer Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-stage-value-vs]
@@ -1046,7 +1046,7 @@
           A non-exhaustive value set containing codes that result from cancer staging, i.e., the stage or category of the cancer.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-staging-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-staging-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-staging-method-vs.adoc
         title: "Cancer Staging Method Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-staging-method-vs]
@@ -1060,7 +1060,7 @@
           Staging system or method used for staging cancers. The terms in this value set describe staging systems, not specific stages or descriptors used within those systems.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-staging-prognostic-factor-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-staging-prognostic-factor-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-staging-prognostic-factor-type-vs.adoc
         title: "Cancer Staging Prognostic Factors Types"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-staging-prognostic-factor-type-vs]
@@ -1074,7 +1074,7 @@
           Types of prognostic factors used to determine cancer stage
 
       - id: ext-standards-us-mcode-valuesets-mcode-cancer-staging-prognostic-factor-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cancer-staging-prognostic-factor-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cancer-staging-prognostic-factor-value-vs.adoc
         title: "Cancer Staging Prognostic Factors Value"
         type: reference
         keywords: [us-mcode, valueset, mcode-cancer-staging-prognostic-factor-value-vs]
@@ -1088,7 +1088,7 @@
           Values of prognostic factors used to determine cancer stage
 
       - id: ext-standards-us-mcode-valuesets-mcode-carcinoma-in-situ-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-carcinoma-in-situ-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-carcinoma-in-situ-disorder-vs.adoc
         title: "Carcinoma In-Situ Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-carcinoma-in-situ-disorder-vs]
@@ -1102,7 +1102,7 @@
           Types of carcinoma in-situ, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-clark-level-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-clark-level-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-clark-level-value-vs.adoc
         title: "Clark Level Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-clark-level-value-vs]
@@ -1116,7 +1116,7 @@
           Levels for Clark staging of melanoma
 
       - id: ext-standards-us-mcode-valuesets-mcode-clin-or-path-modifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-clin-or-path-modifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-clin-or-path-modifier-vs.adoc
         title: "Clinical or Pathologic Modifier"
         type: reference
         keywords: [us-mcode, valueset, mcode-clin-or-path-modifier-vs]
@@ -1130,7 +1130,7 @@
           Stage value modifier indicating if staging was based on clinical or pathologic evidence.
 
       - id: ext-standards-us-mcode-valuesets-mcode-condition-status-trend-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-condition-status-trend-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-condition-status-trend-max-vs.adoc
         title: "Condition Status Trend Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-condition-status-trend-max-vs]
@@ -1144,7 +1144,7 @@
           Like the ConditionStatusTrendVS, but includes two additional deprecated codes. Codes from the SNOMED CT disorder hierarchy were less than ideal because the value of an Observation should be either a finding or a qualifier (see https://confluence.ihtsdotools.org/display/FHIR/Observation+binding for details).
 
       - id: ext-standards-us-mcode-valuesets-mcode-condition-status-trend-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-condition-status-trend-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-condition-status-trend-vs.adoc
         title: "Condition Status Trend Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-condition-status-trend-vs]
@@ -1158,7 +1158,7 @@
           How patient's given disease, condition, or ability is trending.
 
       - id: ext-standards-us-mcode-valuesets-mcode-cytologic-evidence-malignancy-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-cytologic-evidence-malignancy-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-cytologic-evidence-malignancy-vs.adoc
         title: "Cytologic Evidence of Malignancy Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-cytologic-evidence-malignancy-vs]
@@ -1172,7 +1172,7 @@
           Types of cytological evidence of malignancy, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-deauville-scale-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-deauville-scale-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-deauville-scale-vs.adoc
         title: "Deauville Scale Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-deauville-scale-vs]
@@ -1186,7 +1186,7 @@
           Codes indicating the value of the Deauville assessment.
 
       - id: ext-standards-us-mcode-valuesets-mcode-fab-classification-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-fab-classification-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-fab-classification-value-vs.adoc
         title: "FAB Classification Value"
         type: reference
         keywords: [us-mcode, valueset, mcode-fab-classification-value-vs]
@@ -1200,7 +1200,7 @@
           French American British classification for acute myeloid leukemias, acute lymphoblastic leukemias, and myelodysplastic syndromes.
 
       - id: ext-standards-us-mcode-valuesets-mcode-figo-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-figo-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-figo-stage-value-vs.adoc
         title: "FIGO Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-figo-stage-value-vs]
@@ -1214,7 +1214,7 @@
           Values for International Federation of Gynecology and Obstetrics (FIGO) Staging System.
 
       - id: ext-standards-us-mcode-valuesets-mcode-figo-staging-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-figo-staging-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-figo-staging-method-vs.adoc
         title: "FIGO Staging Method Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-figo-staging-method-vs]
@@ -1228,7 +1228,7 @@
           Staging methods from International Federation of Gynecology and Obstetrics (FIGO).
 
       - id: ext-standards-us-mcode-valuesets-mcode-gleason-grade-group-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-gleason-grade-group-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-gleason-grade-group-value-vs.adoc
         title: "Gleason Grade Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-gleason-grade-group-value-vs]
@@ -1242,7 +1242,7 @@
           Gleason grade for prostatic cancer, with values that explicitly reference the Gleason score.
 
       - id: ext-standards-us-mcode-valuesets-mcode-histologic-behavior-and-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-histologic-behavior-and-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-histologic-behavior-and-type-vs.adoc
         title: "Histologic Behavior and Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-histologic-behavior-and-type-vs]
@@ -1256,7 +1256,7 @@
           A description of a tumor based on how abnormal the cancer cells and tissue look under a microscope and how quickly the cancer cells are likely to grow and spread.
 
       - id: ext-standards-us-mcode-valuesets-mcode-histologic-grade-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-histologic-grade-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-histologic-grade-vs.adoc
         title: "Histologic Grade Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-histologic-grade-vs]
@@ -1270,7 +1270,7 @@
           A description of a tumor based on how abnormal the cancer cells and tissue look under a microscope.
 
       - id: ext-standards-us-mcode-valuesets-mcode-histologic-grading-system-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-histologic-grading-system-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-histologic-grading-system-vs.adoc
         title: "Histologic Grading System Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-histologic-grading-system-vs]
@@ -1284,7 +1284,7 @@
           A description of a tumor based on how abnormal the cancer cells and tissue look under a microscope and how quickly the cancer cells are likely to grow and spread.
 
       - id: ext-standards-us-mcode-valuesets-mcode-histology-morphology-behavior-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-histology-morphology-behavior-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-histology-morphology-behavior-vs.adoc
         title: "Histology Morphology Behavior Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-histology-morphology-behavior-vs]
@@ -1298,7 +1298,7 @@
           Codes representing the structure, arrangement, and behavioral characteristics of malignant neoplasms, and cancer cells. Inclusion criteria: in situ neoplasms and malignant neoplasms. Exclusion criteria: benign neoplasms and neoplasms of unspecified behavior. Note: ICD-O-3 morphology codes are referenced in the logical definition but not expanded in the value set for intellectual property reasons.…
 
       - id: ext-standards-us-mcode-valuesets-mcode-history-of-metastatic-malignant-neoplasm-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-history-of-metastatic-malignant-neoplasm-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-history-of-metastatic-malignant-neoplasm-vs.adoc
         title: "History of Metastatic Malignant Neoplasm Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-history-of-metastatic-malignant-neoplasm-vs]
@@ -1312,7 +1312,7 @@
           Values defining history of metastatic cancer.
 
       - id: ext-standards-us-mcode-valuesets-mcode-human-specimen-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-human-specimen-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-human-specimen-type-vs.adoc
         title: "Human Specimen Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-human-specimen-type-vs]
@@ -1326,7 +1326,7 @@
           Specimen taken from a human subject. The values include the subset of codes in the HL7 Specimen Type code system (https://terminology.hl7.org/CodeSystem-v2-0487.html) representing body sites and body fluids likely to be used in tumor marker or genomic testing. The most specific term available should be used, for example, for arterial blood, use #BLDA not #BLD.
 
       - id: ext-standards-us-mcode-valuesets-mcode-hypereosinophilic-syndrome-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-hypereosinophilic-syndrome-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-hypereosinophilic-syndrome-disorder-vs.adoc
         title: "Specific Diagnosis of Cancer Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-hypereosinophilic-syndrome-disorder-vs]
@@ -1340,7 +1340,7 @@
           Types of hypereosinophilic syndrome, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-international-retinoblastoma-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-international-retinoblastoma-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-international-retinoblastoma-stage-value-vs.adoc
         title: "International Retinoblastoma Stage Value"
         type: reference
         keywords: [us-mcode, valueset, mcode-international-retinoblastoma-stage-value-vs]
@@ -1354,7 +1354,7 @@
           Codes in the international retinoblastoma staging system representing retinoblastoma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-lansky-play-performance-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-lansky-play-performance-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-lansky-play-performance-vs.adoc
         title: "Lansky Play Performance Status VS"
         type: reference
         keywords: [us-mcode, valueset, mcode-lansky-play-performance-vs]
@@ -1368,7 +1368,7 @@
           Value set for Lansky Play-Performance performance status.
 
       - id: ext-standards-us-mcode-valuesets-mcode-laterality-qualifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-laterality-qualifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-laterality-qualifier-vs.adoc
         title: "Laterality Qualifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-laterality-qualifier-vs]
@@ -1382,7 +1382,7 @@
           Qualifiers to specify laterality.
 
       - id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-bulky-modifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-bulky-modifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-bulky-modifier-vs.adoc
         title: "Lymphoma Stage Bulky Modifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-lymphoma-stage-bulky-modifier-vs]
@@ -1396,7 +1396,7 @@
           Bulky modifier indicating if the lymphoma has the presence of bulky disease.
 
       - id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-modifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-value-modifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-value-modifier-vs.adoc
         title: "Lymphoma Stage Value Modifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-lymphoma-stage-value-modifier-vs]
@@ -1410,7 +1410,7 @@
           Staging modifiers indicating symptoms and extent for lymphomas.
 
       - id: ext-standards-us-mcode-valuesets-mcode-lymphoma-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-lymphoma-stage-value-vs.adoc
         title: "Lymphoma Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-lymphoma-stage-value-vs]
@@ -1424,7 +1424,7 @@
           Stage values used in lymphoma staging systems.
 
       - id: ext-standards-us-mcode-valuesets-mcode-lymphoma-staging-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-lymphoma-staging-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-lymphoma-staging-method-vs.adoc
         title: "Lymphoma Staging System Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-lymphoma-staging-method-vs]
@@ -1438,7 +1438,7 @@
           Staging Systems used to stage lymphomas (Hodgkin's and non-Hodgkin's).
 
       - id: ext-standards-us-mcode-valuesets-mcode-melanoma-in-situ-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-melanoma-in-situ-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-melanoma-in-situ-disorder-vs.adoc
         title: "Melanoma In-Situ Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-melanoma-in-situ-disorder-vs]
@@ -1452,7 +1452,7 @@
           Types of melanoma in-situ, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-myeloma-iss-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-myeloma-iss-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-myeloma-iss-stage-value-vs.adoc
         title: "International Staging System (ISS) for Myeloma Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-myeloma-iss-stage-value-vs]
@@ -1466,7 +1466,7 @@
           Codes in ISS staging system representing plasma cell or multiple myeloma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-myeloma-riss-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-myeloma-riss-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-myeloma-riss-stage-value-vs.adoc
         title: "Revised International Staging System (ISS) for Multiple Myeloma Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-myeloma-riss-stage-value-vs]
@@ -1480,7 +1480,7 @@
           Codes in RISS staging system representing plasma cell or multiple myeloma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-neuroblastoma-inrgss-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-neuroblastoma-inrgss-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-neuroblastoma-inrgss-value-vs.adoc
         title: "International Neuroblastoma Risk Group Staging System (INRGSS) for Neuroblastoma Risk Assessment Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-neuroblastoma-inrgss-value-vs]
@@ -1494,7 +1494,7 @@
           Codes in the INRGSS system representing neuroblastoma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-neuroblastoma-inss-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-neuroblastoma-inss-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-neuroblastoma-inss-value-vs.adoc
         title: "International Neuroblastoma Staging System (INSS) for Neuroblastoma Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-neuroblastoma-inss-value-vs]
@@ -1508,7 +1508,7 @@
           Codes in INSS staging system representing neuroblastoma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-normalization-basis-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-normalization-basis-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-normalization-basis-vs.adoc
         title: "Normalization Basis Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-normalization-basis-vs]
@@ -1522,7 +1522,7 @@
           Normalization basis values.
 
       - id: ext-standards-us-mcode-valuesets-mcode-pretext-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-pretext-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-pretext-stage-value-vs.adoc
         title: "PRETEXT Stage Value"
         type: reference
         keywords: [us-mcode, valueset, mcode-pretext-stage-value-vs]
@@ -1536,7 +1536,7 @@
           Codes in the PRETEXT staging system representing hepatoblastoma stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-primary-cancer-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-primary-cancer-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-primary-cancer-disorder-vs.adoc
         title: "Primary Cancer Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-primary-cancer-disorder-vs]
@@ -1550,7 +1550,7 @@
           Types of primary malignant neoplastic disease, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-primary-malignant-neoplasm-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-primary-malignant-neoplasm-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-primary-malignant-neoplasm-disorder-vs.adoc
         title: "Primary Malignant Neoplasm Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-primary-malignant-neoplasm-disorder-vs]
@@ -1564,7 +1564,7 @@
           Types of primary malignant neoplasms, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-procedure-intent-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-procedure-intent-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-procedure-intent-vs.adoc
         title: "Procedure Intent Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-procedure-intent-vs]
@@ -1578,7 +1578,7 @@
           The purpose of a procedure.
 
       - id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-modality-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-radiotherapy-modality-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-radiotherapy-modality-vs.adoc
         title: "Radiotherapy Modality Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-radiotherapy-modality-vs]
@@ -1592,7 +1592,7 @@
           Codes describing the modalities of external beam and brachytherapy radiation procedures, for use with radiotherapy summaries.  This value set is the union of the teleradiotherapy and brachytherapy modality value sets.
 
       - id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-radiotherapy-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-radiotherapy-technique-vs.adoc
         title: "Radiotherapy Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-radiotherapy-technique-vs]
@@ -1606,7 +1606,7 @@
           Codes describing the techniques of external beam and brachytherapy radiation procedures, for use with radiotherapy summaries. This is the union of the EBRT and brachytherapy technique value sets.
 
       - id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-treatment-location-qualifier-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-radiotherapy-treatment-location-qualifier-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-radiotherapy-treatment-location-qualifier-vs.adoc
         title: "Radiotherapy Treatment Location Qualifier Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-radiotherapy-treatment-location-qualifier-vs]
@@ -1620,7 +1620,7 @@
           Various modifiers that can be applied to body locations where radiotherapy treatments can be directed.
 
       - id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-treatment-location-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-radiotherapy-treatment-location-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-radiotherapy-treatment-location-vs.adoc
         title: "Radiotherapy Treatment Location Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-radiotherapy-treatment-location-vs]
@@ -1634,7 +1634,7 @@
           Codes describing the body locations where radiotherapy treatments can be directed. Based on TG263.
 
       - id: ext-standards-us-mcode-valuesets-mcode-radiotherapy-volume-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-radiotherapy-volume-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-radiotherapy-volume-type-vs.adoc
         title: "Radiotherapy Volume Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-radiotherapy-volume-type-vs]
@@ -1648,7 +1648,7 @@
           Codes describing the types of body volumes used in radiotherapy planning and treatment. The value set includes the most common codes from DICOM CID 9534 Radiotherapy Targets (UID 1.2.840.10008.6.1.1244) and adds a code for Organs at Risk (OAR).
 
       - id: ext-standards-us-mcode-valuesets-mcode-rai-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-rai-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-rai-stage-value-vs.adoc
         title: "Rai Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-rai-stage-value-vs]
@@ -1662,7 +1662,7 @@
           Codes in the Rai staging system representing Chronic Lymphocytic Leukemia (CLL) stage.
 
       - id: ext-standards-us-mcode-valuesets-mcode-rai-staging-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-rai-staging-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-rai-staging-method-vs.adoc
         title: "Rai Staging System Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-rai-staging-method-vs]
@@ -1676,7 +1676,7 @@
           Rai Staging Systems used to stage chronic lymphocytic leukemia (CLL).
 
       - id: ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-assessment-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-rhabdomyosarcoma-assessment-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-rhabdomyosarcoma-assessment-value-vs.adoc
         title: "Rhabdomyosarcoma Assessment Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-rhabdomyosarcoma-assessment-value-vs]
@@ -1690,7 +1690,7 @@
           Codes in the Rhabdomyosarcoma risk assessment system.
 
       - id: ext-standards-us-mcode-valuesets-mcode-rhabdomyosarcoma-clinical-group-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-rhabdomyosarcoma-clinical-group-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-rhabdomyosarcoma-clinical-group-value-vs.adoc
         title: "Rhabdomyosarcoma Clinical Group Value"
         type: reference
         keywords: [us-mcode, valueset, mcode-rhabdomyosarcoma-clinical-group-value-vs]
@@ -1704,7 +1704,7 @@
           Intergroup code indicating whether the rhabdomyosarcoma is confined to its primary location or has extended beyond the site of origin.
 
       - id: ext-standards-us-mcode-valuesets-mcode-risk-assessment-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-risk-assessment-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-risk-assessment-type-vs.adoc
         title: "Risk Assessment Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-risk-assessment-type-vs]
@@ -1718,7 +1718,7 @@
           Codes that identify the kind of risk assessment reported in an Observation, necessary to correctly interpret the value associated with a risk assessment Observation. In terms of the SNOMED CT hierarchy, these codes represent observable entities. If the staging system used to determine the stage is not implicit in this code, the staging system must be separately recorded in Observation.method. More…
 
       - id: ext-standards-us-mcode-valuesets-mcode-risk-assessment-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-risk-assessment-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-risk-assessment-vs.adoc
         title: "Risk Assessment Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-risk-assessment-vs]
@@ -1732,7 +1732,7 @@
           A non-exhaustive value set containing codes that result from risk assessments, i.e., the risk level of the cancer.
 
       - id: ext-standards-us-mcode-valuesets-mcode-secondary-cancer-disorder-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-secondary-cancer-disorder-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-secondary-cancer-disorder-vs.adoc
         title: "Secondary Cancer Disorder Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-secondary-cancer-disorder-vs]
@@ -1746,7 +1746,7 @@
           Types of secondary malignant neoplastic disease, coded in SNOMED CT or ICD-10-CM.
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-carbon-ion-beam-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-carbon-ion-beam-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-carbon-ion-beam-technique-vs.adoc
         title: "Carbon Ion Beam Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-carbon-ion-beam-technique-vs]
@@ -1760,7 +1760,7 @@
           Allowed techniques for carbon ion beam modality
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-electron-beam-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-electron-beam-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-electron-beam-technique-vs.adoc
         title: "Electron Beam Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-electron-beam-technique-vs]
@@ -1774,7 +1774,7 @@
           Allowed techniques for electron beam modality
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-modality-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-modality-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-modality-vs.adoc
         title: "Teleradiotherapy Modality Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-modality-vs]
@@ -1788,7 +1788,7 @@
           Codes describing the modalities of teleradiotherapy (external beam) procedures.
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-neutron-beam-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-neutron-beam-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-neutron-beam-technique-vs.adoc
         title: "Neutron Beam Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-neutron-beam-technique-vs]
@@ -1802,7 +1802,7 @@
           Allowed techniques for neutron beam modality
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-photon-beam-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-photon-beam-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-photon-beam-technique-vs.adoc
         title: "Photon Beam Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-photon-beam-technique-vs]
@@ -1816,7 +1816,7 @@
           Allowed techniques for photon beam modality
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-proton-beam-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-proton-beam-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-proton-beam-technique-vs.adoc
         title: "Proton Beam Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-proton-beam-technique-vs]
@@ -1830,7 +1830,7 @@
           Allowed techniques for proton beam modality
 
       - id: ext-standards-us-mcode-valuesets-mcode-teleradiotherapy-technique-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-technique-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-teleradiotherapy-technique-vs.adoc
         title: "Teleradiotherapy Technique Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-teleradiotherapy-technique-vs]
@@ -1844,7 +1844,7 @@
           Codes describing the techniques of teleradiotherapy (external beam) procedures.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-category-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-category-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-category-max-vs.adoc
         title: "TNM Distant Metastases Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-distant-metastases-category-max-vs]
@@ -1858,7 +1858,7 @@
           Values for TNM distant metastases category under AJCC staging rules MUST be selected from this value set, which includes all codes from AJCC and all codes from TNMDistantMetastasesCategoryVS.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-category-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-category-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-category-vs.adoc
         title: "TNM Distant Metastases Category Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-distant-metastases-category-vs]
@@ -1872,7 +1872,7 @@
           Result values for AJCC M category. This value set contains SNOMED-CT equivalents of AJCC codes for the M category, according to TNM staging rules.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-staging-type-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-staging-type-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-staging-type-max-vs.adoc
         title: "TNM Distant Metastases Staging Type Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-distant-metastases-staging-type-max-vs]
@@ -1886,7 +1886,7 @@
           Like TNMDistantMetastasesStagingTypeVS, but in addition, contains deprecated LOINC codes (which are still allowed).
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-distant-metastases-staging-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-staging-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-distant-metastases-staging-type-vs.adoc
         title: "TNM Distant Metastases Staging Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-distant-metastases-staging-type-vs]
@@ -1900,7 +1900,7 @@
           Identifying codes for the type of cancer staging performed, i.e., clinical, pathological, or other, for distant metastases (M) staging observation, under AJCC staging guidelines.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-category-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-category-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-category-max-vs.adoc
         title: "TNM Primary Tumor Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-primary-tumor-category-max-vs]
@@ -1914,7 +1914,7 @@
           Values for TNM primary tumor category MUST be selected from this value set, when using AJCC staging guidelines. The value set includes all codes from AJCC and all codes from TNMPrimaryTumorCategoryVS.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-category-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-category-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-category-vs.adoc
         title: "TNM Primary Tumor Category Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-primary-tumor-category-vs]
@@ -1928,7 +1928,7 @@
           Result values for T category, following AJCC staging guidelines. This value set contains SNOMED-CT equivalents of AJCC codes for the T category, according to AJCC TNM staging rules.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-staging-type-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-staging-type-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-staging-type-max-vs.adoc
         title: "TNM Primary Tumor Staging Type Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-primary-tumor-staging-type-max-vs]
@@ -1942,7 +1942,7 @@
           Like TNMPrimaryTumorStagingTypeVS, but in addition, contains deprecated LOINC codes (which are still allowed).
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-primary-tumor-staging-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-staging-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-primary-tumor-staging-type-vs.adoc
         title: "TNM Primary Tumor Staging Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-primary-tumor-staging-type-vs]
@@ -1956,7 +1956,7 @@
           Identifying codes for the type of cancer staging performed, i.e., clinical, pathological, or other, for primary tumor (T) staging observation, under AJCC guidelines.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-category-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-category-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-category-max-vs.adoc
         title: "TNM Regional Nodes Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-regional-nodes-category-max-vs]
@@ -1970,7 +1970,7 @@
           Values for TNM regional nodes category under AJCC staging rules MUST be selected from this value set, which includes all codes from AJCC and all codes from TNMRegionalNodesCategoryVS.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-category-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-category-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-category-vs.adoc
         title: "TNM Regional Nodes Category Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-regional-nodes-category-vs]
@@ -1984,7 +1984,7 @@
           Result values for AJCC N category. This value set contains SNOMED-CT equivalents of AJCC codes for the N category, according to AJCC TNM staging rules.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-staging-type-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-staging-type-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-staging-type-max-vs.adoc
         title: "TNM Regional Nodes Staging Type Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-regional-nodes-staging-type-max-vs]
@@ -1998,7 +1998,7 @@
           Like TNMRegionalNodesStagingTypeVS, but additionally contains deprecated LOINC codes(which are still allowed).
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-regional-nodes-staging-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-staging-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-regional-nodes-staging-type-vs.adoc
         title: "TNM Regional Nodes Staging Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-regional-nodes-staging-type-vs]
@@ -2012,7 +2012,7 @@
           Identifying codes for the type of cancer staging performed for AJCC N category, i.e., clinical, pathological, or other, for regional nodes (N) staging observation.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-max-vs.adoc
         title: "TNM Stage Group Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-stage-group-max-vs]
@@ -2026,7 +2026,7 @@
           Values for AJCC TNM stage group MUST be selected from this value set, which includes all codes from AJCC and all codes from TNMStageGroupVS.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-staging-type-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-staging-type-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-staging-type-max-vs.adoc
         title: "TNM Stage Group Staging Type Maximum Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-stage-group-staging-type-max-vs]
@@ -2040,7 +2040,7 @@
           Like TNMStageGroupStagingTypeVS, but additionally contains deprecated LOINC codes (which are still allowed).
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-staging-type-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-staging-type-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-staging-type-vs.adoc
         title: "TNM Stage Group Staging Type Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-stage-group-staging-type-vs]
@@ -2054,7 +2054,7 @@
           Identifying codes for the type of cancer staging performed, i.e., clinical, pathological, or other, for AJCC stage group observation.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-stage-group-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-stage-group-vs.adoc
         title: "TNM Stage Group Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-stage-group-vs]
@@ -2068,7 +2068,7 @@
           Result values for cancer stage group using TNM staging following AJCC staging guidelines. This value set contains SNOMED-CT equivalents of AJCC codes for Stage Group, according to TNM staging rules.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tnm-staging-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tnm-staging-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tnm-staging-method-vs.adoc
         title: "TNM Staging Method Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tnm-staging-method-vs]
@@ -2082,7 +2082,7 @@
           Staging method used for AJCC TNM staging, e.g., AJCC 8th edition, UICC 7th edition, etc.
 
       - id: ext-standards-us-mcode-valuesets-mcode-treatment-termination-reason-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-treatment-termination-reason-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-treatment-termination-reason-vs.adoc
         title: "Treatment Termination Reason Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-treatment-termination-reason-vs]
@@ -2096,7 +2096,7 @@
           Values used to describe the reasons for stopping a treatment or episode of care. Includes code for 'treatment completed' as well as codes for unplanned (early) stoppage. Applies to medications and other treatments that take place over a period of time, such as radiation treatments.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tumor-marker-test-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tumor-marker-test-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tumor-marker-test-vs.adoc
         title: "Tumor Marker Test Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tumor-marker-test-vs]
@@ -2110,7 +2110,7 @@
           Codes representing tests for tumor markers. This value set of LOINC codes is not comprehensive and can be extended. Other vocabularies can be used only if the test of interest is not covered by LOINC. Tumor marker tests differ from genetic tests in that they measure levels of protein or other substances produced downstream from RNA protein synthesis.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-max-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tumor-morphology-code-max-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tumor-morphology-code-max-vs.adoc
         title: "Tumor Morphology Code Max Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tumor-morphology-code-max-vs]
@@ -2124,7 +2124,7 @@
           Contains the preferred codes for tumor morphology and the old, inactive code used in STU2, for backwards compatibility.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tumor-morphology-code-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tumor-morphology-code-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tumor-morphology-code-vs.adoc
         title: "Tumor Morphology Code Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tumor-morphology-code-vs]
@@ -2138,7 +2138,7 @@
           Contains the preferred preferred (active) code for tumor morphology.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tumor-size-method-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tumor-size-method-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tumor-size-method-vs.adoc
         title: "Tumor Size Method Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tumor-size-method-vs]
@@ -2152,7 +2152,7 @@
           Code for methods of measuring tumor size, including physical examination, pathology, and imaging.
 
       - id: ext-standards-us-mcode-valuesets-mcode-tumor-size-units-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-tumor-size-units-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-tumor-size-units-vs.adoc
         title: "Tumor Size Units Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-tumor-size-units-vs]
@@ -2166,7 +2166,7 @@
           Acceptable units for measuring tumor size
 
       - id: ext-standards-us-mcode-valuesets-mcode-wilms-tumor-body-site-vscog
-        file: topics/ext/standards/us-mcode/valuesets/mcode-wilms-tumor-body-site-vscog.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-wilms-tumor-body-site-vscog.adoc
         title: "Wilms Tumor Body Site Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-wilms-tumor-body-site-vscog]
@@ -2180,7 +2180,7 @@
           Codes indicating the location of the Wilms Tumor.
 
       - id: ext-standards-us-mcode-valuesets-mcode-wilms-tumor-stage-value-vs
-        file: topics/ext/standards/us-mcode/valuesets/mcode-wilms-tumor-stage-value-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/mcode-wilms-tumor-stage-value-vs.adoc
         title: "Wilms Tumor Stage Value Set"
         type: reference
         keywords: [us-mcode, valueset, mcode-wilms-tumor-stage-value-vs]
@@ -2194,7 +2194,7 @@
           Codes in the National Wilms Tumor Study Group representing Wilms Tumor stage.
 
       - id: ext-standards-us-mcode-valuesets-tg263-vs
-        file: topics/ext/standards/us-mcode/valuesets/tg263-vs.adoc
+        file: network.ike.examples/ext/standards/us-mcode/valuesets/tg263-vs.adoc
         title: "TG263 ValueSet"
         type: reference
         keywords: [us-mcode, valueset, tg263-vs]

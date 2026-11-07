@@ -10,7 +10,7 @@
     topics:
 
       - id: ext-standards-us-core-codesystems-careplan-category
-        file: topics/ext/standards/us-core/codesystems/careplan-category.adoc
+        file: network.ike.examples/ext/standards/us-core/codesystems/careplan-category.adoc
         title: "US Core CarePlan Category Extension Codes"
         type: reference
         keywords: [us-core, codesystem, careplan-category]
@@ -24,7 +24,7 @@
           Set of codes that are needed for implementation of the US-Core CarePlan Profile. These codes are used as extensions to the FHIR ValueSet.
 
       - id: ext-standards-us-core-codesystems-condition-category
-        file: topics/ext/standards/us-core/codesystems/condition-category.adoc
+        file: network.ike.examples/ext/standards/us-core/codesystems/condition-category.adoc
         title: "US Core Condition Category Extension Codes"
         type: reference
         keywords: [us-core, codesystem, condition-category]
@@ -38,7 +38,7 @@
           Set of codes that are needed for implementation of the US-Core Condition Profile. These codes are used as extensions to the FHIR and US Core value sets.
 
       - id: ext-standards-us-core-codesystems-us-core-category
-        file: topics/ext/standards/us-core/codesystems/us-core-category.adoc
+        file: network.ike.examples/ext/standards/us-core/codesystems/us-core-category.adoc
         title: "US Core Category"
         type: reference
         keywords: [us-core, codesystem, us-core-category]
@@ -52,7 +52,7 @@
           Category codes used across US Core Profiles and resource types. They are typically used when there is a need for categorization for searching and finding resources or workflow hints.
 
       - id: ext-standards-us-core-codesystems-us-core-documentreference-category
-        file: topics/ext/standards/us-core/codesystems/us-core-documentreference-category.adoc
+        file: network.ike.examples/ext/standards/us-core/codesystems/us-core-documentreference-category.adoc
         title: "US Core DocumentReferences Category Codes"
         type: reference
         keywords: [us-core, codesystem, us-core-documentreference-category]
@@ -66,7 +66,7 @@
           The US Core DocumentReferences Type Code System is a 'starter set' of categories supported for fetching and storing DocumentReference Resources.
 
       - id: ext-standards-us-core-codesystems-us-core-provenance-participant-type
-        file: topics/ext/standards/us-core/codesystems/us-core-provenance-participant-type.adoc
+        file: network.ike.examples/ext/standards/us-core/codesystems/us-core-provenance-participant-type.adoc
         title: "US Core Provenance Participant Type Extension Codes"
         type: reference
         keywords: [us-core, codesystem, us-core-provenance-participant-type]
@@ -80,7 +80,7 @@
           Set of codes that are needed for implementation of the US-Core Provenance Profile. These codes are used as extensions to the FHIR value sets.
 
       - id: ext-standards-us-core-profiles-head-occipital-frontal-circumference-percentile
-        file: topics/ext/standards/us-core/profiles/head-occipital-frontal-circumference-percentile.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/head-occipital-frontal-circumference-percentile.adoc
         title: "US Core Pediatric Head Occipital Frontal Circumference Percentile Profile"
         type: reference
         keywords: [us-core, structuredefinition, head-occipital-frontal-circumference-percentile]
@@ -94,7 +94,7 @@
           The US Core Pediatric Head Occipital Frontal Circumference Percentile Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch pediatric head occipital frontal circumference (OFC) percentile observations associated with a patient from birth to 37 Months of age using a standard LOINC code and UCUM units…
 
       - id: ext-standards-us-core-profiles-pediatric-bmi-for-age
-        file: topics/ext/standards/us-core/profiles/pediatric-bmi-for-age.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/pediatric-bmi-for-age.adoc
         title: "US Core Pediatric BMI for Age Observation Profile"
         type: reference
         keywords: [us-core, structuredefinition, pediatric-bmi-for-age]
@@ -108,7 +108,7 @@
           The US Core Pediatric BMI for Age Observation Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch pediatric body mass index (BMI) percentile per age and sex for youth 2-20  observations in FHIR using a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements,…
 
       - id: ext-standards-us-core-profiles-pediatric-weight-for-height
-        file: topics/ext/standards/us-core/profiles/pediatric-weight-for-height.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/pediatric-weight-for-height.adoc
         title: "US Core Pediatric Weight for Height Observation Profile"
         type: reference
         keywords: [us-core, structuredefinition, pediatric-weight-for-height]
@@ -122,7 +122,7 @@
           US Core Pediatric Weight for Height Observation Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch pediatric weight-for-length per age and sex observations in FHIR with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and…
 
       - id: ext-standards-us-core-profiles-us-core-adi-documentreference
-        file: topics/ext/standards/us-core/profiles/us-core-adi-documentreference.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-adi-documentreference.adoc
         title: "US Core ADI DocumentReference Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-adi-documentreference]
@@ -136,7 +136,7 @@
           The US Core Advance Directive Information (ADI) DocumentReference Profile inherits from the FHIR [DocumentReference](https://hl7.org/fhir/R4/documentreference.html) resource; refer to it for scope and usage definitions. This profile and the [US Core Observation ADI Documentation Profile](StructureDefinition-us-core-observation-adi-documentation.html) meet the [U.S. Core Data for Interoperability…
 
       - id: ext-standards-us-core-profiles-us-core-allergyintolerance
-        file: topics/ext/standards/us-core/profiles/us-core-allergyintolerance.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-allergyintolerance.adoc
         title: "US Core AllergyIntolerance Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-allergyintolerance]
@@ -150,7 +150,7 @@
           The US Core AllergyIntolerance Profile inherits from the FHIR [AllergyIntolerance](https://hl7.org/fhir/R4/allergyintolerance.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the AllergyIntolerance resource to record, search, and fetch allergies/adverse reactions associated with a patient. It specifies which core elements, extensions,…
 
       - id: ext-standards-us-core-profiles-us-core-authentication-time
-        file: topics/ext/standards/us-core/profiles/us-core-authentication-time.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-authentication-time.adoc
         title: "US Core Authentication Time Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-authentication-time]
@@ -164,7 +164,7 @@
           This extension indicates when the information in the document was verified.
 
       - id: ext-standards-us-core-profiles-us-core-average-blood-pressure
-        file: topics/ext/standards/us-core/profiles/us-core-average-blood-pressure.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-average-blood-pressure.adoc
         title: "US Core Average Blood Pressure Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-average-blood-pressure]
@@ -178,7 +178,7 @@
           The US Core Average Blood Pressure Profile inherits from the [Observation](https://hl7.org/fobservation.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for recording, searching, and fetching average diastolic and systolic blood pressure observations with standard LOINC codes and UCUM units of measure. It specifies which core elements, extensions,…
 
       - id: ext-standards-us-core-profiles-us-core-birthsex
-        file: topics/ext/standards/us-core/profiles/us-core-birthsex.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-birthsex.adoc
         title: "US Core Birth Sex Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-birthsex]
@@ -192,7 +192,7 @@
           A code classifying the person's sex assigned at birth. This extension aligns with LOINC 76689-9 (Sex assigned at birth).
 
       - id: ext-standards-us-core-profiles-us-core-blood-pressure
-        file: topics/ext/standards/us-core/profiles/us-core-blood-pressure.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-blood-pressure.adoc
         title: "US Core Blood Pressure Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-blood-pressure]
@@ -206,7 +206,7 @@
           US Core Blood Pressure Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch diastolic and systolic blood pressure observations with standard LOINC codes and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the…
 
       - id: ext-standards-us-core-profiles-us-core-bmi
-        file: topics/ext/standards/us-core/profiles/us-core-bmi.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-bmi.adoc
         title: "US Core BMI Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-bmi]
@@ -220,7 +220,7 @@
           The US Core BMI Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch Body Mass Index (BMI) observations with a standard  LOINC codes and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and…
 
       - id: ext-standards-us-core-profiles-us-core-body-height
-        file: topics/ext/standards/us-core/profiles/us-core-body-height.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-body-height.adoc
         title: "US Core Body Height Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-body-height]
@@ -234,7 +234,7 @@
           The US Core Body Height Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch body height observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and constrains…
 
       - id: ext-standards-us-core-profiles-us-core-body-temperature
-        file: topics/ext/standards/us-core/profiles/us-core-body-temperature.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-body-temperature.adoc
         title: "US Core Body Temperature Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-body-temperature]
@@ -248,7 +248,7 @@
           The US Core Body Temperature Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch body temperature observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and…
 
       - id: ext-standards-us-core-profiles-us-core-body-weight
-        file: topics/ext/standards/us-core/profiles/us-core-body-weight.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-body-weight.adoc
         title: "US Core Body Weight Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-body-weight]
@@ -262,7 +262,7 @@
           The US Core Body Weight Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch body weight observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and constrains…
 
       - id: ext-standards-us-core-profiles-us-core-care-experience-preference
-        file: topics/ext/standards/us-core/profiles/us-core-care-experience-preference.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-care-experience-preference.adoc
         title: "US Core Care Experience Preference Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-care-experience-preference]
@@ -276,7 +276,7 @@
           The US Core Care Experience Preference Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to This profile provides guidance on how to record a care experience preference expressed by the patient regarding their care and treatment. Examples include, but are not limited to, religious preferences, dislikes and fears, preferred place for birth,…
 
       - id: ext-standards-us-core-profiles-us-core-careplan
-        file: topics/ext/standards/us-core/profiles/us-core-careplan.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-careplan.adoc
         title: "US Core CarePlan Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-careplan]
@@ -290,7 +290,7 @@
           The US Core CarePlan Profile inherits from the FHIR [CarePlan](https://hl7.org/fhir/R4/careplan.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the CarePlan resource to record,  search, and fetch assessment and plan of treatment data associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets…
 
       - id: ext-standards-us-core-profiles-us-core-careteam
-        file: topics/ext/standards/us-core/profiles/us-core-careteam.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-careteam.adoc
         title: "US Core CareTeam Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-careteam]
@@ -304,7 +304,7 @@
           The US Core CareTeam Profile inherits from the FHIR [CareTeam](https://hl7.org/fhir/R4/careteam.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the CareTeam resource for identifying the Care Team members associated with a patient to promote interoperability and adoption through common implementation. It specifies which core elements,…
 
       - id: ext-standards-us-core-profiles-us-core-condition-encounter-diagnosis
-        file: topics/ext/standards/us-core/profiles/us-core-condition-encounter-diagnosis.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-condition-encounter-diagnosis.adoc
         title: "US Core Condition Encounter Diagnosis Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-condition-encounter-diagnosis]
@@ -318,7 +318,7 @@
           The US Core Condition Encounter Diagnosis Profile inherits from the FHIR [Condition](https://hl7.org/fhir/R4/condition.html) resource; refer to it for scope and usage definitions. US Core version 5.0.0 split the US Core Condition Profile into this profile and the US Core Condition Problems and Health Concerns Profile. This profile meets the requirements of the U.S. Core Data for Interoperability…
 
       - id: ext-standards-us-core-profiles-us-core-condition-problems-health-concerns
-        file: topics/ext/standards/us-core/profiles/us-core-condition-problems-health-concerns.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-condition-problems-health-concerns.adoc
         title: "US Core Condition Problems and Health Concerns Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-condition-problems-health-concerns]
@@ -332,7 +332,7 @@
           The US Core Condition Problems and Health Concerns Profile inherits from the FHIR [Condition](https://hl7.org/fhir/R4/condition.html) resource; refer to it for scope and usage definitions. US Core version 5.0.0 split the US Core Condition Profile into this profile and the US Core Condition Encounter Diagnosis Profile. This profile meets the requirements of the U.S. Core Data for Interoperability…
 
       - id: ext-standards-us-core-profiles-us-core-coverage
-        file: topics/ext/standards/us-core/profiles/us-core-coverage.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-coverage.adoc
         title: "US Core Coverage Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-coverage]
@@ -346,7 +346,7 @@
           The US Core Coverage Profile inherits from the FHIR [Coverage](https://hl7.org/fhir/R4/coverage.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the US Core Data for Interoperability (USCDI) *Health Insurance Information* Data Class. It sets minimum expectations for the Coverage resource to record, search, and fetch data related to an individual's…
 
       - id: ext-standards-us-core-profiles-us-core-diagnosticreport-lab
-        file: topics/ext/standards/us-core/profiles/us-core-diagnosticreport-lab.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-diagnosticreport-lab.adoc
         title: "US Core DiagnosticReport Profile for Laboratory Results Reporting"
         type: reference
         keywords: [us-core, structuredefinition, us-core-diagnosticreport-lab]
@@ -360,7 +360,7 @@
           The US Core DiagnosticReport Profile for Laboratory Results Reporting inherits from the FHIR [DiagnosticReport](https://hl7.org/fhir/R4/diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual…
 
       - id: ext-standards-us-core-profiles-us-core-diagnosticreport-note
-        file: topics/ext/standards/us-core/profiles/us-core-diagnosticreport-note.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-diagnosticreport-note.adoc
         title: "US Core DiagnosticReport Profile for Report and Note Exchange"
         type: reference
         keywords: [us-core, structuredefinition, us-core-diagnosticreport-note]
@@ -374,7 +374,7 @@
           The US Core DiagnosticReport Profile for Report and Note Exchange inherits from the FHIR [DiagnosticReport](https://hl7.org/fhir/R4/diagnosticreport.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for searching and fetching Diagnostic Reports and Notes using the DiagnosticReport resource. It specifies which core elements, extensions, …
 
       - id: ext-standards-us-core-profiles-us-core-direct
-        file: topics/ext/standards/us-core/profiles/us-core-direct.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-direct.adoc
         title: "US Core Direct email Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-direct]
@@ -388,7 +388,7 @@
           This email address is associated with a [\"Direct Secure Messaging\"](https://directtrust.org/what-we-do/direct-secure-messaging) service.  This extension can only be used on contact points where the system = 'email'
 
       - id: ext-standards-us-core-profiles-us-core-documentreference
-        file: topics/ext/standards/us-core/profiles/us-core-documentreference.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-documentreference.adoc
         title: "US Core DocumentReference Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-documentreference]
@@ -402,7 +402,7 @@
           The US Core DocumentReference Profile inherits from the FHIR [DocumentReference](https://hl7.org/fhir/R4/documentreference.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for searching and fetching patient documents including Clinical Notes using the DocumentReference resource.  It specifies which core elements, extensions, vocabularies, and…
 
       - id: ext-standards-us-core-profiles-us-core-encounter
-        file: topics/ext/standards/us-core/profiles/us-core-encounter.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-encounter.adoc
         title: "US Core Encounter Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-encounter]
@@ -416,7 +416,7 @@
           The US Core Encounter Profile inherits from the FHIR [Encounter](https://hl7.org/fhir/R4/encounter.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Encounter resource to record, search, and fetch basic encounter information for an individual patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be…
 
       - id: ext-standards-us-core-profiles-us-core-ethnicity
-        file: topics/ext/standards/us-core/profiles/us-core-ethnicity.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-ethnicity.adoc
         title: "US Core Ethnicity Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-ethnicity]
@@ -430,7 +430,7 @@
           Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [Race & Ethnicity - CDC (CDCREC)](https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.238) which includes over 900 concepts for representing race and ethnicity of which 43…
 
       - id: ext-standards-us-core-profiles-us-core-extension-questionnaire-uri
-        file: topics/ext/standards/us-core/profiles/us-core-extension-questionnaire-uri.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-extension-questionnaire-uri.adoc
         title: "US Core Extension Questionnaire URI"
         type: reference
         keywords: [us-core, structuredefinition, us-core-extension-questionnaire-uri]
@@ -444,7 +444,7 @@
           The location where a non-FHIR questionnaire/survey form can be found. This extension is used when the survey, form, or questionnaire which is being answered is not a FHIR [Questionnaire](https://www.hl7.org/fhir/questionnaire.html), otherwise the [canonical url](https://www.hl7.org/fhir/references.html#canonical) for the FHIR Questionnaire is used.
 
       - id: ext-standards-us-core-profiles-us-core-genderidentity
-        file: topics/ext/standards/us-core/profiles/us-core-genderidentity.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-genderidentity.adoc
         title: "US Core Gender Identity Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-genderidentity]
@@ -458,7 +458,7 @@
           This extension represents an individual's sense of being a man, woman, boy, girl, nonbinary, or something else, ascertained by asking them what that identity is.
 
       - id: ext-standards-us-core-profiles-us-core-goal
-        file: topics/ext/standards/us-core/profiles/us-core-goal.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-goal.adoc
         title: "US Core Goal Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-goal]
@@ -472,7 +472,7 @@
           The US Core Goal Profile inherits from the FHIR [Goal](https://hl7.org/fhir/R4/goal.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Goal resource to record,  search, and fetch Goal information associated with a patient.   It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the…
 
       - id: ext-standards-us-core-profiles-us-core-head-circumference
-        file: topics/ext/standards/us-core/profiles/us-core-head-circumference.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-head-circumference.adoc
         title: "US Core Head Circumference Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-head-circumference]
@@ -486,7 +486,7 @@
           The US Core Head Circumference Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch head circumference observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and…
 
       - id: ext-standards-us-core-profiles-us-core-heart-rate
-        file: topics/ext/standards/us-core/profiles/us-core-heart-rate.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-heart-rate.adoc
         title: "US Core Heart Rate Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-heart-rate]
@@ -500,7 +500,7 @@
           The US Core Heart Rate Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch heart rate observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and constrains how…
 
       - id: ext-standards-us-core-profiles-us-core-immunization
-        file: topics/ext/standards/us-core/profiles/us-core-immunization.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-immunization.adoc
         title: "US Core Immunization Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-immunization]
@@ -514,7 +514,7 @@
           The US Core Immunization Profile inherits from the FHIR [Immunization](https://hl7.org/fhir/R4/immunization.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Immunization resource to record, search, and fetch immunization history associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL**…
 
       - id: ext-standards-us-core-profiles-us-core-implantable-device
-        file: topics/ext/standards/us-core/profiles/us-core-implantable-device.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-implantable-device.adoc
         title: "US Core Implantable Device Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-implantable-device]
@@ -528,7 +528,7 @@
           The US Core Device Profile inherits from the FHIR [Device](https://hl7.org/fhir/R4/device.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI) *Unique Device  Identifier - Implantable* Data Element. It sets minimum expectations for the Device resource to record, search, and fetch UDI information…
 
       - id: ext-standards-us-core-profiles-us-core-individual-sex
-        file: topics/ext/standards/us-core/profiles/us-core-individual-sex.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-individual-sex.adoc
         title: "US Core Individual Sex Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-individual-sex]
@@ -542,7 +542,7 @@
           USCDI includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with the USCDI definition of Sex: \"Documentation of a specific instance of sex.\" It enables systems to share the sex value as it was documented in a particular context.  Systems choosing to record sources of information should use the [Provenance resource](elem…
 
       - id: ext-standards-us-core-profiles-us-core-interpreter-needed
-        file: topics/ext/standards/us-core/profiles/us-core-interpreter-needed.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-interpreter-needed.adoc
         title: "US Core Interpreter Needed Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-interpreter-needed]
@@ -556,7 +556,7 @@
           This extension indicates the individual's need for an interpreter to communicate healthcare information in a language other than the default language of the organization. It has the same meaning as the LOINC [54588-9](https://loinc.org/54588-9) (Interpreter needed)
 
       - id: ext-standards-us-core-profiles-us-core-jurisdiction
-        file: topics/ext/standards/us-core/profiles/us-core-jurisdiction.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-jurisdiction.adoc
         title: "US Core Jurisdiction Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-jurisdiction]
@@ -570,7 +570,7 @@
           An extension to communicate the US state or local jurisdiction for individual and entity identifiers. For example, a practitioner's state or local jurisdiction for a license.
 
       - id: ext-standards-us-core-profiles-us-core-location
-        file: topics/ext/standards/us-core/profiles/us-core-location.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-location.adoc
         title: "US Core Location Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-location]
@@ -584,7 +584,7 @@
           The US Core Location Profile inherits from the FHIR [Location](https://hl7.org/fhir/R4/location.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Location resource for  recording, searching, and fetching a \"physical place of available services or resources.\"  It specifies which core elements, extensions, vocabularies, and value sets…
 
       - id: ext-standards-us-core-profiles-us-core-medication
-        file: topics/ext/standards/us-core/profiles/us-core-medication.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-medication.adoc
         title: "US Core Medication Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-medication]
@@ -598,7 +598,7 @@
           The US Core Medication Profile inherits from the FHIR [Medication](https://hl7.org/fhir/R4/medication.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Medication resource to record, search, and fetch medications associated with a patient. When referencing a medication, the MedicationRequest resource can use a code or refer to this profile.…
 
       - id: ext-standards-us-core-profiles-us-core-medication-adherence
-        file: topics/ext/standards/us-core/profiles/us-core-medication-adherence.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-medication-adherence.adoc
         title: "US Core Medication Adherence Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-medication-adherence]
@@ -612,7 +612,7 @@
           The Medication Adherence Extension is used to report whether a medication has been consumed according to instructions as reported by a patient or on behalf of the patient.
 
       - id: ext-standards-us-core-profiles-us-core-medicationdispense
-        file: topics/ext/standards/us-core/profiles/us-core-medicationdispense.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-medicationdispense.adoc
         title: "US Core MedicationDispense Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-medicationdispense]
@@ -626,7 +626,7 @@
           The US Core MedicationDispense Profile inherits from the FHIR [MedicationDispense](https://hl7.org/fhir/R4/medicationdispense.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationDispense resource to record, search, and fetch the state of a patients medication with regards to dispensing or other activity. (e.g., dispensed, partially…
 
       - id: ext-standards-us-core-profiles-us-core-medicationrequest
-        file: topics/ext/standards/us-core/profiles/us-core-medicationrequest.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-medicationrequest.adoc
         title: "US Core MedicationRequest Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-medicationrequest]
@@ -640,7 +640,7 @@
           The US Core MedicationRequest Profile inherits from the FHIR [MedicationRequest](https://hl7.org/fhir/R4/medicationrequest.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the [U.S. Core Data for Interoperability (USCDI)](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi)  *Medications* Data Class. This profile sets…
 
       - id: ext-standards-us-core-profiles-us-core-observation-adi-documentation
-        file: topics/ext/standards/us-core/profiles/us-core-observation-adi-documentation.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-adi-documentation.adoc
         title: "US Core Observation ADI Documentation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-adi-documentation]
@@ -654,7 +654,7 @@
           The US Core Observation Advance Directive Information (ADI) Documentation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile and the [US Core Observation ADI DocumentationReference Profile](StructureDefinition-us-core-adi-documentreference.html) meet the [U.S. Core Data for Interoperability…
 
       - id: ext-standards-us-core-profiles-us-core-observation-clinical-result
-        file: topics/ext/standards/us-core/profiles/us-core-observation-clinical-result.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-clinical-result.adoc
         title: "US Core Observation Clinical Result Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-clinical-result]
@@ -668,7 +668,7 @@
           The US Core Observation Clinical Result Profile is based upon the core FHIR Observation Resource and, along with the US Core DiagnosticReport Profile, meets the US Core Data for Interoperability (USCDI) requirements for *Diagnostic Imaging* and *Clinical Tests* Data Classes. This profile sets minimum expectations for the Observation resource to record and search non-laboratory clinical test…
 
       - id: ext-standards-us-core-profiles-us-core-observation-lab
-        file: topics/ext/standards/us-core/profiles/us-core-observation-lab.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-lab.adoc
         title: "US Core Laboratory Result Observation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-lab]
@@ -682,7 +682,7 @@
           The US Core Laboratory Result Observation Profile is based upon the US Core Observation Clinical Result Profile and, along with the US Core DiagnosticReport Profile for Laboratory Results Reporting, meets the U.S. Core Data for Interoperability (USCDI) Laboratory requirements. Laboratory results are grouped and summarized using the DiagnosticReport resource, which references Observation resources.…
 
       - id: ext-standards-us-core-profiles-us-core-observation-occupation
-        file: topics/ext/standards/us-core/profiles/us-core-observation-occupation.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-occupation.adoc
         title: "US Core Observation Occupation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-occupation]
@@ -696,7 +696,7 @@
           The US Core Observation Occupation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI)  *Occupation* and *Occupation Industry* Data Elements. It sets minimum expectations for the Observation resource to record, search, and…
 
       - id: ext-standards-us-core-profiles-us-core-observation-pregnancyintent
-        file: topics/ext/standards/us-core/profiles/us-core-observation-pregnancyintent.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-pregnancyintent.adoc
         title: "US Core Observation Pregnancy Intent Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-pregnancyintent]
@@ -710,7 +710,7 @@
           The  US Core Observation Pregnancy Intent Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI)  *Pregnancy Status* Data Element. This profile sets minimum expectations for the Observation resource to record, search, and…
 
       - id: ext-standards-us-core-profiles-us-core-observation-pregnancystatus
-        file: topics/ext/standards/us-core/profiles/us-core-observation-pregnancystatus.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-pregnancystatus.adoc
         title: "US Core Observation Pregnancy Status Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-pregnancystatus]
@@ -724,7 +724,7 @@
           The  US Core Pregnancy Status Observation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI)  *Pregnancy Status* Data Element. It sets minimum expectations for the  Observation resource to record, search, and fetch the…
 
       - id: ext-standards-us-core-profiles-us-core-observation-screening-assessment
-        file: topics/ext/standards/us-core/profiles/us-core-observation-screening-assessment.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-screening-assessment.adoc
         title: "US Core Observation Screening Assessment Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-screening-assessment]
@@ -738,7 +738,7 @@
           The US Core Observation Screening Assessment Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. Beginning with US Core Version 6.0.0, this profile supersedes the US Core Observation Survey Profile (see the [Changes Between Versions](changes-between-versions.html) page for a summary of cross-version…
 
       - id: ext-standards-us-core-profiles-us-core-observation-sexual-orientation
-        file: topics/ext/standards/us-core/profiles/us-core-observation-sexual-orientation.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-observation-sexual-orientation.adoc
         title: "US Core Observation Sexual Orientation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-observation-sexual-orientation]
@@ -752,7 +752,7 @@
           The US Core Observation Sexual Orientation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to refer to it for scope and usage definitions. This Profile sets minimum expectations for the Observation resource to record, search, and fetch sexual orientation observations associated with a patient. It specifies which core elements, extensions, …
 
       - id: ext-standards-us-core-profiles-us-core-organization
-        file: topics/ext/standards/us-core/profiles/us-core-organization.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-organization.adoc
         title: "US Core Organization Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-organization]
@@ -766,7 +766,7 @@
           The US Core Organization Profile inherits from the FHIR [Organization](https://hl7.org/fhir/R4/organization.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Organization resource to record, search, and fetch patient or provider organziation information. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be…
 
       - id: ext-standards-us-core-profiles-us-core-patient
-        file: topics/ext/standards/us-core/profiles/us-core-patient.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-patient.adoc
         title: "US Core Patient Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-patient]
@@ -780,7 +780,7 @@
           The US Core Patient Profile inherits from the FHIR [Patient](https://hl7.org/fhir/R4/patient.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the [U.S. Core Data for Interoperability (USCDI)](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi) *Patient Demographics/Information* Data Class. It sets minimum expectations for…
 
       - id: ext-standards-us-core-profiles-us-core-practitioner
-        file: topics/ext/standards/us-core/profiles/us-core-practitioner.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-practitioner.adoc
         title: "US Core Practitioner Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-practitioner]
@@ -794,7 +794,7 @@
           The US Core Practitioner Profile inherits from the FHIR [Practitioner](https://hl7.org/fhir/R4/practitioner.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Practitioner resource to record, search, and fetch basic demographics and administrative information about an individual practitioner. It specifies which core elements, extensions,…
 
       - id: ext-standards-us-core-profiles-us-core-practitionerrole
-        file: topics/ext/standards/us-core/profiles/us-core-practitionerrole.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-practitionerrole.adoc
         title: "US Core PractitionerRole Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-practitionerrole]
@@ -808,7 +808,7 @@
           The US Core PractitionerRole Profile inherits from the FHIR [PractitionerRole](https://hl7.org/fhir/R4/practitionerrole.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the PractitionerRole Resource to record, search, and fetch the practitioner role information. It specifies which core elements, extensions, vocabularies, and value sets…
 
       - id: ext-standards-us-core-profiles-us-core-procedure
-        file: topics/ext/standards/us-core/profiles/us-core-procedure.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-procedure.adoc
         title: "US Core Procedure Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-procedure]
@@ -822,7 +822,7 @@
           The US Core Procedure Profile inherits from the FHIR [Procedure](https://hl7.org/fhir/R4/procedure.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI)  *Procedures* Data Class. It sets minimum expectations for the Procedure resource to record, search, and fetch procedure information associated with a…
 
       - id: ext-standards-us-core-profiles-us-core-provenance
-        file: topics/ext/standards/us-core/profiles/us-core-provenance.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-provenance.adoc
         title: "US Core Provenance Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-provenance]
@@ -836,7 +836,7 @@
           The US Core Provenance Profile inherits from the FHIR [Provenance](https://hl7.org/fhir/R4/provenance.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Provenance resource to record, search, and fetch provenance information associated with a record. It covers the minimal (basic) information to support lineage of information. It specifies…
 
       - id: ext-standards-us-core-profiles-us-core-pulse-oximetry
-        file: topics/ext/standards/us-core/profiles/us-core-pulse-oximetry.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-pulse-oximetry.adoc
         title: "US Core Pulse Oximetry Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-pulse-oximetry]
@@ -850,7 +850,7 @@
           The US Core Pulse Oximetry Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and pulse oximetry and inspired oxygen observations with standard LOINC codes and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the…
 
       - id: ext-standards-us-core-profiles-us-core-questionnaireresponse
-        file: topics/ext/standards/us-core/profiles/us-core-questionnaireresponse.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-questionnaireresponse.adoc
         title: "US Core QuestionnaireResponse Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-questionnaireresponse]
@@ -864,7 +864,7 @@
           The US Core QuestionaireResponse Profile inherits from the [Structured  Data Capture (SDC) Questionnaire Response Profile](http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaireresponse.html).   This profile sets minimum expectations for the QuestionnaireResponse resource to record, search, and fetch retrieve captures the responses to form/survey and assessment tools such as the…
 
       - id: ext-standards-us-core-profiles-us-core-race
-        file: topics/ext/standards/us-core/profiles/us-core-race.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-race.adoc
         title: "US Core Race Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-race]
@@ -878,7 +878,7 @@
           Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [Race & Ethnicity - CDC (CDCREC)](https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.238) which includes over 900 concepts for representing race and ethnicity of which 921…
 
       - id: ext-standards-us-core-profiles-us-core-relatedperson
-        file: topics/ext/standards/us-core/profiles/us-core-relatedperson.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-relatedperson.adoc
         title: "US Core RelatedPerson Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-relatedperson]
@@ -892,7 +892,7 @@
           The US Core RelatedPerson Profile inherits from the FHIR [RelatedPerson](https://hl7.org/fhir/R4/relatedperson.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the RelatedPerson resource to record, search, and fetch basic administrative information about persons with a legal or familial relationship to a patient. It specifies which core…
 
       - id: ext-standards-us-core-profiles-us-core-respiratory-rate
-        file: topics/ext/standards/us-core/profiles/us-core-respiratory-rate.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-respiratory-rate.adoc
         title: "US Core Respiratory Rate Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-respiratory-rate]
@@ -906,7 +906,7 @@
           The US Core Respiratory Rate Profile inherits from the US Core Vital Signs Profile. This profile sets minimum expectations for the Observation resource to record, search,  and fetch respiratory rate observations with a standard LOINC code and UCUM units of measure. It specifies which *additional*  core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and…
 
       - id: ext-standards-us-core-profiles-us-core-servicerequest
-        file: topics/ext/standards/us-core/profiles/us-core-servicerequest.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-servicerequest.adoc
         title: "US Core ServiceRequest Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-servicerequest]
@@ -920,7 +920,7 @@
           The US Core ServiceRequest Profile inherits from the FHIR [ServiceRequest](https://hl7.org/fhir/R4/servicerequest.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for recording, searching, and fetching the ServiceRequest information. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how…
 
       - id: ext-standards-us-core-profiles-us-core-sex
-        file: topics/ext/standards/us-core/profiles/us-core-sex.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-sex.adoc
         title: "US Core Sex Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-sex]
@@ -934,7 +934,7 @@
           The Sex Extension is used to reflect the documentation of a person's sex. Systems choosing to record sources of information should use the [Provenance resource](element-level-provenance.html).   USCDI includes a data element for sex, intended to support the exchange of a sex value that is not characterized as sex assigned at birth or birth sex. This Sex extension supports USCDI. Sex assigned at…
 
       - id: ext-standards-us-core-profiles-us-core-simple-observation
-        file: topics/ext/standards/us-core/profiles/us-core-simple-observation.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-simple-observation.adoc
         title: "US Core Simple Observation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-simple-observation]
@@ -948,7 +948,7 @@
           The US Core Simple Observation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This US Core FHIR Profile captures any \"simple\" observations not covered by other US Core Observation profiles. It represents any observation not classified as vital signs, laboratory,  imaging, or other specific observation…
 
       - id: ext-standards-us-core-profiles-us-core-smokingstatus
-        file: topics/ext/standards/us-core/profiles/us-core-smokingstatus.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-smokingstatus.adoc
         title: "US Core Smoking Status Observation Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-smokingstatus]
@@ -962,7 +962,7 @@
           The US Core Smoking Status Observation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile meets the requirements of the U.S. Core Data for Interoperability (USCDI)  *Smoking Status* Data Element. This profile sets minimum expectations for the Observation resource to record, search, and fetch…
 
       - id: ext-standards-us-core-profiles-us-core-specimen
-        file: topics/ext/standards/us-core/profiles/us-core-specimen.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-specimen.adoc
         title: "US Core Specimen Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-specimen]
@@ -976,7 +976,7 @@
           The US Core Specimen Profile inherits from the FHIR [Specimen](https://hl7.org/fhir/R4/specimen.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Specimen resource to record, search, and fetch information about substances associated with a patient being sampled or tested (such as nasopharyngeal swab, whole blood,  or serum). It specifies…
 
       - id: ext-standards-us-core-profiles-us-core-treatment-intervention-preference
-        file: topics/ext/standards/us-core/profiles/us-core-treatment-intervention-preference.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-treatment-intervention-preference.adoc
         title: "US Core Treatment Intervention Preference Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-treatment-intervention-preference]
@@ -990,7 +990,7 @@
           The US Core Treatment Intervention Preference Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R4/observation.html) resource; refer to it for scope and usage definitions. This profile provides guidance on how to record a treatment intervention preference expressed by the patient regarding their personal health goals,  preferences, and priorities for medical treatments or…
 
       - id: ext-standards-us-core-profiles-us-core-tribal-affiliation
-        file: topics/ext/standards/us-core/profiles/us-core-tribal-affiliation.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-tribal-affiliation.adoc
         title: "US Core Tribal Affiliation Extension"
         type: reference
         keywords: [us-core, structuredefinition, us-core-tribal-affiliation]
@@ -1004,7 +1004,7 @@
           This Extension profile represents a tribe or band with which a person associates and, optionally, whether they are enrolled.
 
       - id: ext-standards-us-core-profiles-us-core-vital-signs
-        file: topics/ext/standards/us-core/profiles/us-core-vital-signs.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/us-core-vital-signs.adoc
         title: "US Core Vital Signs Profile"
         type: reference
         keywords: [us-core, structuredefinition, us-core-vital-signs]
@@ -1018,7 +1018,7 @@
           This profile is based on the base [FHIR Vital Signs Profile](http://hl7.org/fhir/R4/observation-vitalsigns.html)  and defines *additional* constraints on the Observation resource to represent vital  signs observations. It specifies which core elements, extensions,  vocabularies, and value sets **SHALL** be present in the resource and constrains how the elements are used. Providing the floor for…
 
       - id: ext-standards-us-core-profiles-uscdi-requirement
-        file: topics/ext/standards/us-core/profiles/uscdi-requirement.adoc
+        file: network.ike.examples/ext/standards/us-core/profiles/uscdi-requirement.adoc
         title: "US Core USCDI Requirement Extension"
         type: reference
         keywords: [us-core, structuredefinition, uscdi-requirement]
@@ -1032,7 +1032,7 @@
           **This extension is only used in the US Core Implementation Guide''s Profile StructureDefinition elements.**  It flags elements that are *Additional* USCDI Requirements for certified systems. In other words, elements that are not marked as Must Support but are required for ASTP Health IT certification testing. See the [Conformance page](general-requirements.html) for more information.
 
       - id: ext-standards-us-core-valuesets-us-core-clinical-note-type
-        file: topics/ext/standards/us-core/valuesets/us-core-clinical-note-type.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-clinical-note-type.adoc
         title: "US Core Clinical Note Type"
         type: reference
         keywords: [us-core, valueset, us-core-clinical-note-type]
@@ -1046,7 +1046,7 @@
           The US Core Clinical Note Type Value Set is a 'starter set' of types supported for fetching and storing clinical notes.
 
       - id: ext-standards-us-core-valuesets-us-core-clinical-result-observation-category
-        file: topics/ext/standards/us-core/valuesets/us-core-clinical-result-observation-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-clinical-result-observation-category.adoc
         title: "US Core Clinical Result Observation Category"
         type: reference
         keywords: [us-core, valueset, us-core-clinical-result-observation-category]
@@ -1060,7 +1060,7 @@
           Used to classify the context of clinical result observations.
 
       - id: ext-standards-us-core-valuesets-us-core-condition-code
-        file: topics/ext/standards/us-core/valuesets/us-core-condition-code.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-condition-code.adoc
         title: "US Core Condition Codes"
         type: reference
         keywords: [us-core, valueset, us-core-condition-code]
@@ -1074,7 +1074,7 @@
           This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient's medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient's healthcare (e.g., signs, symptoms, and defined conditions). ICD-10 is appropriate for Diagnosis information, and ICD-9 for historical information.
 
       - id: ext-standards-us-core-valuesets-us-core-condition-code-current
-        file: topics/ext/standards/us-core/valuesets/us-core-condition-code-current.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-condition-code-current.adoc
         title: "US Core Condition Codes Current"
         type: reference
         keywords: [us-core, valueset, us-core-condition-code-current]
@@ -1088,7 +1088,7 @@
           This valueset is defined the same as the [US Core Condition Codes](ValueSet-us-core-condition-code.html) value set except it excludes ICD-9-CM codes. It us used for encoding newly recorded, non-legacy problem list items, health concerns and diagnosis using SNOMED CT and ICD-10-CM per USCDI requirements.
 
       - id: ext-standards-us-core-valuesets-us-core-diagnosticreport-category
-        file: topics/ext/standards/us-core/valuesets/us-core-diagnosticreport-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-diagnosticreport-category.adoc
         title: "US Core Diagnostic Report Category Codes"
         type: reference
         keywords: [us-core, valueset, us-core-diagnosticreport-category]
@@ -1102,7 +1102,7 @@
           The US Core Diagnostic Report Category Value Set is a 'starter set' of categories supported for fetching and Diagnostic Reports and notes.
 
       - id: ext-standards-us-core-valuesets-us-core-diagnosticreport-report-and-note-codes
-        file: topics/ext/standards/us-core/valuesets/us-core-diagnosticreport-report-and-note-codes.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-diagnosticreport-report-and-note-codes.adoc
         title: "US Core Non Laboratory Codes"
         type: reference
         keywords: [us-core, valueset, us-core-diagnosticreport-report-and-note-codes]
@@ -1116,7 +1116,7 @@
           This value set includes All LOINC codes defined as type \"clinical,\" therefore excluding laboratory tests, survey instruments, and claims documents. This includes observables such as vital signs, hemodynamics, intake/output, EKG, obstetric ultrasound, and cardiac echo, and includes discrete and narrative diagnostic observations and reports.
 
       - id: ext-standards-us-core-valuesets-us-core-documentreference-category
-        file: topics/ext/standards/us-core/valuesets/us-core-documentreference-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-documentreference-category.adoc
         title: "US Core DocumentReference Category"
         type: reference
         keywords: [us-core, valueset, us-core-documentreference-category]
@@ -1130,7 +1130,7 @@
           The US Core DocumentReferences Category Value Set is a 'starter set' of categories supported for fetching and storing clinical notes.
 
       - id: ext-standards-us-core-valuesets-us-core-documentreference-type
-        file: topics/ext/standards/us-core/valuesets/us-core-documentreference-type.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-documentreference-type.adoc
         title: "US Core DocumentReference Type"
         type: reference
         keywords: [us-core, valueset, us-core-documentreference-type]
@@ -1144,7 +1144,7 @@
           The US Core DocumentReference Type Value Set includes all LOINC values whose SCALE is \"Doc\" in the LOINC database and the HL7 v3 Code System NullFlavor concept 'unknown'
 
       - id: ext-standards-us-core-valuesets-us-core-goal-description
-        file: topics/ext/standards/us-core/valuesets/us-core-goal-description.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-goal-description.adoc
         title: "US Core Goal Codes"
         type: reference
         keywords: [us-core, valueset, us-core-goal-description]
@@ -1158,7 +1158,7 @@
           Concepts from SNOMED CT  and LOINC code systems that can be used to indicate the goal.
 
       - id: ext-standards-us-core-valuesets-us-core-laboratory-test-codes
-        file: topics/ext/standards/us-core/valuesets/us-core-laboratory-test-codes.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-laboratory-test-codes.adoc
         title: "US Core Laboratory Test Codes"
         type: reference
         keywords: [us-core, valueset, us-core-laboratory-test-codes]
@@ -1172,7 +1172,7 @@
           Laboratory LOINC codes: From the introduction to August 2022 LOINC Users' guide; \"The current scope of the existing laboratory portion of the LOINC  database includes all observations reported by clinical laboratories, including the specialty areas: chemistry, including therapeutic drug monitoring and toxicology; hematology; serology; blood bank; microbiology; cytology; surgical pathology; and…
 
       - id: ext-standards-us-core-valuesets-us-core-narrative-status
-        file: topics/ext/standards/us-core/valuesets/us-core-narrative-status.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-narrative-status.adoc
         title: "US Core Narrative Status"
         type: reference
         keywords: [us-core, valueset, us-core-narrative-status]
@@ -1186,7 +1186,7 @@
           The US Core Narrative Status Value Set limits the text status for the resource narrative.
 
       - id: ext-standards-us-core-valuesets-us-core-observation-smoking-status-status
-        file: topics/ext/standards/us-core/valuesets/us-core-observation-smoking-status-status.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-observation-smoking-status-status.adoc
         title: "US Core Status for Smoking Status Observation"
         type: reference
         keywords: [us-core, valueset, us-core-observation-smoking-status-status]
@@ -1200,7 +1200,7 @@
           Codes providing the status of an observation for smoking status. Constrained to `final`and `entered-in-error`.
 
       - id: ext-standards-us-core-valuesets-us-core-problem-or-health-concern
-        file: topics/ext/standards/us-core/valuesets/us-core-problem-or-health-concern.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-problem-or-health-concern.adoc
         title: "US Core Problem or Health Concern"
         type: reference
         keywords: [us-core, valueset, us-core-problem-or-health-concern]
@@ -1214,7 +1214,7 @@
           Code set for category codes for *US Core Condition Problems and Health Concerns Profile* consisting of the concepts \"problem\" and \"health-concern\".
 
       - id: ext-standards-us-core-valuesets-us-core-procedure-code
-        file: topics/ext/standards/us-core/valuesets/us-core-procedure-code.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-procedure-code.adoc
         title: "US Core Procedure Codes"
         type: reference
         keywords: [us-core, valueset, us-core-procedure-code]
@@ -1228,7 +1228,7 @@
           Concepts from CPT, SNOMED CT, HCPCS Level II Alphanumeric Codes, ICD-10-PCS,CDT and LOINC code systems that can be used to indicate the type of procedure performed.
 
       - id: ext-standards-us-core-valuesets-us-core-provenance-participant-type
-        file: topics/ext/standards/us-core/valuesets/us-core-provenance-participant-type.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-provenance-participant-type.adoc
         title: "US Core Provenance Participant Type Codes"
         type: reference
         keywords: [us-core, valueset, us-core-provenance-participant-type]
@@ -1242,7 +1242,7 @@
           The type of participation a provenance agent played for a given target.
 
       - id: ext-standards-us-core-valuesets-us-core-screening-assessment-condition-category
-        file: topics/ext/standards/us-core/valuesets/us-core-screening-assessment-condition-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-screening-assessment-condition-category.adoc
         title: "US Core Screening Assessment Condition Category"
         type: reference
         keywords: [us-core, valueset, us-core-screening-assessment-condition-category]
@@ -1256,7 +1256,7 @@
           This value set consists of the single code \"sdoh\". It is the minimum value set of category codes used in the US Core Condition Problems and Health Concerns Profile that any conformant system **SHALL** support to help identify the type of USCDI Health Status/Assessment data class being reported.
 
       - id: ext-standards-us-core-valuesets-us-core-screening-assessment-observation-category
-        file: topics/ext/standards/us-core/valuesets/us-core-screening-assessment-observation-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-screening-assessment-observation-category.adoc
         title: "US Core Screening Assessment Observation Category"
         type: reference
         keywords: [us-core, valueset, us-core-screening-assessment-observation-category]
@@ -1270,7 +1270,7 @@
           This value set is the minimum value set of category codes used in the US Core Observation Screening Assessment and Simple Observation Profiles that any conformant system **SHALL** support to help identify the type of USCDI Health Status/Assessment data class being reported.
 
       - id: ext-standards-us-core-valuesets-us-core-screening-assessment-observation-maximum-category
-        file: topics/ext/standards/us-core/valuesets/us-core-screening-assessment-observation-maximum-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-screening-assessment-observation-maximum-category.adoc
         title: "US Core Screening Assessment Observation Maximum Category"
         type: reference
         keywords: [us-core, valueset, us-core-screening-assessment-observation-maximum-category]
@@ -1284,7 +1284,7 @@
           This value set is a value set of category codes used in the US Core Observation Screening Assessment that any conformant system **SHOULD** support to help identify the type of USCDI Health Status/Assessment data class being reported.
 
       - id: ext-standards-us-core-valuesets-us-core-servicerequest-category
-        file: topics/ext/standards/us-core/valuesets/us-core-servicerequest-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-servicerequest-category.adoc
         title: "US Core ServiceRequest Category Codes"
         type: reference
         keywords: [us-core, valueset, us-core-servicerequest-category]
@@ -1298,7 +1298,7 @@
           A set of SNOMED CT and LOINC concepts to classify a requested service
 
       - id: ext-standards-us-core-valuesets-us-core-simple-observation-category
-        file: topics/ext/standards/us-core/valuesets/us-core-simple-observation-category.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-simple-observation-category.adoc
         title: "US Core Simple Observation Category"
         type: reference
         keywords: [us-core, valueset, us-core-simple-observation-category]
@@ -1312,7 +1312,7 @@
           This value set is a value set of category codes used in the US Core Simple Observation and Condition Problems and Health Concerns Profiles that any conformant system **SHOULD** support to help identify the type of USCDI Health Status/Assessment data class being reported.
 
       - id: ext-standards-us-core-valuesets-us-core-specimen-condition
-        file: topics/ext/standards/us-core/valuesets/us-core-specimen-condition.adoc
+        file: network.ike.examples/ext/standards/us-core/valuesets/us-core-specimen-condition.adoc
         title: "US Core Specimen Condition"
         type: reference
         keywords: [us-core, valueset, us-core-specimen-condition]
