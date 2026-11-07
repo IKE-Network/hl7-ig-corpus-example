@@ -3,3 +3,6 @@ target/
 .idea/
 *.iml
 .DS_Store
+
+# Unpacked by ike-parent at the reactor root on every build
+.asciidoctorconfig
