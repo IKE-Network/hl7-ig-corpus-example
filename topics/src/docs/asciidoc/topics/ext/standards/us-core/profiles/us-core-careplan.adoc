@@ -41,7 +41,7 @@ The US Core CarePlan Profile inherits from the FHIR [CarePlan](https://hl7.org/f
 
 | `CarePlan` |  |  | 
 | `CarePlan.text` |  |  | Text summary of the resource, for human interpretation
-| `CarePlan.text.status` |  |  | generated | additional
+| `CarePlan.text.status` |  |  | generated \| additional
 | `CarePlan.text.div` |  |  | Limited xhtml content
 | `CarePlan.status` |  |  | 
 | `CarePlan.intent` |  |  | 

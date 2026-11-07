@@ -46,7 +46,7 @@ Subject List MeasureReport is for data exchange and reporting on a list of subje
 | `MeasureReport.extension` | 0 | * | 
 | `MeasureReport.extension.value[x].extension` | 0 | 1 | 
 | `MeasureReport.extension.value[x].extension` | 0 | 1 | Description of the supplemental data
-| `MeasureReport.extension` | 0 | 1 | proportion | ratio | continuous-variable | cohort | composite | attestation
+| `MeasureReport.extension` | 0 | 1 | proportion \| ratio \| continuous-variable \| cohort \| composite \| attestation
 | `MeasureReport.extension` | 0 | 1 | 
 | `MeasureReport.extension` | 0 | * | 
 | `MeasureReport.extension` | 0 | 1 | CMS EHR Certification ID
@@ -66,9 +66,9 @@ Subject List MeasureReport is for data exchange and reporting on a list of subje
 | `MeasureReport.improvementNotation` | 0 | 1 | 
 | `MeasureReport.group` | 1 | * | 
 | `MeasureReport.group.id` |  |  | 
-| `MeasureReport.group.extension` | 0 | 1 | proportion | ratio | continuous-variable | cohort | composite | attestation
+| `MeasureReport.group.extension` | 0 | 1 | proportion \| ratio \| continuous-variable \| cohort \| composite \| attestation
 | `MeasureReport.group.extension` | 0 | 1 | 
-| `MeasureReport.group.extension` | 0 | 1 | increase | decrease
+| `MeasureReport.group.extension` | 0 | 1 | increase \| decrease
 | `MeasureReport.group.extension` | 0 | 1 | Description of the group
 | `MeasureReport.group.code` |  |  | 
 | `MeasureReport.group.population` |  |  | 

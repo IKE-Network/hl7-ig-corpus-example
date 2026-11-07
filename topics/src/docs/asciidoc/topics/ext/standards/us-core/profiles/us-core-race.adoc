@@ -41,7 +41,7 @@ Concepts classifying the person into a named category of humans sharing common h
 
 | `Extension` | 0 | 1 | US Core Race Extension
 | `Extension.extension` | 1 |  | 
-| `Extension.extension` | 0 | 6 | American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White
+| `Extension.extension` | 0 | 6 | American Indian or Alaska Native\|Asian\|Black or African American\|Native Hawaiian or Other Pacific Islander\|White
 | `Extension.extension.url` | 1 | 1 | 
 | `Extension.extension.value[x]` | 1 | 1 | 
 | `Extension.extension` | 0 | * | Extended race codes

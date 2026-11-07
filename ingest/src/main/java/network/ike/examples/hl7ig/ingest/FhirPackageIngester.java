@@ -343,7 +343,7 @@ public final class FhirPackageIngester {
                     for (JsonNode el : diff) {
                         sb.append("| `").append(text(el, "path", "")).append("` | ")
                           .append(text(el, "min", "")).append(" | ").append(text(el, "max", "")).append(" | ")
-                          .append(IngestUtil.stripMarkup(text(el, "short", ""))).append("\n");
+                          .append(cell(IngestUtil.stripMarkup(text(el, "short", "")))).append("\n");
                     }
                     sb.append("|===\n\n");
                 }
@@ -363,7 +363,7 @@ public final class FhirPackageIngester {
                         String notes = Stream.of(version.isEmpty() ? "" : "v" + version, filter, concepts)
                                 .filter(s -> !s.isEmpty())
                                 .reduce((a, b) -> a + ", " + b).orElse("(unspecified)");
-                        sb.append("| ").append(system).append(" | ").append(notes).append("\n");
+                        sb.append("| ").append(cell(system)).append(" | ").append(cell(notes)).append("\n");
                     }
                     sb.append("|===\n\n");
                 }
@@ -383,7 +383,7 @@ public final class FhirPackageIngester {
                     for (int i = 0; i < max; i++) {
                         JsonNode c = concepts.get(i);
                         sb.append("| `").append(text(c, "code", "")).append("` | ")
-                          .append(IngestUtil.stripMarkup(text(c, "display", ""))).append("\n");
+                          .append(cell(IngestUtil.stripMarkup(text(c, "display", "")))).append("\n");
                     }
                     sb.append("|===\n\n");
                 }
@@ -466,6 +466,13 @@ public final class FhirPackageIngester {
     }
 
     // ── Helpers ──────────────────────────────────────────────────────
+
+    /// Escapes text for an AsciiDoc table cell. An unescaped `|` starts
+    /// a new cell, so a value such as FHIR's `generated | additional`
+    /// would split the row and Asciidoctor would drop its cells.
+    static String cell(String text) {
+        return text.replace("|", "\\|");
+    }
 
     private static String text(JsonNode n, String field, String dflt) {
         JsonNode v = n.path(field);

@@ -49,7 +49,7 @@ The US Core Patient Profile inherits from the FHIR [Patient](https://hl7.org/fhi
 | `Patient.identifier.system` | 1 |  | 
 | `Patient.identifier.value` | 1 |  | The value that is unique within the system.
 | `Patient.name` | 1 |  | 
-| `Patient.name.use` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: usual | official | temp | nickname | anonymous | old | maiden
+| `Patient.name.use` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: usual \| official \| temp \| nickname \| anonymous \| old \| maiden
 | `Patient.name.family` |  |  | 
 | `Patient.name.given` |  |  | 
 | `Patient.name.suffix` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Parts that come after the name
@@ -61,7 +61,7 @@ The US Core Patient Profile inherits from the FHIR [Patient](https://hl7.org/fhi
 | `Patient.birthDate` |  |  | 
 | `Patient.deceased[x]` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: Indicates if the individual is deceased or not
 | `Patient.address` |  |  | 
-| `Patient.address.use` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: home | work | temp | old | billing - purpose of this address
+| `Patient.address.use` |  |  | 𝗔𝗗𝗗𝗜𝗧𝗜𝗢𝗡𝗔𝗟 𝗨𝗦𝗖𝗗𝗜: home \| work \| temp \| old \| billing - purpose of this address
 | `Patient.address.line` |  |  | 
 | `Patient.address.city` |  |  | 
 | `Patient.address.state` |  |  | 

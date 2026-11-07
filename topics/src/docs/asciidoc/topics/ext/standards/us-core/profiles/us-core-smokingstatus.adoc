@@ -40,7 +40,7 @@ The US Core Smoking Status Observation Profile inherits from the FHIR [Observati
 | Path | Min | Max | Notes
 
 | `Observation` |  |  | 
-| `Observation.status` |  |  | final | entered-in-error
+| `Observation.status` |  |  | final \| entered-in-error
 | `Observation.category` | 1 |  | 
 | `Observation.category` | 1 | 1 | 
 | `Observation.code` |  |  | Smoking Status
