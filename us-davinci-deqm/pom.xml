@@ -35,6 +35,16 @@
 
     <properties>
         <pdf.source.document>us-davinci-deqm</pdf.source.document>
+        <!-- Renderers on by default, as the ike-platform source sets them. Published
+             ike-platform POMs from 185 on carry these flags baked to true
+             (IKE-Network/ike-issues#1167: Maven 4.0.0-rc-7 writes the release build's
+             active-profile values into the consumer POM). Remove this block once
+             ike-parent is released on Maven 4.0.0 GA, which carries the fix
+             (apache/maven#13761). A command-line -Dike.skip.* still overrides these. -->
+        <ike.skip.html>false</ike.skip.html>
+        <ike.skip.html-single>false</ike.skip.html-single>
+        <ike.skip.prince>false</ike.skip.prince>
+        <ike.skip.pdf-default>false</ike.skip.pdf-default>
     </properties>
 
     <dependencies>
